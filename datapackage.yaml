@@ -1,0 +1,15 @@
+profile: data-package
+description: FILLME
+title: FILLME
+licenses:
+  - name: "CC-BY-4.0"
+    path: "https://creativecommons.org/licenses/by/4.0/"
+    title: "Attribution 4.0 International (CC BY 4.0)"
+homepage: "FILLME"
+contributors:
+  - title: "FILLME"
+    path: "FILLME"
+    role: "author"
+
+
+# ....
