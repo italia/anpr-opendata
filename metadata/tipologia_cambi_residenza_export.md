@@ -11,9 +11,7 @@
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
 | **mese**       | mese di riferimento nel calendario              | numero                   | 10       |
 | **anno**  | anno di riferimento nel calendario  |   numero     |        2021         |
-| **tipo soggetto**      | tipologia della scheda del cittadino. 
-						   I valori che assume possono essere Residente (residenti in Italia iscritte in ANPR) 
-						   o AIRE(Italiani Residenti all'Estero)| stringa             | Residente   | 
+| **tipo soggetto**      | tipologia della scheda del cittadino.I valori che assume possono essere Residente (residenti in Italia iscritte in ANPR)o AIRE(Italiani Residenti all'Estero)| stringa             | Residente   | 
 | **stato di lavorazione**      | stato di lavorazione della dichiarazione di cambio di residenza| stringa    | Accolta   |
 | **tipologia**      | tipologia di dichiarazioni di cambio di residenza| stringa    | Stesso comune  |
 | **totale**      | numero totale di dichiarazioni di cambi di residenza nel periodo di riferimento| numero             | 1000   |
