@@ -5,9 +5,9 @@
 
 # Descrizione
 
-Questa repository contiene i dati pubblici estratti dal portale [Anagrafe Nazionale](https://stat-int.anpr.interno.it/anpr-stat-numeri/). 
+Questa repository contiene i dati pubblici estratti dal portale [ANPR](https://stat-int.anpr.interno.it/anpr-stat-numeri/). 
 
-I dati dei servizi anagrafici al cittadino sono rappresentati con cadenza mensile, da quando il servizio anagrafico è reso disponibile al cittadino sul portale Anagrafe Nazionale.
+I dati dei servizi anagrafici al cittadino sono rappresentati con cadenza mensile, da quando il servizio anagrafico è reso disponibile al cittadino sul portale ANPR.
 Il dato popolazione e il dato di accesso al portale sono rappresentati giornalmente.
 
 Tutti i dati contenuti nel repository sono aggiornati ogni giorno alle 6:00 (UTC).
@@ -97,7 +97,7 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 - [Trend mensile delle visure e delle autocertificazioni richieste](https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_export.md)
 - [Trend del mese corrente delle visure e delle autocertificazioni richieste](https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_last_month.md)
 
-Nella repository si possono trovare le tabelle, in formato .json e .csv, relative ai dati di utilizzo del portale Anagrafe Nazionale e dei relativi servizi anagrafici disponibili ai cittadini.
+Nella repository si possono trovare le tabelle, in formato .json e .csv, relative ai dati di utilizzo del portale ANPR e dei relativi servizi anagrafici disponibili ai cittadini.
 
 # Aggiornamento Dati
 
@@ -116,7 +116,7 @@ Le modifiche alla repository saranno tracciate in dettaglio nel file di changelo
   </a>
   <br />
 
-Nella più ampia misura permessa dalla legge, il [Ministero dell'Interno](https://www.interno.gov.it/it) ha rinunciato, ad ogni Diritto d'Autore e Connesso, e ad ogni relativa pretesa su [Anagrafe Nazionale Open data](https://stat-int.anpr.interno.it/anpr-stat-numeri/).
+Nella più ampia misura permessa dalla legge, il [Ministero dell'Interno](https://www.interno.gov.it/it) ha rinunciato, ad ogni Diritto d'Autore e Connesso, e ad ogni relativa pretesa su [ANPR Open data](https://stat-int.anpr.interno.it/anpr-stat-numeri/).
 
 ## Authors / Copyright
 
@@ -129,4 +129,4 @@ Far riferimento al file [LICENSE](https://github.com/italia/anpr-opendata/blob/m
 
 ## In caso di attribuzione
 
-Seppure non richiesto, è apprezzato un riferimento alla provenienza dei dati in caso di loro riutilizzo, "Dati dalla sezione “Numeri” del portale Anagrafe Nazionale - CC0 Ministero dell’Interno"
+Seppure non richiesto, è apprezzato un riferimento alla provenienza dei dati in caso di loro riutilizzo, "Dati dalla sezione “Numeri” del portale ANPR - CC0 Ministero dell’Interno"
