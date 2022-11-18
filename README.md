@@ -1,11 +1,14 @@
 [![Frictionless](https://github.com/italia/anpr-opendata/actions/workflows/frictionless.yaml/badge.svg)](https://repository.frictionlessdata.io/pages/dashboard.html?user=italia&repo=anpr-opendata&flow=frictionless)
 
+# ANPR - Open data
 
-# ANPR open data
+<div align="left">
+<img width="256" height="256" src="img/logo-anpr.svg">
+</div>
 
 # Descrizione
 
-Questa repository contiene i dati pubblici estratti dal portale [ANPR](https://stat-int.anpr.interno.it/anpr-stat-numeri/). 
+Questa repository contiene i dati pubblici estratti dalla pagina [Numeri](https://stat-int.anpr.interno.it/anpr-stat-numeri/) del portale [ANPR](https://www.anagrafenazionale.interno.it/). 
 
 I dati dei servizi anagrafici al cittadino sono rappresentati con cadenza mensile, da quando il servizio anagrafico è reso disponibile al cittadino sul portale ANPR.
 Il dato popolazione e il dato di accesso al portale sono rappresentati giornalmente.
@@ -116,7 +119,7 @@ Le modifiche alla repository saranno tracciate in dettaglio nel file di changelo
   </a>
   <br />
 
-Nella più ampia misura permessa dalla legge, il [Ministero dell'Interno](https://www.interno.gov.it/it) ha rinunciato, ad ogni Diritto d'Autore e Connesso, e ad ogni relativa pretesa su [ANPR Open data](https://stat-int.anpr.interno.it/anpr-stat-numeri/).
+Nella più ampia misura permessa dalla legge, il [Ministero dell'Interno](https://www.interno.gov.it/it) rinuncia ad ogni Diritto d'Autore e Connesso, e ad ogni relativa pretesa su [ANPR Open data](https://stat-int.anpr.interno.it/anpr-stat-numeri/).
 
 ## Authors / Copyright
 
@@ -129,4 +132,4 @@ Far riferimento al file [LICENSE](https://github.com/italia/anpr-opendata/blob/m
 
 ## In caso di attribuzione
 
-Seppure non richiesto, è apprezzato un riferimento alla provenienza dei dati in caso di loro riutilizzo, "Dati dalla sezione “Numeri” del portale ANPR - CC0 Ministero dell’Interno"
+Seppure non richiesto, è apprezzato un riferimento alla provenienza dei dati in caso di loro riutilizzo, "Dati dai [Numeri](https://stat-int.anpr.interno.it/anpr-stat-numeri/) del portale ANPR - CC0 Ministero dell’Interno"
