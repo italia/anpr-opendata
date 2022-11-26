@@ -1,30 +1,31 @@
 MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
-11,2022,AIRE,CONTESTUALE,287,263,550
-11,2022,AIRE,Cittadinanza,113,55,168
+11,2022,AIRE,CONTESTUALE,301,271,572
+11,2022,AIRE,Cittadinanza,121,57,178
 11,2022,AIRE,Residenza,3,3,6
-11,2022,AIRE,Residenza AIRE,275,274,549
+11,2022,AIRE,Residenza AIRE,287,283,570
+11,2022,AIRE,Stato Libero,0,1,1
 11,2022,AIRE,Stato civile,0,1,1
 11,2022,AIRE,Stato famiglia,2,2,4
-11,2022,AIRE,Stato famiglia AIRE,163,165,328
-11,2022,AIRE,matrimonio,85,97,182
-11,2022,AIRE,nascita,285,200,485
+11,2022,AIRE,Stato famiglia AIRE,173,170,343
+11,2022,AIRE,matrimonio,92,107,199
+11,2022,AIRE,nascita,292,210,502
 11,2022,AIRE,unione civile ,0,1,1
-11,2022,Residenti,CONTESTUALE,32818,41851,74669
-11,2022,Residenti,Cittadinanza,1847,1366,3213
+11,2022,Residenti,CONTESTUALE,34083,43371,77454
+11,2022,Residenti,Cittadinanza,1906,1424,3330
 11,2022,Residenti,Contratto Convivenza,14,7,21
-11,2022,Residenti,Esistenza in vita,1137,1227,2364
+11,2022,Residenti,Esistenza in vita,1189,1317,2506
 11,2022,Residenti,Godimento dei Diritti Politici,0,3,3
 11,2022,Residenti,Iscrizione nelle Liste Elettorali,0,1,1
-11,2022,Residenti,Residenza,32332,39727,72059
-11,2022,Residenti,Residenza AIRE,1,3,4
-11,2022,Residenti,Residenza in convivenza,42,37,79
-11,2022,Residenti,Stato Libero,4426,4011,8437
-11,2022,Residenti,Stato civile,7901,8377,16278
-11,2022,Residenti,Stato famiglia,27302,37252,64554
+11,2022,Residenti,Residenza,33627,41311,74938
+11,2022,Residenti,Residenza AIRE,1,4,5
+11,2022,Residenti,Residenza in convivenza,43,37,80
+11,2022,Residenti,Stato Libero,4618,4167,8785
+11,2022,Residenti,Stato civile,8208,8758,16966
+11,2022,Residenti,Stato famiglia,28381,38766,67147
 11,2022,Residenti,Stato famiglia AIRE,1,3,4
-11,2022,Residenti,Stato famiglia con rapporti parentela,5639,7090,12729
-11,2022,Residenti,Stato famiglia e stato civile,4917,5671,10588
-11,2022,Residenti,matrimonio,7247,9501,16748
-11,2022,Residenti,nascita,8358,9708,18066
+11,2022,Residenti,Stato famiglia con rapporti parentela,5838,7399,13237
+11,2022,Residenti,Stato famiglia e stato civile,5103,5919,11022
+11,2022,Residenti,matrimonio,7526,9866,17392
+11,2022,Residenti,nascita,8663,10070,18733
 11,2022,Residenti,storico Cittadinanza,0,1,1
-11,2022,Residenti,unione civile ,47,33,80
+11,2022,Residenti,unione civile ,49,33,82
