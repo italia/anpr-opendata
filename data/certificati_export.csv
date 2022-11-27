@@ -340,7 +340,7 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 10,2022,AIRE,Stato famiglia con rapporti parentela,5,2,7
 10,2022,AIRE,Stato famiglia e stato civile,4,0,4
 10,2022,AIRE,matrimonio,110,109,219
-10,2022,AIRE,nascita,319,252,571
+10,2022,AIRE,nascita,320,252,572
 10,2022,Residenti,CONTESTUALE,42109,68081,110190
 10,2022,Residenti,Cittadinanza,2089,1745,3834
 10,2022,Residenti,Contratto Convivenza,14,17,31
@@ -357,5 +357,5 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 10,2022,Residenti,Stato famiglia con rapporti parentela,6603,8437,15040
 10,2022,Residenti,Stato famiglia e stato civile,6131,7369,13500
 10,2022,Residenti,matrimonio,9490,11653,21143
-10,2022,Residenti,nascita,10300,12909,23209
+10,2022,Residenti,nascita,10299,12909,23208
 10,2022,Residenti,unione civile ,54,48,102
