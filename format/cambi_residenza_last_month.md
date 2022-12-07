@@ -15,7 +15,7 @@
 | **cod istat regione di partenza**      | codice istat della regione di residenza da cui sono state inviate le dichiarazioni di cambi di residenza (per gli stati esteri sono stati riportati i codici istat della regione proprietaria della scheda) |   stringa | 01  |
 | **arrivo**      | regione verso cui sono state inviate le dichiarazioni di cambi di residenza| stringa             | Lombardia   |
 | **cod istat regione di arrivo**      | codice istat della regione di residenza verso cui sono state inviate le dichiarazioni di cambi di residenza (per gli stati esteri sono stati riportati i codici istat della regione proprietaria della scheda) |   stringa | 01  |
-| **totale**      | numero totale di dichiarazioni di cambi di residenza nel periodo di riferimento| numero             | 1000   |
+| **totale**      | numero totale di dichiarazioni di cambi di residenza effettuati sia da portale ANPR che da comune nel periodo di riferimento| numero             | 1000   |
 
 Questi dati sono disponibili anche in formato json.
 
