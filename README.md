@@ -85,7 +85,6 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── tipologia_cambi_residenza_last_month.md
 │   ├── tipologia_cambi_residenza_portale_export.md
 │   ├── tipologia_cambi_residenza_portale_last_month.md
-│   ├── visure_autocertifaczioni_export.md
 │   ├── visure_autocertificazioni_export.md
 │   └── visure_autocertificazioni_last_month.md
 ├── img
