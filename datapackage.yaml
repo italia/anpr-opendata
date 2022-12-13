@@ -1,7 +1,3 @@
-# --------
-# metadata: data/accessi_export.csv data/attivita_export.csv data/attivita_last_month.csv data/cambi_residenza_export.csv data/cambi_residenza_last_month.csv data/certificati_export.csv data/certificati_last_month.csv data/popolazione_export.csv data/rettifiche_export.csv data/rettifiche_last_month.csv data/tipologia_cambi_residenza_export.csv data/tipologia_cambi_residenza_last_month.csv data/visure_autocertificazioni_export.csv data/visure_autocertificazioni_last_month.csv
-# --------
-
 profile: data-package
 title: Dati del portale ANPR
 licenses:
@@ -39,6 +35,32 @@ resources:
             minimum: 0
       primaryKey:
         - DATA ELABORAZIONE
+    scheme: file
+  - encoding: utf-8
+    format: csv
+    hashing: md5
+    name: accessi_famiglie_export
+    title: Trend giornaliero degli accessi al portale da parte delle famiglie
+    path: data/accessi_famiglie_export.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: ACCESSI FAMIGLIA
+          type: integer
+          constraints:
+            required: true
+            minimum: 0
+        - name: FAMIGLIE IN ANPR
+          type: integer
+          constraints:
+            required: true
+            minimum: 0
+        - name: PERCENTUALE
+          type: integer
+          constraints:
+            required: true
+            minimum: 0
+            maximum: 100
     scheme: file
   - encoding: utf-8
     format: csv
@@ -123,7 +145,7 @@ resources:
           constraints:
             minimum: 0
         - name: VISURE
-          title: Numero di autocertificazioni richieste nel periodo di riferimento. L'autocertificazione sostituisce i certificati nelle occasioni consentite
+          title: Numero di fruitori del servizio di visura nel periodo di riferimento. La visura in ANPR consente al cittadino di verificare i propri dati registrati dal comune nell’anagrafe nazionale
           type: integer
           constraints:
             minimum: 0
@@ -328,7 +350,7 @@ resources:
               - "20"
               - "21"
         - name: TOTALE
-          title: Numero totale di dichiarazioni di cambi di residenza nel periodo di riferimento
+          title: Numero totale di dichiarazioni di cambi di residenza effettuati sia da portale ANPR che da comune nel periodo di riferimento
           type: integer
       primaryKey:
         - MESE
@@ -419,7 +441,7 @@ resources:
               - "20"
               - "21"
         - name: TOTALE
-          title: Numero totale di dichiarazioni di cambi di residenza nel periodo di riferimento
+          title: Numero totale di dichiarazioni di cambi di residenza effettuati sia da portale ANPR che da comune nel periodo di riferimento
           type: integer
       primaryKey:
         - MESE
@@ -566,6 +588,30 @@ resources:
   - encoding: utf-8
     format: csv
     hashing: md5
+    name: popolazione_residente_export
+    title: Trend giornaliero della popolazione residente per comune in ANPR
+    path: data/popolazione_residente_export.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: REGIONE
+          type: string
+        - name: PROVINCIA
+          type: string
+        - name: COMUNE
+          type: string
+        - name: RESIDENTI
+          type: integer
+          constraints:
+            minimum: 0
+      primaryKey:
+        - REGIONE
+        - PROVINCIA
+        - COMUNE
+    scheme: file
+  - encoding: utf-8
+    format: csv
+    hashing: md5
     name: rettifiche_export
     title: Trend mensile delle rettifiche richieste
     path: data/rettifiche_export.csv
@@ -685,6 +731,49 @@ resources:
             enum:
               - Residenti
               - AIRE
+        - name: TIPOLOGIA
+          title: Tipologia di dichiarazioni di cambio di residenza
+          type: string
+        - name: TOTALE
+          title: Numero totale di dichiarazioni di cambi di residenza effettuati sia da portale ANPR che da comune nel periodo di riferimento
+          type: integer
+          constraints:
+            minimum: 0
+      primaryKey:
+        - MESE
+        - ANNO
+        - TIPO SOGGETTO
+        - TIPOLOGIA
+    scheme: file
+  - encoding: utf-8
+    format: csv
+    hashing: md5
+    name: tipologia_cambi_residenza_portale_export
+    title: Trend mensile delle tipologie di cambi di residenza da portale ANPR
+    path: data/tipologia_cambi_residenza_portale_export.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: MESE
+          title: Mese di riferimento nel calendario
+          type: integer
+          constraints:
+            required: true
+            minimum: 1
+            maximum: 12
+        - name: ANNO
+          title: Anno di riferimento nel calendario
+          type: integer
+          constraints:
+            required: true
+            minimum: 2009
+        - name: TIPO SOGGETTO
+          title: Tipologia della scheda del cittadino (Residente o AIRE)
+          type: string
+          constraints:
+            enum:
+              - Residenti
+              - AIRE
         - name: STATO DI LAVORAZIONE
           title: Stato di lavorazione della dichiarazione di cambio di residenza
           type: string
@@ -692,7 +781,7 @@ resources:
           title: Tipologia di dichiarazioni di cambio di residenza
           type: string
         - name: TOTALE
-          title: Numero totale di dichiarazioni di cambi di residenza nel periodo di riferimento
+          title: Numero totale di dichiarazioni di cambi di residenza effettuati sia da portale ANPR che da comune nel periodo di riferimento
           type: integer
           constraints:
             minimum: 0
@@ -706,8 +795,9 @@ resources:
   - encoding: utf-8
     format: csv
     hashing: md5
-    name: tipologia_cambi_residenza_last_month
-    path: data/tipologia_cambi_residenza_last_month.csv
+    name: tipologia_cambi_residenza_portale_last_month
+    title: Trend del mese corrente delle tipologie di cambi di residenza da portale ANPR
+    path: data/tipologia_cambi_residenza_portale_last_month.csv
     profile: tabular-data-resource
     schema:
       fields:
@@ -738,7 +828,7 @@ resources:
           title: Tipologia di dichiarazioni di cambio di residenza
           type: string
         - name: TOTALE
-          title: Numero totale di dichiarazioni di cambi di residenza nel periodo di riferimento
+          title: Numero totale di dichiarazioni di cambi di residenza effettuati sia da portale ANPR che da comune nel periodo di riferimento
           type: integer
           constraints:
             minimum: 0
