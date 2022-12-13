@@ -355,7 +355,7 @@
             <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
         </dcatapit:LicenseDocument>
     </dct:license>
-    <dct:format rdf:resource="CSV"/>
+    <dct:format rdf:resource="JSON"/>
 
     <dct:title xml:lang="it">Trend del mese corrente della distribuzione dell'utilizzo dei servizi</dct:title>
     <dct:title xml:lang="en">Current month trend of services' usage</dct:title>
