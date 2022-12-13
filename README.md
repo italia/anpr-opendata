@@ -32,6 +32,8 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 ├── data
 │   ├── accessi_export.csv
 │   ├── accessi_export.json
+│   ├── accessi_famiglie_export.csv
+│   ├── accessi_famiglie_export.json
 │   ├── attivita_export.csv
 │   ├── attivita_export.json
 │   ├── attivita_last_month.csv
@@ -46,6 +48,8 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── certificati_last_month.json
 │   ├── popolazione_export.csv
 │   ├── popolazione_export.json
+│   ├── popolazione_residente_export.csv
+│   ├── popolazione_residente_export.json
 │   ├── README.md
 │   ├── rettifiche_export.csv
 │   ├── rettifiche_export.json
@@ -55,14 +59,18 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── tipologia_cambi_residenza_export.json
 │   ├── tipologia_cambi_residenza_last_month.csv
 │   ├── tipologia_cambi_residenza_last_month.json
+│   ├── tipologia_cambi_residenza_portale_export.csv
+│   ├── tipologia_cambi_residenza_portale_export.json
+│   ├── tipologia_cambi_residenza_portale_last_month.csv
+│   ├── tipologia_cambi_residenza_portale_last_month.json
 │   ├── visure_autocertificazioni_export.csv
 │   ├── visure_autocertificazioni_export.json
 │   ├── visure_autocertificazioni_last_month.csv
 │   └── visure_autocertificazioni_last_month.json
-├── datapackage.json
 ├── datapackage.yaml
 ├── format
 │   ├── accessi_export.md
+│   ├── accessi_famiglie_export.md
 │   ├── attivita_export.md
 │   ├── attivita_last_month.md
 │   ├── cambi_residenza_export.md
@@ -70,16 +78,22 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── certificati_export.md
 │   ├── certificati_last_month.md
 │   ├── popolazione_export.md
+│   ├── popolazione_residente_export.md
 │   ├── rettifiche_export.md
 │   ├── rettifiche_last_month.md
 │   ├── tipologia_cambi_residenza_export.md
 │   ├── tipologia_cambi_residenza_last_month.md
+│   ├── tipologia_cambi_residenza_portale_export.md
+│   ├── tipologia_cambi_residenza_portale_last_month.md
+│   ├── visure_autocertifaczioni_export.md
 │   ├── visure_autocertificazioni_export.md
 │   └── visure_autocertificazioni_last_month.md
+├── img
+│   └── logo-anpr.svg
 ├── LICENSE
 ├── metadata
-│   ├── dcat-ap.rdf
-│   └── README
+│   ├── anpr-opendata.rdf
+│   └── README.md
 └── README.md
 ```
 
