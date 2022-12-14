@@ -1,4 +1,4 @@
-# Formato dati del trend del mese corrente delle tipologie di cambi di residenza 
+# Formato dati del trend del mese corrente delle tipologie di cambi di residenza effettuati da portale ANPR
 
 ## Data aggiornamento
 - Ogni giorno alle 2 (UTC). 

@@ -9,6 +9,7 @@
 
 | Nome campo                  | Descrizione                       | Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
+| **data elaborazione**       | data di elaborazione             | GG-MM-AAAA                   | 12-10-2022       |
 | **regione**  | regione di residenza |   stringa     |         Lazio        |
 | **provincia**      | provincia di residenza|   stringa | Roma               |
 | **comune**      | comune di residenza| stringa             | Velletri             |
