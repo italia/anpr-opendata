@@ -18,20 +18,25 @@ resources:
           title: Data di elaborazione
           type: date
           format: "%d-%m-%Y"
+          constraints:
+            required: true
         - name: CIE
           title: Numero totale di accessi tramite cie (Carta d'Identità Elettronica),tramite la quale è possibile accedere ai servizi pubblici online
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: CNS
           title: Numero totale di accessi tramite cns (Carta Nazionale dei Servizi ). CNS è un documento personale che contiene informazioni di natura fiscale e sanitaria
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: SPID
           title: Numero totale di accessi tramite spid (Sistema Pubblico d’Identità Digitale). SPID è il sistema di accesso che consente di utilizzare i servizi online della Pubblica Amministrazione e dei privati aderenti
           type: integer
           constraints:
+            required: true
             minimum: 0
       primaryKey:
         - DATA ELABORAZIONE
@@ -93,10 +98,13 @@ resources:
         - name: REGIONE
           title: Regione di residenza dai quali vengono fruiti i servizi
           type: string
+          constraints:
+            required: true
         - name: COD ISTAT REGIONE
           title: Codice ISTAT della regione di residenza dai quali vengono fruiti i servizi
           type: string
           constraints:
+            required: true
             enum:
               - "01"
               - "02"
@@ -132,6 +140,7 @@ resources:
           type: string
           title: Tipologia della scheda del cittadino (Residente o AIRE)
           constraints:
+            required: true
             enum:
               - Residenti
               - AIRE
@@ -139,31 +148,37 @@ resources:
           title: Numero di richieste di rettifica nel periodo di riferimento.Il servizio è finalizzato a richiedere la rettifica di uno o più dati registrati nella tua scheda anagrafica in caso di semplice errore di digitazione o di errata trascrizione
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: CAMBI DI RESIDENZA
           title: Numero di dichiarazioni di cambi di residenza nel periodo di riferimento. Il servizio è disponibile soltanto per effettuare cambi di residenza tra comuni diversi, cambi di residenza all’interno dello stesso comune, rimpatri in Italia di cittadini AIRE.
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: AUTOCERTIFICAZIONI
           title: Numero di autocertificazioni richieste nel periodo di riferimento. L'autocertificazione sostituisce i certificati nelle occasioni consentite
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: VISURE
           title: Numero di fruitori del servizio di visura nel periodo di riferimento. La visura in ANPR consente al cittadino di verificare i propri dati registrati dal comune nell’anagrafe nazionale
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: CERTIFICATI
           title: Numero di certificati emessi nel periodo di riferimento il certificato anagrafico è un documento contenente le informazioni anagrafiche, come residenza, cittadinanza, stato civile, anagrafico di nascita, stato di famiglia. Si usa quando è necessario certificare più informazioni riguardanti la stessa persona
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: TOTALE
           title: Numero totale di servizi fruiti nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
       primaryKey:
         - MESE
@@ -197,10 +212,13 @@ resources:
         - name: REGIONE
           title: Regione di residenza dai quali vengono fruiti i servizi
           type: string
+          constraints:
+            required: true
         - name: COD ISTAT REGIONE
           title: Codice ISTAT della regione di residenza dai quali vengono fruiti i servizi
           type: string
           constraints:
+            required: true
             enum:
               - "01"
               - "02"
@@ -236,6 +254,7 @@ resources:
           title: Tipologia della scheda del cittadino (Residente o AIRE)
           type: string
           constraints:
+            required: true
             enum:
               - Residenti
               - AIRE
@@ -243,31 +262,37 @@ resources:
           title: Numero di richieste di rettifiche nel periodo di riferimento. Il servizio è finalizzato a richiedere la rettifica di uno o più dati registrati nella tua scheda anagrafica in caso di semplice errore di digitazione o di errata trascrizione
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: CAMBI DI RESIDENZA
           title: Numero di dichiarazioni di cambi di residenza nel periodo di riferimento. Il servizio è disponibile soltanto per effettuare cambi di residenza tra comuni diversi, cambi di residenza all’interno dello stesso comune, rimpatri in Italia di cittadini AIRE.
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: AUTOCERTIFICAZIONI
           title: Numero di autocertificazioni richieste nel periodo di riferimento. L'autocertificazione sostituisce i certificati nelle occasioni consentite
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: VISURE
           title: Numero di fruitori del servizio di visura nel periodo di riferimento. La visura in ANPR consente al cittadino di verificare i propri dati registrati dal comune nell’anagrafe nazionale
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: CERTIFICATI
           title: Numero di certificati emessi nel periodo di riferimento il certificato anagrafico è un documento contenente le informazioni anagrafiche, come residenza, cittadinanza, stato civile, anagrafico di nascita, stato di famiglia. Si usa quando è necessario certificare più informazioni riguardanti la stessa persona
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: TOTALE
           title: Numero totale di servizi fruiti nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
       primaryKey:
         - MESE
@@ -301,6 +326,8 @@ resources:
         - name: PARTENZA
           title: Regione o stato estero di residenza da cui sono state inviate le dichiarazioni di cambi di residenza (gli stati esteri sono raggruppati nel cluster 'estero')
           type: string
+          constraints:
+            required: true
         - name: COD ISTAT REGIONE DI PARTENZA
           title: Codice ISTAT della regione di residenza da cui sono state inviate le dichiarazioni di cambi di residenza (per gli stati esteri sono stati riportati i codici ISTAT Della regione proprietaria della scheda)
           type: string
@@ -330,6 +357,8 @@ resources:
         - name: ARRIVO
           title: Regione verso cui sono state inviate le dichiarazioni di cambi di residenza
           type: string
+          constraints:
+            required: true
         - name: COD ISTAT REGIONE DI ARRIVO
           title: Codice ISTAT della regione di residenza verso cui sono state inviate le dichiarazioni di cambi di residenza (per gli stati esteri sono stati riportati i codici ISTAT della regione proprietaria della scheda)
           type: string
@@ -359,6 +388,8 @@ resources:
         - name: TOTALE
           title: Numero totale di dichiarazioni di cambi di residenza effettuati sia da portale ANPR che da comune nel periodo di riferimento
           type: integer
+          constraints:
+            required: true
       primaryKey:
         - MESE
         - ANNO
@@ -399,20 +430,25 @@ resources:
         - name: TIPOLOGIA CERTIFICATO
           title: Tipologia del certificato anagrafico emesso
           type: string
+          constraints:
+            required: true
         - name: BOLLO
           title: Numero di certificati emessi con imposta di bollo nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: IN CARTA LIBERA
           title: Numero di certificati emessi in carta libera nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: TOTALE
           title: Numero totale di certificati emessi nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
       primaryKey:
         - MESE
@@ -446,26 +482,32 @@ resources:
           title: Tipologia della scheda del cittadino (Residente o AIRE)
           type: string
           constraints:
+            required: true
             enum:
               - Residenti
               - AIRE
         - name: TIPOLOGIA CERTIFICATO
           title: Tipologia del certificato anagrafico emesso
           type: string
+          constraints:
+            required: true
         - name: BOLLO
           title: Numero di certificati emessi con imposta di bollo nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: IN CARTA LIBERA
           title: Numero di certificati emessi in carta libera nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: TOTALE
           title: Numero totale di certificati emessi nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
       primaryKey:
         - MESE
@@ -486,17 +528,22 @@ resources:
           title: Data di elaborazione
           type: date
           format: "%d-%m-%Y"
+          constraints:
+            required: true
         - name: POPOLAZIONE TOTALE
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: RESIDENTI
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: AIRE
           type: integer
           constraints:
+            required: true
             minimum: 0
       primaryKey:
         - DATA ELABORAZIONE
@@ -514,15 +561,24 @@ resources:
           title: Data di elaborazione
           type: date
           format: "%d-%m-%Y"
+          constraints:
+            required: true
         - name: REGIONE
           type: string
+          constraints:
+            required: true
         - name: PROVINCIA
           type: string
+          constraints:
+            required: true
         - name: COMUNE
           type: string
+          constraints:
+            required: true
         - name: RESIDENTI
           type: integer
           constraints:
+            required: true
             minimum: 0
       primaryKey:
         - DATA ELABORAZIONE
@@ -556,19 +612,25 @@ resources:
           title: Tipologia della scheda del cittadino (Residente o AIRE)
           type: string
           constraints:
+            required: true
             enum:
               - Residenti
               - AIRE
         - name: TIPOLOGIA DI RETTIFICA
           title: Tipologia di richiesta di rettifica
           type: string
+          constraints:
+            required: true
         - name: STATO DI LAVORAZIONE
           title: Stato di lavorazione della richiesta di rettifica presa in carico dal comune di competenza
           type: string
+          constraints:
+            required: true
         - name: TOTALE
           title: Numero totale di richieste di rettifica nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
       primaryKey:
         - MESE
@@ -602,19 +664,25 @@ resources:
           title: Tipologia della scheda del cittadino (Residente o AIRE)
           type: string
           constraints:
+            required: true
             enum:
               - Residenti
               - AIRE
         - name: TIPOLOGIA DI RETTIFICA
           title: Tipologia di richiesta di rettifica
           type: string
+          constraints:
+            required: true
         - name: STATO DI LAVORAZIONE
           title: Stato di lavorazione della richiesta di rettifica presa in carico dal comune di competenza
           type: string
+          constraints:
+            required: true
         - name: TOTALE
           title: Numero totale di richieste di rettifica nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
       primaryKey:
         - MESE
@@ -655,10 +723,13 @@ resources:
         - name: TIPOLOGIA
           title: Tipologia di dichiarazioni di cambio di residenza
           type: string
+          constraints:
+            required: true
         - name: TOTALE
           title: Numero totale di dichiarazioni di cambi di residenza effettuati sia da portale ANPR che da comune nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
       primaryKey:
         - MESE
@@ -692,19 +763,25 @@ resources:
           title: Tipologia della scheda del cittadino (Residente o AIRE)
           type: string
           constraints:
+            required: true
             enum:
               - Residenti
               - AIRE
         - name: STATO DI LAVORAZIONE
           title: Stato di lavorazione della dichiarazione di cambio di residenza
           type: string
+          constraints:
+            required: true
         - name: TIPOLOGIA
           title: Tipologia di dichiarazioni di cambio di residenza
           type: string
+          constraints:
+            required: true
         - name: TOTALE
           title: Numero totale di dichiarazioni di cambi di residenza effettuati sia da portale ANPR che da comune nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
       primaryKey:
         - MESE
@@ -739,19 +816,25 @@ resources:
           title: Tipologia della scheda del cittadino (Residente o AIRE)
           type: string
           constraints:
+            required: true
             enum:
               - Residenti
               - AIRE
         - name: STATO DI LAVORAZIONE
           title: Stato di lavorazione della dichiarazione di cambio di residenza
           type: string
+          constraints:
+            required: true
         - name: TIPOLOGIA
           title: Tipologia di dichiarazioni di cambio di residenza
           type: string
+          constraints:
+            required: true
         - name: TOTALE
           title: Numero totale di dichiarazioni di cambi di residenza effettuati sia da portale ANPR che da comune nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
       primaryKey:
         - MESE
@@ -786,6 +869,7 @@ resources:
           title: Tipologia della scheda del cittadino (Residente o AIRE)
           type: string
           constraints:
+            required: true
             enum:
               - Residenti
               - AIRE
@@ -793,16 +877,19 @@ resources:
           title: Numero di autocertificazioni richieste nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: VISURE
           title: Numero di fruitori del servizio di visura nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: TOTALE
           title: Numero totale di visure e delle autocertificazioni richieste nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
     scheme: file
   - encoding: utf-8
@@ -831,6 +918,7 @@ resources:
           title: Tipologia della scheda del cittadino (Residente o AIRE)
           type: string
           constraints:
+            required: true
             enum:
               - Residenti
               - AIRE
@@ -838,16 +926,19 @@ resources:
           title: Numero di autocertificazioni richieste nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: VISURE
           title: Numero di fruitori del servizio di visura nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
         - name: TOTALE
           title: Numero totale di visure e delle autocertificazioni richieste nel periodo di riferimento
           type: integer
           constraints:
+            required: true
             minimum: 0
     scheme: file
 
