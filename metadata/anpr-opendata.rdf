@@ -54,6 +54,7 @@
     <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
 
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/accessi_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/accessi_famiglie_export.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_export.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_last_month.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_export.md"/>
@@ -61,10 +62,13 @@
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/certificati_export.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/certificati_last_month.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_residente_export.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_export.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_last_month.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_export.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_last_month.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_portale_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_portale_last_month.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_export.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_last_month.md"/>
 </dcatapit:Catalog>
@@ -164,6 +168,102 @@
 
     <dct:title xml:lang="it">Trend giornaliero della tipologia di accesso al portale</dct:title>
     <dct:title xml:lang="en">Daily trend of types of accesses to the portal</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+</dcatapit:Distribution>
+
+<!-- Dataset: accessi famiglie export -->
+<dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/accessi_famiglie_export.md">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+
+    <dct:title xml:lang="it">Trend giornaliero degli accessi al portale da parte delle famiglie</dct:title>
+    <dct:title xml:lang="en">Daily trend of accesses to the portal made by families</dct:title>
+
+    <dct:description xml:lang="en">Count of all the accesses to the portal made by families</dct:description>
+    <dct:description xml:lang="it">Conteggio degli accessi al portale da parte delle famiglie</dct:description>
+
+    <dct:identifier>MINT:anpr_accessi_famiglie_export</dct:identifier>
+
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+
+    <dct:license/>
+
+    <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+
+    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+
+    <dct:rightsHolder>
+        <dcatapit:Agent rdf:about="mint">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <dct:identifier>mint</dct:identifier>
+            <foaf:name>Ministero dell'interno</foaf:name>
+        </dcatapit:Agent>
+    </dct:rightsHolder>
+
+    <dct:publisher>
+        <dcatapit:Agent rdf:about="mint">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <dct:identifier>mint</dct:identifier>
+            <foaf:name>Ministero dell'interno</foaf:name>
+        </dcatapit:Agent>
+    </dct:publisher>
+
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
+
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:modified>
+    <dct:issue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issue>
+
+    <dcat:keyword>ANPR</dcat:keyword>
+    <dcat:keyword>Popolazione</dcat:keyword>
+    <dcat:keyword>Anagrafe</dcat:keyword>
+    <dcat:keyword>Statistiche</dcat:keyword>
+
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/accessi_famiglie_export.csv"/>
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/accessi_famiglie_export.json"/>
+</dcatapit:Dataset>
+
+<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/accessi_famiglie_export.csv">
+    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/accessi_famiglie_export.csv"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/accessi_famiglie_export.csv"/>
+    <dct:license>
+        <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
+            <rdf:type rdf:resource="dct:LicenseDocument"/>
+            <dct:type rdf:resource="http://purl.org/adms/licencetype/PublicDomain"/>
+            <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+        </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+
+    <dct:title xml:lang="it">Trend giornaliero degli accessi al portale da parte delle famiglie</dct:title>
+    <dct:title xml:lang="en">Daily trend of accesses to the portal made by families</dct:title>
+
+    <dct:description xml:lang="en">Count of all the accesses to the portal made by families</dct:description>
+    <dct:description xml:lang="it">Conteggio degli accessi al portale da parte delle famiglie</dct:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+</dcatapit:Distribution>
+
+<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/accessi_famiglie_export.json">
+    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/accessi_famiglie_export.json"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/accessi_famiglie_export.json"/>
+    <dct:license>
+        <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
+            <rdf:type rdf:resource="dct:LicenseDocument"/>
+            <dct:type rdf:resource="http://purl.org/adms/licencetype/PublicDomain"/>
+            <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+        </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="JSON"/>
+
+    <dct:title xml:lang="it">Trend giornaliero degli accessi al portale da parte delle famiglie</dct:title>
+    <dct:title xml:lang="en">Daily trend of accesses to the portal made by families</dct:title>
+
+    <dct:description xml:lang="en">Count of all the accesses to the portal made by families</dct:description>
+    <dct:description xml:lang="it">Conteggio degli accessi al portale da parte delle famiglie</dct:description>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
 </dcatapit:Distribution>
 
@@ -355,7 +455,7 @@
             <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
         </dcatapit:LicenseDocument>
     </dct:license>
-    <dct:format rdf:resource="CSV"/>
+    <dct:format rdf:resource="JSON"/>
 
     <dct:title xml:lang="it">Trend del mese corrente della distribuzione dell'utilizzo dei servizi</dct:title>
     <dct:title xml:lang="en">Current month trend of services' usage</dct:title>
