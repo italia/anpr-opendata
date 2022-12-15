@@ -8,7 +8,7 @@
 
 # Descrizione
 
-Questa repository contiene i dati pubblici estratti dalla pagina [Numeri](https://stat-int.anpr.interno.it/anpr-stat-numeri/) del portale [ANPR](https://www.anagrafenazionale.interno.it/). 
+Questa repository contiene i dati pubblici estratti dalla pagina [Numeri](https://www.anagrafenazionale.interno.it/anpr/numeri/) del portale [ANPR](https://www.anagrafenazionale.interno.it/). 
 
 I dati dei servizi anagrafici al cittadino sono rappresentati con cadenza mensile, da quando il servizio anagrafico è reso disponibile al cittadino sul portale ANPR.
 Il dato popolazione e il dato di accesso al portale sono rappresentati giornalmente.
@@ -129,7 +129,7 @@ Le modifiche alla repository saranno tracciate in dettaglio nel file di changelo
   </a>
   <br />
 
-Nella più ampia misura permessa dalla legge, il [Ministero dell'Interno](https://www.interno.gov.it/it) rinuncia ad ogni Diritto d'Autore e Connesso, e ad ogni relativa pretesa su [ANPR Open data](https://stat-int.anpr.interno.it/anpr-stat-numeri/).
+Nella più ampia misura permessa dalla legge, il [Ministero dell'Interno](https://www.interno.gov.it/it) rinuncia ad ogni Diritto d'Autore e Connesso, e ad ogni relativa pretesa su [ANPR Open data](https://www.anagrafenazionale.interno.it/anpr/numeri/).
 
 ## Authors / Copyright
 
