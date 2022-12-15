@@ -1,7 +1,7 @@
 # Formato dati del trend del mese corrente dei certificati richiesti
 
 ## Data aggiornamento
-- Ogni giorno alle 2 (UTC). 
+- Ogni giorno alle 6:00 (UTC). 
 
 ## Formato dati
 
