@@ -1,7 +1,7 @@
 # Formato dati del trend giornaliero della tipologia di accesso al portale
 
 ## Data aggiornamento
-- Ogni giorno alle 2 (UTC). 
+- Ogni giorno alle 6:00 (UTC). 
 
 ## Formato dati
 
