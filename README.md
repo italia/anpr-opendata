@@ -142,4 +142,4 @@ Far riferimento al file [LICENSE](https://github.com/italia/anpr-opendata/blob/m
 
 ## In caso di attribuzione
 
-Seppure non richiesto, è apprezzato un riferimento alla provenienza dei dati in caso di loro riutilizzo, "Dati dai [Numeri](https://stat-int.anpr.interno.it/anpr-stat-numeri/) del portale ANPR - CC0 Ministero dell’Interno"
+Seppure non richiesto, è apprezzato un riferimento alla provenienza dei dati in caso di loro riutilizzo, "Dati dai [Numeri](https://www.anagrafenazionale.interno.it/anpr/numeri/) del portale ANPR - CC0 Ministero dell’Interno"
