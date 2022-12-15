@@ -38,10 +38,10 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── attivita_export.json
 │   ├── attivita_last_month.csv
 │   ├── attivita_last_month.json
-│   ├── cambi_residenza_export.csv
-│   ├── cambi_residenza_export.json
-│   ├── cambi_residenza_last_month.csv
-│   ├── cambi_residenza_last_month.json
+│   ├── cambi_residenza_canale_export.csv
+│   ├── cambi_residenza_canale_export.json
+│   ├── cambi_residenza.csv
+│   ├── cambi_residenza.json
 │   ├── certificati_export.csv
 │   ├── certificati_export.json
 │   ├── certificati_last_month.csv
@@ -57,8 +57,6 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── rettifiche_last_month.json
 │   ├── tipologia_cambi_residenza_export.csv
 │   ├── tipologia_cambi_residenza_export.json
-│   ├── tipologia_cambi_residenza_last_month.csv
-│   ├── tipologia_cambi_residenza_last_month.json
 │   ├── tipologia_cambi_residenza_portale_export.csv
 │   ├── tipologia_cambi_residenza_portale_export.json
 │   ├── tipologia_cambi_residenza_portale_last_month.csv
@@ -73,8 +71,8 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── accessi_famiglie_export.md
 │   ├── attivita_export.md
 │   ├── attivita_last_month.md
-│   ├── cambi_residenza_export.md
-│   ├── cambi_residenza_last_month.md
+│   ├── cambi_residenza_canale_export.md
+│   ├── cambi_residenza.md
 │   ├── certificati_export.md
 │   ├── certificati_last_month.md
 │   ├── popolazione_export.md
@@ -82,7 +80,6 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── rettifiche_export.md
 │   ├── rettifiche_last_month.md
 │   ├── tipologia_cambi_residenza_export.md
-│   ├── tipologia_cambi_residenza_last_month.md
 │   ├── tipologia_cambi_residenza_portale_export.md
 │   ├── tipologia_cambi_residenza_portale_last_month.md
 │   ├── visure_autocertificazioni_export.md
