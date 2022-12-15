@@ -57,8 +57,9 @@
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/accessi_famiglie_export.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_export.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_last_month.md"/>
-    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_export.md"/>
-    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_last_month.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_canale_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_canale_last_month.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/certificati_export.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/certificati_last_month.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_export.md"/>
@@ -66,7 +67,6 @@
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_export.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_last_month.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_export.md"/>
-    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_last_month.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_portale_export.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_portale_last_month.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_export.md"/>
@@ -95,7 +95,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -191,7 +191,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -289,7 +289,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -388,7 +388,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -469,7 +469,7 @@
 <!-- ========================= CAMBI RESIDENZA ========================= -->
 
 <!-- Dataset: cambi residenza export -->
-<dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_export.md">
+<dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
 
     <dct:title xml:lang="it">Trend mensile delle dichiarazioni dei cambi di residenza</dct:title>
@@ -478,7 +478,7 @@
     <dct:description xml:lang="en">Count of how many declarations of change of address in a month</dct:description>
     <dct:description xml:lang="it">Conteggio del numero di dichiarazioni di cambio di residenza al mese</dct:description>
 
-    <dct:identifier>MINT:anpr_cambi_residenza_export</dct:identifier>
+    <dct:identifier>MINT:anpr_cambi_residenza</dct:identifier>
 
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
@@ -488,7 +488,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -520,13 +520,13 @@
     <dcat:keyword>Anagrafe</dcat:keyword>
     <dcat:keyword>Statistiche</dcat:keyword>
 
-    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_export.csv"/>
-    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_export.json"/>
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza.csv"/>
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza.json"/>
 </dcatapit:Dataset>
 
-<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_export.csv">
-    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_export.csv"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi_residenza_export.csv"/>
+<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza.csv">
+    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza.csv"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi_residenza.csv"/>
     <dct:license>
         <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
             <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -545,9 +545,9 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
 </dcatapit:Distribution>
 
-<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_export.json">
-    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_export.json"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi_residenza_export.json"/>
+<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza.json">
+    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza.json"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi_residenza.json"/>
     <dct:license>
         <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
             <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -565,17 +565,17 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
 </dcatapit:Distribution>
 
-<!-- Dataset: cambi residenza last month -->
-<dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_last_month.md">
+<!-- Dataset: cambi residenza canale -->
+<dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_canale_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
 
-    <dct:title xml:lang="it">Trend del mese corrente delle dichiarazioni dei cambi di residenza</dct:title>
-    <dct:title xml:lang="en">Current month's trend of change of address declarations</dct:title>
+    <dct:title xml:lang="it">Trend mensile delle dichiarazioni dei cambi di residenza</dct:title>
+    <dct:title xml:lang="en">Monthly trend of change of address declarations</dct:title>
 
-    <dct:description xml:lang="en">Count of how many declarations of change of address in the current month</dct:description>
-    <dct:description xml:lang="it">Conteggio del numero di dichiarazioni di cambio di residenza nel mese corrente</dct:description>
+    <dct:description xml:lang="en">Count of how many declarations of change of address in a month</dct:description>
+    <dct:description xml:lang="it">Conteggio del numero di dichiarazioni di cambio di residenza al mese</dct:description>
 
-    <dct:identifier>MINT:anpr_cambi_residenza_last_month</dct:identifier>
+    <dct:identifier>MINT:anpr_cambi_residenza_canale_export</dct:identifier>
 
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
@@ -585,7 +585,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -617,13 +617,13 @@
     <dcat:keyword>Anagrafe</dcat:keyword>
     <dcat:keyword>Statistiche</dcat:keyword>
 
-    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_last_month.csv"/>
-    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_last_month.json"/>
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_canale_export.csv"/>
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_canale_export.json"/>
 </dcatapit:Dataset>
 
-<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_last_month.csv">
-    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_last_month.csv"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi_residenza_last_month.csv"/>
+<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_canale_export.csv">
+    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_canale_export.csv"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi_residenza_canale_export.csv"/>
     <dct:license>
         <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
             <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -633,18 +633,18 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
 
-    <dct:title xml:lang="it">Trend del mese corrente delle dichiarazioni dei cambi di residenza</dct:title>
-    <dct:title xml:lang="en">Current month's trend of change of address declarations</dct:title>
+    <dct:title xml:lang="it">Trend mensile delle dichiarazioni dei cambi di residenza</dct:title>
+    <dct:title xml:lang="en">Monthly trend of change of address declarations</dct:title>
 
-    <dct:description xml:lang="en">Count of how many declarations of change of address in the current month</dct:description>
-    <dct:description xml:lang="it">Conteggio del numero di dichiarazioni di cambio di residenza nel mese corrente</dct:description>
+    <dct:description xml:lang="en">Count of how many declarations of change of address in a month</dct:description>
+    <dct:description xml:lang="it">Conteggio del numero di dichiarazioni di cambio di residenza al mese</dct:description>
 
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
 </dcatapit:Distribution>
 
-<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_last_month.json">
-    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_last_month.json"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi_residenza_last_month.json"/>
+<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_canale_export.json">
+    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/cambi_residenza_canale_export.json"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi_residenza_canale_export.json"/>
     <dct:license>
         <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
             <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -654,11 +654,11 @@
     </dct:license>
     <dct:format rdf:resource="JSON"/>
 
-    <dct:title xml:lang="it">Trend del mese corrente delle dichiarazioni dei cambi di residenza</dct:title>
-    <dct:title xml:lang="en">Current month's trend of change of address declarations</dct:title>
+    <dct:title xml:lang="it">Trend mensile delle dichiarazioni dei cambi di residenza</dct:title>
+    <dct:title xml:lang="en">Monthly trend of change of address declarations</dct:title>
 
-    <dct:description xml:lang="en">Count of how many declarations of change of address in the current month</dct:description>
-    <dct:description xml:lang="it">Conteggio del numero di dichiarazioni di cambio di residenza nel mese corrente</dct:description>
+    <dct:description xml:lang="en">Count of how many declarations of change of address in a month</dct:description>
+    <dct:description xml:lang="it">Conteggio del numero di dichiarazioni di cambio di residenza al mese</dct:description>
 
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
 </dcatapit:Distribution>
@@ -685,7 +685,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -783,7 +783,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -883,7 +883,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -961,6 +961,104 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
 </dcatapit:Distribution>
 
+<!-- Dataset: popolazione residente export -->
+<dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_residente_export.md">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+
+    <dct:title xml:lang="it">Trend giornaliero della popolazione residente per comune in ANPR</dct:title>
+    <dct:title xml:lang="en">Daily trend of each municipality population in ANPR</dct:title>
+
+    <dct:description xml:lang="en">Daily number of people registered for each municipality in ANPR</dct:description>
+    <dct:description xml:lang="it">Conteggio giornaliero della popolazione per comune in ANPR</dct:description>
+
+    <dct:identifier>MINT:popolazione_residente_export</dct:identifier>
+
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+
+    <dct:license/>
+
+    <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
+
+    <dct:rightsHolder>
+        <dcatapit:Agent rdf:about="mint">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <dct:identifier>mint</dct:identifier>
+            <foaf:name>Ministero dell'interno</foaf:name>
+        </dcatapit:Agent>
+    </dct:rightsHolder>
+
+    <dct:publisher>
+        <dcatapit:Agent rdf:about="mint">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <dct:identifier>mint</dct:identifier>
+            <foaf:name>Ministero dell'interno</foaf:name>
+        </dcatapit:Agent>
+    </dct:publisher>
+
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
+
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:modified>
+    <dct:issue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issue>
+
+    <dcat:keyword>ANPR</dcat:keyword>
+    <dcat:keyword>Popolazione</dcat:keyword>
+    <dcat:keyword>Anagrafe</dcat:keyword>
+    <dcat:keyword>Statistiche</dcat:keyword>
+
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/popolazione_residente_export.csv"/>
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/popolazione_residente_export.json"/>
+</dcatapit:Dataset>
+
+<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/popolazione_residente_export.csv">
+    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/popolazione_residente_export.csv"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/popolazione_residente_export.csv"/>
+    <dct:license>
+        <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
+            <rdf:type rdf:resource="dct:LicenseDocument"/>
+            <dct:type rdf:resource="http://purl.org/adms/licencetype/PublicDomain"/>
+            <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+        </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+
+    <dct:title xml:lang="it">Trend giornaliero della popolazione residente per comune in ANPR</dct:title>
+    <dct:title xml:lang="en">Daily trend of each municipality population in ANPR</dct:title>
+
+    <dct:description xml:lang="en">Daily number of people registered for each municipality in ANPR</dct:description>
+    <dct:description xml:lang="it">Conteggio giornaliero della popolazione per comune in ANPR</dct:description>
+
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+</dcatapit:Distribution>
+
+<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/popolazione_residente_export.json">
+    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/popolazione_residente_export.json"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/popolazione_residente_export.json"/>
+    <dct:license>
+        <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
+            <rdf:type rdf:resource="dct:LicenseDocument"/>
+            <dct:type rdf:resource="http://purl.org/adms/licencetype/PublicDomain"/>
+            <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+        </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="JSON"/>
+
+    <dct:title xml:lang="it">Trend giornaliero della popolazione residente per comune in ANPR</dct:title>
+    <dct:title xml:lang="en">Daily trend of each municipality population in ANPR</dct:title>
+
+    <dct:description xml:lang="en">Daily number of people registered for each municipality in ANPR</dct:description>
+    <dct:description xml:lang="it">Conteggio giornaliero della popolazione per comune in ANPR</dct:description>
+
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+</dcatapit:Distribution>
+
 <!-- ========================= RETTIFICHE ========================= -->
 
 <!-- Dataset: rettifiche export -->
@@ -983,7 +1081,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -1081,7 +1179,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -1161,15 +1259,15 @@
 
 <!-- ========================= TIPOLOGIE CAMBI DI RESIDENZA ========================= -->
 
-<!-- Dataset: tipologia cambi residenza export -->
+<!-- Dataset: tipologia cambi residenza -->
 <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
 
-    <dct:title xml:lang="it">Trend mensile delle tipologie di cambi di residenza</dct:title>
-    <dct:title xml:lang="en">Monthly trend of types of change of address</dct:title>
+    <dct:title xml:lang="it">Trend mensile delle tipologie di cambi di residenza effettuati sia da portale ANPR che da comune</dct:title>
+    <dct:title xml:lang="en">Monthly trend of types of change of address through both the ANPR portal or the municipality's offices</dct:title>
 
-    <dct:description xml:lang="en">Count the different types of change of address which are requested in a month</dct:description>
-    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti ogni mese</dct:description>
+    <dct:description xml:lang="en">Count the different types of change of address which are requested in a month  through both the ANPR portal or the municipality's offices</dct:description>
+    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti ogni mese sia da portale ANPR che da comune</dct:description>
 
     <dct:identifier>MINT:anpr_tipologia_cambi_residenza_export</dct:identifier>
 
@@ -1181,7 +1279,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -1229,11 +1327,11 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
 
-    <dct:title xml:lang="it">Trend mensile delle tipologie di cambi di residenza</dct:title>
-    <dct:title xml:lang="en">Monthly trend of types of change of address</dct:title>
+    <dct:title xml:lang="it">Trend mensile delle tipologie di cambi di residenza effettuati sia da portale ANPR che da comune</dct:title>
+    <dct:title xml:lang="en">Monthly trend of types of change of address through both the ANPR portal or the municipality's offices</dct:title>
 
-    <dct:description xml:lang="en">Count the different types of change of address which are requested in a month</dct:description>
-    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti ogni mese</dct:description>
+    <dct:description xml:lang="en">Count the different types of change of address which are requested in a month  through both the ANPR portal or the municipality's offices</dct:description>
+    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti ogni mese sia da portale ANPR che da comune</dct:description>
 
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
 </dcatapit:Distribution>
@@ -1250,26 +1348,26 @@
     </dct:license>
     <dct:format rdf:resource="JSON"/>
 
-    <dct:title xml:lang="it">Trend mensile delle tipologie di cambi di residenza</dct:title>
-    <dct:title xml:lang="en">Monthly trend of types of change of address</dct:title>
+    <dct:title xml:lang="it">Trend mensile delle tipologie di cambi di residenza effettuati sia da portale ANPR che da comune</dct:title>
+    <dct:title xml:lang="en">Monthly trend of types of change of address through both the ANPR portal or the municipality's offices</dct:title>
 
-    <dct:description xml:lang="en">Count the different types of change of address which are requested in a month</dct:description>
-    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti ogni mese</dct:description>
+    <dct:description xml:lang="en">Count the different types of change of address which are requested in a month  through both the ANPR portal or the municipality's offices</dct:description>
+    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti ogni mese sia da portale ANPR che da comune</dct:description>
 
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
 </dcatapit:Distribution>
 
-<!-- Dataset: tipologia cambi residenza last_month -->
-<dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_last_month.md">
+<!-- Dataset: tipologia cambi residenza da portale -->
+<dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_portale_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
 
-    <dct:title xml:lang="it">Trend del mese corrente delle tipologie di cambi di residenza</dct:title>
-    <dct:title xml:lang="en">Trend of types of change of address for the current month</dct:title>
+    <dct:title xml:lang="it">Trend mensile delle tipologie di cambi di residenza effettuati da portale ANPR</dct:title>
+    <dct:title xml:lang="en">Monthly trend of types of change of address through the ANPR portal</dct:title>
 
-    <dct:description xml:lang="en">Count the different types of change of address which have been requested in the current month</dct:description>
-    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti nel mese in corso</dct:description>
+    <dct:description xml:lang="en">Count the different types of change of address which are requested in a month through the ANPR portal</dct:description>
+    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti ogni mese da portale ANPR</dct:description>
 
-    <dct:identifier>MINT:anpr_tipologia_cambi_residenza_last_month</dct:identifier>
+    <dct:identifier>MINT:anpr_tipologia_cambi_residenza_portale_export</dct:identifier>
 
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
@@ -1279,7 +1377,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -1311,13 +1409,13 @@
     <dcat:keyword>Anagrafe</dcat:keyword>
     <dcat:keyword>Statistiche</dcat:keyword>
 
-    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_last_month.csv"/>
-    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_last_month.json"/>
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_portale_export.csv"/>
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_portale_export.json"/>
 </dcatapit:Dataset>
 
-<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_last_month.csv">
-    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_last_month.csv"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/tipologia_cambi_residenza_last_month.csv"/>
+<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_portale_export.csv">
+    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_portale_export.csv"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/tipologia_cambi_residenza_portale_export.csv"/>
     <dct:license>
         <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
             <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -1327,18 +1425,18 @@
     </dct:license>
     <dct:format rdf:resource="CSV"/>
 
-    <dct:title xml:lang="it">Trend del mese corrente delle tipologie di cambi di residenza</dct:title>
-    <dct:title xml:lang="en">Trend of types of change of address for the current month</dct:title>
+    <dct:title xml:lang="it">Trend mensile delle tipologie di cambi di residenza effettuati da portale ANPR</dct:title>
+    <dct:title xml:lang="en">Monthly trend of types of change of address through the ANPR portal</dct:title>
 
-    <dct:description xml:lang="en">Count the different types of change of address which have been requested in the current month</dct:description>
-    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti nel mese in corso</dct:description>
+    <dct:description xml:lang="en">Count the different types of change of address which are requested in a month through the ANPR portal</dct:description>
+    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti ogni mese da portale ANPR</dct:description>
 
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
 </dcatapit:Distribution>
 
-<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_last_month.json">
-    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_last_month.json"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/tipologia_cambi_residenza_last_month.json"/>
+<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_portale_export.json">
+    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_portale_export.json"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/tipologia_cambi_residenza_portale_export.json"/>
     <dct:license>
         <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
             <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -1348,11 +1446,109 @@
     </dct:license>
     <dct:format rdf:resource="JSON"/>
 
-    <dct:title xml:lang="it">Trend del mese corrente delle tipologie di cambi di residenza</dct:title>
-    <dct:title xml:lang="en">Trend of types of change of address for the current month</dct:title>
+    <dct:title xml:lang="it">Trend mensile delle tipologie di cambi di residenza effettuati da portale ANPR</dct:title>
+    <dct:title xml:lang="en">Monthly trend of types of change of address through the ANPR portal</dct:title>
 
-    <dct:description xml:lang="en">Count the different types of change of address which have been requested in the current month</dct:description>
-    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti nel mese in corso</dct:description>
+    <dct:description xml:lang="en">Count the different types of change of address which are requested in a month through the ANPR portal</dct:description>
+    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti ogni mese da portale ANPR</dct:description>
+
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+</dcatapit:Distribution>
+
+<!-- Dataset: tipologia cambi residenza da portale last_month -->
+<dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_portale_last_month.md">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+
+    <dct:title xml:lang="it">Trend del mese corrente delle tipologie di cambi di residenza effettuati da portale ANPR</dct:title>
+    <dct:title xml:lang="en">Trend of types of change of address for the current month through the ANPR portal</dct:title>
+
+    <dct:description xml:lang="en">Count the different types of change of address which have been requested in the current month through the ANPR portal</dct:description>
+    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti nel mese in corso effettuati da portale ANPR</dct:description>
+
+    <dct:identifier>MINT:anpr_tipologia_cambi_residenza_portale_last_month</dct:identifier>
+
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+
+    <dct:license/>
+
+    <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
+
+    <dct:rightsHolder>
+        <dcatapit:Agent rdf:about="mint">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <dct:identifier>mint</dct:identifier>
+            <foaf:name>Ministero dell'interno</foaf:name>
+        </dcatapit:Agent>
+    </dct:rightsHolder>
+
+    <dct:publisher>
+        <dcatapit:Agent rdf:about="mint">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <dct:identifier>mint</dct:identifier>
+            <foaf:name>Ministero dell'interno</foaf:name>
+        </dcatapit:Agent>
+    </dct:publisher>
+
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
+
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:modified>
+    <dct:issue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issue>
+
+    <dcat:keyword>ANPR</dcat:keyword>
+    <dcat:keyword>Popolazione</dcat:keyword>
+    <dcat:keyword>Anagrafe</dcat:keyword>
+    <dcat:keyword>Statistiche</dcat:keyword>
+
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_portale_last_month.csv"/>
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_portale_last_month.json"/>
+</dcatapit:Dataset>
+
+<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_portale_last_month.csv">
+    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_portale_last_month.csv"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/tipologia_cambi_residenza_portale_last_month.csv"/>
+    <dct:license>
+        <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
+            <rdf:type rdf:resource="dct:LicenseDocument"/>
+            <dct:type rdf:resource="http://purl.org/adms/licencetype/PublicDomain"/>
+            <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+        </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+
+    <dct:title xml:lang="it">Trend del mese corrente delle tipologie di cambi di residenza effettuati da portale ANPR</dct:title>
+    <dct:title xml:lang="en">Trend of types of change of address for the current month through the ANPR portal</dct:title>
+
+    <dct:description xml:lang="en">Count the different types of change of address which have been requested in the current month through the ANPR portal</dct:description>
+    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti nel mese in corso effettuati da portale ANPR</dct:description>
+
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+</dcatapit:Distribution>
+
+<dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_portale_last_month.json">
+    <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/tipologia_cambi_residenza_portale_last_month.json"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/tipologia_cambi_residenza_portale_last_month.json"/>
+    <dct:license>
+        <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
+            <rdf:type rdf:resource="dct:LicenseDocument"/>
+            <dct:type rdf:resource="http://purl.org/adms/licencetype/PublicDomain"/>
+            <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+        </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="JSON"/>
+
+    <dct:title xml:lang="it">Trend del mese corrente delle tipologie di cambi di residenza effettuati da portale ANPR</dct:title>
+    <dct:title xml:lang="en">Trend of types of change of address for the current month through the ANPR portal</dct:title>
+
+    <dct:description xml:lang="en">Count the different types of change of address which have been requested in the current month through the ANPR portal</dct:description>
+    <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti nel mese in corso effettuati da portale ANPR</dct:description>
 
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
 </dcatapit:Distribution>
@@ -1379,7 +1575,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -1477,7 +1673,7 @@
     <dct:landingPage rdf:resource="https://github.com/italia/anpr-opendata"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
 
-    <dcat:contactPoint rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 
     <dct:rightsHolder>
         <dcatapit:Agent rdf:about="mint">
@@ -1566,7 +1762,7 @@
     <skos:prefLabel xml:lang="it">2816 demografia e popolazione</skos:prefLabel>
 </skos:Concept>
 
-<dcatapit:Organization rdf:about="https://stat-int.anpr.interno.it/anpr-stat-numeri/">
+<dcatapit:Organization rdf:about="https://www.anagrafenazionale.interno.it/anpr/numeri/">
     <rdf:type rdf:resource="vcard:Organization"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
@@ -1574,6 +1770,6 @@
     <rdf:type rdf:resource="vcard:Kind"/>
     <vcard:fn>MINT - Ministero dell'Interno</vcard:fn>
     <vcard:hasEmail rdf:resource="info@anagrafenazionale.interno.it"/>
-    <vcard:hasURL rdf:resource="https://stat-int.anpr.interno.it/anpr-stat-numeri/"/>
+    <vcard:hasURL rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
 </dcatapit:Organization>
 </rdf:RDF>
