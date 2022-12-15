@@ -1,7 +1,7 @@
 # Formato dati del trend mensile delle dichiarazioni dei cambi di residenza distinte per tipologia di canale (Portale ANPR, Comuni)
 
 ## Data aggiornamento
-- Ogni giorno alle 2 (UTC). 
+- Ogni giorno alle 6:00 (UTC). 
 
 ## Formato dati
 
