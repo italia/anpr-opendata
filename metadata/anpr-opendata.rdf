@@ -59,7 +59,6 @@
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_last_month.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_canale_export.md"/>
-    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_canale_last_month.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/certificati_export.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/certificati_last_month.md"/>
     <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_export.md"/>
