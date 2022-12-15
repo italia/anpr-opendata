@@ -1,26 +1,26 @@
 MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
-12,2022,AIRE,CONTESTUALE,114,117,231
-12,2022,AIRE,Cittadinanza,45,22,67
-12,2022,AIRE,Residenza AIRE,151,147,298
+12,2022,AIRE,CONTESTUALE,126,132,258
+12,2022,AIRE,Cittadinanza,53,22,75
+12,2022,AIRE,Residenza AIRE,168,165,333
 12,2022,AIRE,Stato civile,1,0,1
-12,2022,AIRE,Stato famiglia AIRE,73,67,140
-12,2022,AIRE,matrimonio,47,43,90
-12,2022,AIRE,nascita,107,96,203
-12,2022,Residenti,CONTESTUALE,14532,15898,30430
-12,2022,Residenti,Cittadinanza,831,605,1436
-12,2022,Residenti,Contratto Convivenza,5,2,7
-12,2022,Residenti,Esistenza in vita,642,799,1441
-12,2022,Residenti,Residenza,14992,17854,32846
+12,2022,AIRE,Stato famiglia AIRE,82,72,154
+12,2022,AIRE,matrimonio,55,54,109
+12,2022,AIRE,nascita,130,110,240
+12,2022,Residenti,CONTESTUALE,15949,17531,33480
+12,2022,Residenti,Cittadinanza,921,672,1593
+12,2022,Residenti,Contratto Convivenza,5,3,8
+12,2022,Residenti,Esistenza in vita,697,856,1553
+12,2022,Residenti,Residenza,16522,19767,36289
 12,2022,Residenti,Residenza AIRE,2,2,4
-12,2022,Residenti,Residenza in convivenza,11,22,33
-12,2022,Residenti,Stato Libero,2154,1734,3888
-12,2022,Residenti,Stato civile,3500,3722,7222
-12,2022,Residenti,Stato famiglia,12063,15369,27432
+12,2022,Residenti,Residenza in convivenza,18,23,41
+12,2022,Residenti,Stato Libero,2389,1948,4337
+12,2022,Residenti,Stato civile,3871,4114,7985
+12,2022,Residenti,Stato famiglia,13316,16958,30274
 12,2022,Residenti,Stato famiglia AIRE,0,1,1
-12,2022,Residenti,Stato famiglia con rapporti parentela,2502,2910,5412
-12,2022,Residenti,Stato famiglia e stato civile,2356,2453,4809
-12,2022,Residenti,matrimonio,3177,3963,7140
-12,2022,Residenti,nascita,3950,4116,8066
+12,2022,Residenti,Stato famiglia con rapporti parentela,2743,3211,5954
+12,2022,Residenti,Stato famiglia e stato civile,2570,2717,5287
+12,2022,Residenti,matrimonio,3504,4371,7875
+12,2022,Residenti,nascita,4304,4579,8883
 12,2022,Residenti,storico Cittadinanza,0,1,1
 12,2022,Residenti,storico Residenza,0,1,1
-12,2022,Residenti,unione civile ,16,19,35
+12,2022,Residenti,unione civile ,16,21,37
