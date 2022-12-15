@@ -129,7 +129,7 @@ Le modifiche alla repository saranno tracciate in dettaglio nel file di changelo
   </a>
   <br />
 
-Nella più ampia misura permessa dalla legge, il [Ministero dell'Interno](https://www.interno.gov.it/it) rinuncia ad ogni Diritto d'Autore e Connesso, e ad ogni relativa pretesa su [ANPR Open data](https://www.anagrafenazionale.interno.it/anpr/numeri/).
+Nella più ampia misura permessa dalla legge, il [Ministero dell'Interno](https://www.interno.gov.it/it) rinuncia ad ogni Diritto d'Autore e Connesso, e ad ogni relativa pretesa su [ANPR Open data](https://github.com/italia/anpr-opendata).
 
 ## Authors / Copyright
 
