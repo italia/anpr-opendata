@@ -1023,13 +1023,10 @@
     <dct:description xml:lang="en">Count the different types of change of address which are requested in a month  through both the ANPR portal or the municipality's offices</dct:description>
     <dct:description xml:lang="it">Conteggio della tipologia di cambio di residenza richiesti ogni mese sia da portale ANPR che da comune</dct:description>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-</dcatapit:Distribution>
-
-
-<!-- ========================= VISURE AUTOCERTIFICAZIONI ========================= -->
-
-<!-- Dataset: visure autocertificazioni export -->
-<dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_export.md">
+  </dcatapit:Distribution>
+  <!-- ========================= VISURE AUTOCERTIFICAZIONI ========================= -->
+  <!-- Dataset: visure autocertificazioni export -->
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:title xml:lang="it">Trend mensile delle visure e delle autocertificazioni richieste</dct:title>
     <dct:title xml:lang="en">Monthly trend of certificates and self certificates requested</dct:title>
