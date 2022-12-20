@@ -1,3 +1,5 @@
+name: update_modified_metadata
+
 on:
   workflow_dispatch:
   push:
