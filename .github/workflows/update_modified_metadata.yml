@@ -1,0 +1,42 @@
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/'
+
+concurrency: 
+  group: ${{ github.ref }}
+
+jobs:
+    compile:
+        name: Setup
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout
+            uses: actions/checkout@v2
+          - name: Prepare
+            run: |
+              sudo apt-get install -y xmlstarlet
+              sudo apt-get install -y gawk
+          - name: Update dates
+            run: |
+              for i in data/*.csv; do
+                echo ${i}
+                filename=$(basename "${i}" .csv)
+                modified_date_csv=$(git log -1 --pretty="format:%ci" "data/${filename}.csv"  | awk '{ print $1 }')
+                modified_date_json=$(git log -1 --pretty="format:%ci" "data/${filename}.json"  | awk '{ print $1 }')
+                if [ "${modified_date_csv}" \> "${modified_date_json}" ]; then
+                  modified_date="${modified_date_csv}"
+                else
+                  modified_date="${modified_date_json}"
+                fi
+                xmlstarlet ed --inplace --update "/rdf:RDF/dcatapit:Dataset/dcat:distribution[contains(@rdf:resource,\"${filename}\")]/../dct:modified" --value "${modified_date}"  metadata/anpr-opendata.rdf
+              done 
+          - name: Tidy up
+            run: |
+              git config --global --add safe.directory /__w/anpr-opendata/anpr-opendata
+          - name: Commit
+            uses: EndBug/add-and-commit@v9
+            with:
+              message: 'Update modified date in RDF metadata'
+              add: 'metadata/anpr-opendata.rdf'
