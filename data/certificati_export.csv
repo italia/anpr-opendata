@@ -184,7 +184,7 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 4,2022,Residenti,unione civile ,51,36,87
 5,2022,AIRE,CONTESTUALE,391,315,706
 5,2022,AIRE,Cittadinanza,112,86,198
-5,2022,AIRE,Residenza,11,21,32
+5,2022,AIRE,Residenza,10,21,31
 5,2022,AIRE,Residenza AIRE,346,392,738
 5,2022,AIRE,Stato Libero,2,1,3
 5,2022,AIRE,Stato civile,3,5,8
@@ -199,7 +199,7 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 5,2022,Residenti,Cittadinanza,1761,1365,3126
 5,2022,Residenti,Contratto Convivenza,19,7,26
 5,2022,Residenti,Esistenza in vita,1168,1377,2545
-5,2022,Residenti,Residenza,38556,46597,85153
+5,2022,Residenti,Residenza,38557,46597,85154
 5,2022,Residenti,Residenza AIRE,6,10,16
 5,2022,Residenti,Residenza in convivenza,43,51,94
 5,2022,Residenti,Stato Libero,6294,4986,11280
@@ -228,7 +228,7 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 6,2022,Residenti,Cittadinanza,1798,1390,3188
 6,2022,Residenti,Contratto Convivenza,17,6,23
 6,2022,Residenti,Esistenza in vita,1081,1376,2457
-6,2022,Residenti,Residenza,35186,43560,78746
+6,2022,Residenti,Residenza,35186,43561,78747
 6,2022,Residenti,Residenza AIRE,1,10,11
 6,2022,Residenti,Residenza in convivenza,39,44,83
 6,2022,Residenti,Stato Libero,5698,4746,10444
@@ -262,11 +262,11 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 7,2022,Residenti,Residenza in convivenza,40,29,69
 7,2022,Residenti,Stato Libero,4874,4113,8987
 7,2022,Residenti,Stato civile,7900,8462,16362
-7,2022,Residenti,Stato famiglia,27183,36936,64119
+7,2022,Residenti,Stato famiglia,27182,36937,64119
 7,2022,Residenti,Stato famiglia AIRE,1,6,7
 7,2022,Residenti,Stato famiglia con rapporti parentela,5201,6552,11753
 7,2022,Residenti,Stato famiglia e stato civile,4959,5551,10510
-7,2022,Residenti,matrimonio,8067,9853,17920
+7,2022,Residenti,matrimonio,8066,9853,17919
 7,2022,Residenti,nascita,8591,9661,18252
 7,2022,Residenti,unione civile ,52,50,102
 8,2022,AIRE,CONTESTUALE,323,263,586
