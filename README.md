@@ -57,10 +57,6 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── rettifiche_last_month.json
 │   ├── tipologia_cambi_residenza_export.csv
 │   ├── tipologia_cambi_residenza_export.json
-│   ├── tipologia_cambi_residenza_portale_export.csv
-│   ├── tipologia_cambi_residenza_portale_export.json
-│   ├── tipologia_cambi_residenza_portale_last_month.csv
-│   ├── tipologia_cambi_residenza_portale_last_month.json
 │   ├── visure_autocertificazioni_export.csv
 │   ├── visure_autocertificazioni_export.json
 │   ├── visure_autocertificazioni_last_month.csv
@@ -80,8 +76,6 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── rettifiche_export.md
 │   ├── rettifiche_last_month.md
 │   ├── tipologia_cambi_residenza_export.md
-│   ├── tipologia_cambi_residenza_portale_export.md
-│   ├── tipologia_cambi_residenza_portale_last_month.md
 │   ├── visure_autocertificazioni_export.md
 │   └── visure_autocertificazioni_last_month.md
 ├── img
@@ -108,8 +102,6 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 - [Trend mensile delle rettifiche richieste](https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_export.md)
 - [Trend del mese corrente delle rettifiche richieste](https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_last_month.md)
 - [Trend mensile delle tipologie di cambi di residenza effettuate sia da Portale ANPR che da Comune](https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_export.md)
-- [Trend mensile delle tipologie di cambi di residenza effettuati da portale ANPR](https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_portale_export.md)
-- [Trend del mese corrente delle tipologie di cambi di residenza effettuati da portale ANPR](https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_portale_last_month.md)
 - [Trend mensile delle visure e delle autocertificazioni richieste](https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_export.md)
 - [Trend del mese corrente delle visure e delle autocertificazioni richieste](https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_last_month.md)
 
