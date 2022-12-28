@@ -7,7 +7,7 @@ on:
       - 'data/*.csv'
 
 concurrency: 
-  group: ${{ github.ref }}
+  group: dcat-${{ github.ref }}
 
 jobs:
     compile:
