@@ -1,1 +1,19 @@
 MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
+1,2023,AIRE,CONTESTUALE,6,5,11
+1,2023,AIRE,Cittadinanza,6,0,6
+1,2023,AIRE,Residenza AIRE,9,7,16
+1,2023,AIRE,Stato famiglia AIRE,2,2,4
+1,2023,AIRE,matrimonio,3,1,4
+1,2023,AIRE,nascita,4,4,8
+1,2023,Residenti,CONTESTUALE,263,384,647
+1,2023,Residenti,Cittadinanza,22,13,35
+1,2023,Residenti,Contratto Convivenza,0,1,1
+1,2023,Residenti,Esistenza in vita,24,50,74
+1,2023,Residenti,Residenza,310,496,806
+1,2023,Residenti,Stato Libero,34,26,60
+1,2023,Residenti,Stato civile,60,52,112
+1,2023,Residenti,Stato famiglia,410,499,909
+1,2023,Residenti,Stato famiglia con rapporti parentela,51,109,160
+1,2023,Residenti,Stato famiglia e stato civile,48,70,118
+1,2023,Residenti,matrimonio,48,74,122
+1,2023,Residenti,nascita,107,151,258
