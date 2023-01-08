@@ -1,24 +1,24 @@
 MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
-1,2023,AIRE,CONTESTUALE,37,134,171
-1,2023,AIRE,Cittadinanza,12,27,39
-1,2023,AIRE,Residenza AIRE,33,139,172
-1,2023,AIRE,Stato famiglia AIRE,21,50,71
-1,2023,AIRE,matrimonio,13,35,48
-1,2023,AIRE,nascita,25,72,97
+1,2023,AIRE,CONTESTUALE,37,138,175
+1,2023,AIRE,Cittadinanza,12,32,44
+1,2023,AIRE,Residenza AIRE,33,149,182
+1,2023,AIRE,Stato famiglia AIRE,21,58,79
+1,2023,AIRE,matrimonio,13,38,51
+1,2023,AIRE,nascita,25,80,105
 1,2023,AIRE,unione civile ,0,1,1
-1,2023,Residenti,CONTESTUALE,2290,11291,13581
-1,2023,Residenti,Cittadinanza,137,450,587
+1,2023,Residenti,CONTESTUALE,2290,12336,14626
+1,2023,Residenti,Cittadinanza,137,496,633
 1,2023,Residenti,Contratto Convivenza,0,4,4
-1,2023,Residenti,Esistenza in vita,104,595,699
-1,2023,Residenti,Residenza,2469,13373,15842
+1,2023,Residenti,Esistenza in vita,104,649,753
+1,2023,Residenti,Residenza,2469,14599,17068
 1,2023,Residenti,Residenza AIRE,0,1,1
-1,2023,Residenti,Residenza in convivenza,4,21,25
-1,2023,Residenti,Stato Libero,213,800,1013
-1,2023,Residenti,Stato civile,441,2069,2510
-1,2023,Residenti,Stato famiglia,3223,16524,19747
+1,2023,Residenti,Residenza in convivenza,4,24,28
+1,2023,Residenti,Stato Libero,213,863,1076
+1,2023,Residenti,Stato civile,441,2258,2699
+1,2023,Residenti,Stato famiglia,3223,17965,21188
 1,2023,Residenti,Stato famiglia AIRE,0,1,1
-1,2023,Residenti,Stato famiglia con rapporti parentela,463,2663,3126
-1,2023,Residenti,Stato famiglia e stato civile,454,2069,2523
-1,2023,Residenti,matrimonio,408,2114,2522
-1,2023,Residenti,nascita,715,3291,4006
+1,2023,Residenti,Stato famiglia con rapporti parentela,463,2935,3398
+1,2023,Residenti,Stato famiglia e stato civile,454,2255,2709
+1,2023,Residenti,matrimonio,408,2303,2711
+1,2023,Residenti,nascita,715,3607,4322
 1,2023,Residenti,unione civile ,2,11,13
