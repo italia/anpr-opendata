@@ -1,24 +1,25 @@
 MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
-1,2023,AIRE,CONTESTUALE,37,151,188
-1,2023,AIRE,Cittadinanza,12,34,46
-1,2023,AIRE,Residenza AIRE,33,155,188
-1,2023,AIRE,Stato famiglia AIRE,21,66,87
-1,2023,AIRE,matrimonio,13,40,53
-1,2023,AIRE,nascita,25,91,116
+1,2023,AIRE,CONTESTUALE,37,187,224
+1,2023,AIRE,Cittadinanza,12,51,63
+1,2023,AIRE,Residenza,0,1,1
+1,2023,AIRE,Residenza AIRE,33,193,226
+1,2023,AIRE,Stato famiglia AIRE,21,88,109
+1,2023,AIRE,matrimonio,13,48,61
+1,2023,AIRE,nascita,25,123,148
 1,2023,AIRE,unione civile ,0,1,1
-1,2023,Residenti,CONTESTUALE,2290,13462,15752
-1,2023,Residenti,Cittadinanza,137,557,694
-1,2023,Residenti,Contratto Convivenza,0,5,5
-1,2023,Residenti,Esistenza in vita,104,704,808
-1,2023,Residenti,Residenza,2469,15875,18344
-1,2023,Residenti,Residenza AIRE,0,1,1
-1,2023,Residenti,Residenza in convivenza,4,24,28
-1,2023,Residenti,Stato Libero,213,934,1147
-1,2023,Residenti,Stato civile,441,2485,2926
-1,2023,Residenti,Stato famiglia,3223,19521,22744
+1,2023,Residenti,CONTESTUALE,2290,17363,19653
+1,2023,Residenti,Cittadinanza,137,665,802
+1,2023,Residenti,Contratto Convivenza,0,6,6
+1,2023,Residenti,Esistenza in vita,104,836,940
+1,2023,Residenti,Residenza,2469,20150,22619
+1,2023,Residenti,Residenza AIRE,0,2,2
+1,2023,Residenti,Residenza in convivenza,4,32,36
+1,2023,Residenti,Stato Libero,213,1299,1512
+1,2023,Residenti,Stato civile,441,3273,3714
+1,2023,Residenti,Stato famiglia,3223,25490,28713
 1,2023,Residenti,Stato famiglia AIRE,0,1,1
-1,2023,Residenti,Stato famiglia con rapporti parentela,463,3194,3657
-1,2023,Residenti,Stato famiglia e stato civile,454,2489,2943
-1,2023,Residenti,matrimonio,408,2524,2932
-1,2023,Residenti,nascita,715,3902,4617
-1,2023,Residenti,unione civile ,2,15,17
+1,2023,Residenti,Stato famiglia con rapporti parentela,463,4097,4560
+1,2023,Residenti,Stato famiglia e stato civile,454,3219,3673
+1,2023,Residenti,matrimonio,408,3305,3713
+1,2023,Residenti,nascita,715,4829,5544
+1,2023,Residenti,unione civile ,2,16,18
