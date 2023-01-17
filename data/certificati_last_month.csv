@@ -1,25 +1,26 @@
 MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
-1,2023,AIRE,CONTESTUALE,37,344,381
-1,2023,AIRE,Cittadinanza,12,87,99
+1,2023,AIRE,CONTESTUALE,37,383,420
+1,2023,AIRE,Cittadinanza,12,96,108
 1,2023,AIRE,Residenza,0,3,3
-1,2023,AIRE,Residenza AIRE,33,369,402
-1,2023,AIRE,Stato famiglia AIRE,21,173,194
-1,2023,AIRE,matrimonio,13,88,101
-1,2023,AIRE,nascita,25,228,253
+1,2023,AIRE,Residenza AIRE,33,412,445
+1,2023,AIRE,Stato famiglia,0,1,1
+1,2023,AIRE,Stato famiglia AIRE,21,185,206
+1,2023,AIRE,matrimonio,13,99,112
+1,2023,AIRE,nascita,25,254,279
 1,2023,AIRE,unione civile ,0,1,1
-1,2023,Residenti,CONTESTUALE,2290,36154,38444
-1,2023,Residenti,Cittadinanza,137,1269,1406
+1,2023,Residenti,CONTESTUALE,2290,40478,42768
+1,2023,Residenti,Cittadinanza,137,1412,1549
 1,2023,Residenti,Contratto Convivenza,0,14,14
-1,2023,Residenti,Esistenza in vita,104,1428,1532
-1,2023,Residenti,Residenza,2469,39481,41950
-1,2023,Residenti,Residenza AIRE,0,3,3
-1,2023,Residenti,Residenza in convivenza,4,61,65
-1,2023,Residenti,Stato Libero,213,3018,3231
-1,2023,Residenti,Stato civile,441,7016,7457
-1,2023,Residenti,Stato famiglia,3223,51144,54367
+1,2023,Residenti,Esistenza in vita,104,1546,1650
+1,2023,Residenti,Residenza,2469,43611,46080
+1,2023,Residenti,Residenza AIRE,0,5,5
+1,2023,Residenti,Residenza in convivenza,4,64,68
+1,2023,Residenti,Stato Libero,213,3399,3612
+1,2023,Residenti,Stato civile,441,7927,8368
+1,2023,Residenti,Stato famiglia,3223,57040,60263
 1,2023,Residenti,Stato famiglia AIRE,0,1,1
-1,2023,Residenti,Stato famiglia con rapporti parentela,463,8015,8478
-1,2023,Residenti,Stato famiglia e stato civile,454,6519,6973
-1,2023,Residenti,matrimonio,408,6943,7351
-1,2023,Residenti,nascita,715,9284,9999
-1,2023,Residenti,unione civile ,2,30,32
+1,2023,Residenti,Stato famiglia con rapporti parentela,463,8859,9322
+1,2023,Residenti,Stato famiglia e stato civile,454,7270,7724
+1,2023,Residenti,matrimonio,408,7776,8184
+1,2023,Residenti,nascita,715,10249,10964
+1,2023,Residenti,unione civile ,2,34,36
