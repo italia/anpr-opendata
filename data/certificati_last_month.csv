@@ -1,28 +1,28 @@
 MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
-1,2023,AIRE,CONTESTUALE,37,524,561
-1,2023,AIRE,Cittadinanza,12,123,135
+1,2023,AIRE,CONTESTUALE,37,545,582
+1,2023,AIRE,Cittadinanza,12,128,140
 1,2023,AIRE,Residenza,1,5,6
-1,2023,AIRE,Residenza AIRE,33,562,595
+1,2023,AIRE,Residenza AIRE,33,590,623
 1,2023,AIRE,Stato Libero,0,2,2
 1,2023,AIRE,Stato civile,0,1,1
 1,2023,AIRE,Stato famiglia,0,1,1
-1,2023,AIRE,Stato famiglia AIRE,21,260,281
-1,2023,AIRE,matrimonio,13,137,150
-1,2023,AIRE,nascita,25,345,370
+1,2023,AIRE,Stato famiglia AIRE,21,271,292
+1,2023,AIRE,matrimonio,13,146,159
+1,2023,AIRE,nascita,25,361,386
 1,2023,AIRE,unione civile ,0,1,1
-1,2023,Residenti,CONTESTUALE,2290,58345,60635
-1,2023,Residenti,Cittadinanza,137,2087,2224
-1,2023,Residenti,Contratto Convivenza,0,18,18
-1,2023,Residenti,Esistenza in vita,104,2106,2210
-1,2023,Residenti,Residenza,2468,61301,63769
+1,2023,Residenti,CONTESTUALE,2290,59859,62149
+1,2023,Residenti,Cittadinanza,137,2139,2276
+1,2023,Residenti,Contratto Convivenza,0,19,19
+1,2023,Residenti,Esistenza in vita,104,2155,2259
+1,2023,Residenti,Residenza,2468,62725,65193
 1,2023,Residenti,Residenza AIRE,0,7,7
-1,2023,Residenti,Residenza in convivenza,4,84,88
-1,2023,Residenti,Stato Libero,213,5031,5244
-1,2023,Residenti,Stato civile,441,11605,12046
-1,2023,Residenti,Stato famiglia,3223,79538,82761
+1,2023,Residenti,Residenza in convivenza,4,86,90
+1,2023,Residenti,Stato Libero,213,5140,5353
+1,2023,Residenti,Stato civile,441,11885,12326
+1,2023,Residenti,Stato famiglia,3223,81392,84615
 1,2023,Residenti,Stato famiglia AIRE,0,1,1
-1,2023,Residenti,Stato famiglia con rapporti parentela,463,12552,13015
-1,2023,Residenti,Stato famiglia e stato civile,454,10119,10573
-1,2023,Residenti,matrimonio,408,11267,11675
-1,2023,Residenti,nascita,715,14370,15085
-1,2023,Residenti,unione civile ,2,48,50
+1,2023,Residenti,Stato famiglia con rapporti parentela,463,12841,13304
+1,2023,Residenti,Stato famiglia e stato civile,454,10388,10842
+1,2023,Residenti,matrimonio,408,11576,11984
+1,2023,Residenti,nascita,715,14793,15508
+1,2023,Residenti,unione civile ,2,51,53
