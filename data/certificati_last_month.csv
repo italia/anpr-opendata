@@ -1,30 +1,30 @@
 MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
-1,2023,AIRE,CONTESTUALE,37,565,602
-1,2023,AIRE,Cittadinanza,12,136,148
-1,2023,AIRE,Residenza,1,7,8
-1,2023,AIRE,Residenza AIRE,33,617,650
+1,2023,AIRE,CONTESTUALE,37,594,631
+1,2023,AIRE,Cittadinanza,12,143,155
+1,2023,AIRE,Residenza,1,8,9
+1,2023,AIRE,Residenza AIRE,33,645,678
 1,2023,AIRE,Stato Libero,0,2,2
 1,2023,AIRE,Stato civile,0,1,1
 1,2023,AIRE,Stato famiglia,0,1,1
-1,2023,AIRE,Stato famiglia AIRE,21,276,297
+1,2023,AIRE,Stato famiglia AIRE,21,298,319
 1,2023,AIRE,Stato famiglia con rapporti parentela,0,1,1
-1,2023,AIRE,matrimonio,13,154,167
-1,2023,AIRE,nascita,25,389,414
+1,2023,AIRE,matrimonio,13,162,175
+1,2023,AIRE,nascita,25,410,435
 1,2023,AIRE,unione civile ,0,1,1
-1,2023,Residenti,CONTESTUALE,2290,63948,66238
-1,2023,Residenti,Cittadinanza,137,2269,2406
-1,2023,Residenti,Contratto Convivenza,0,19,19
-1,2023,Residenti,Esistenza in vita,104,2275,2379
-1,2023,Residenti,Residenza,2468,66822,69290
-1,2023,Residenti,Residenza AIRE,0,7,7
-1,2023,Residenti,Residenza in convivenza,4,90,94
-1,2023,Residenti,Stato Libero,213,5494,5707
-1,2023,Residenti,Stato civile,441,12659,13100
-1,2023,Residenti,Stato famiglia,3223,86296,89519
+1,2023,Residenti,CONTESTUALE,2290,67958,70248
+1,2023,Residenti,Cittadinanza,137,2384,2521
+1,2023,Residenti,Contratto Convivenza,0,22,22
+1,2023,Residenti,Esistenza in vita,104,2372,2476
+1,2023,Residenti,Residenza,2468,70918,73386
+1,2023,Residenti,Residenza AIRE,0,9,9
+1,2023,Residenti,Residenza in convivenza,4,97,101
+1,2023,Residenti,Stato Libero,213,5887,6100
+1,2023,Residenti,Stato civile,441,13491,13932
+1,2023,Residenti,Stato famiglia,3223,91394,94617
 1,2023,Residenti,Stato famiglia AIRE,0,1,1
-1,2023,Residenti,Stato famiglia con rapporti parentela,463,13705,14168
-1,2023,Residenti,Stato famiglia e stato civile,454,11042,11496
-1,2023,Residenti,matrimonio,408,12385,12793
-1,2023,Residenti,nascita,715,15727,16442
+1,2023,Residenti,Stato famiglia con rapporti parentela,463,14523,14986
+1,2023,Residenti,Stato famiglia e stato civile,454,11688,12142
+1,2023,Residenti,matrimonio,408,13185,13593
+1,2023,Residenti,nascita,715,16629,17344
 1,2023,Residenti,storico Cittadinanza,0,1,1
-1,2023,Residenti,unione civile ,2,54,56
+1,2023,Residenti,unione civile ,2,60,62
