@@ -1,31 +1,31 @@
 MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
-1,2023,AIRE,CONTESTUALE,37,629,666
-1,2023,AIRE,Cittadinanza,12,147,159
-1,2023,AIRE,Residenza,1,8,9
-1,2023,AIRE,Residenza AIRE,33,671,704
+1,2023,AIRE,CONTESTUALE,36,662,698
+1,2023,AIRE,Cittadinanza,12,154,166
+1,2023,AIRE,Residenza,1,9,10
+1,2023,AIRE,Residenza AIRE,33,699,732
 1,2023,AIRE,Stato Libero,0,2,2
 1,2023,AIRE,Stato civile,0,2,2
 1,2023,AIRE,Stato famiglia,0,1,1
-1,2023,AIRE,Stato famiglia AIRE,21,312,333
-1,2023,AIRE,Stato famiglia con rapporti parentela,0,1,1
-1,2023,AIRE,Stato famiglia e stato civile,0,2,2
-1,2023,AIRE,matrimonio,13,168,181
-1,2023,AIRE,nascita,25,432,457
-1,2023,AIRE,unione civile ,0,1,1
-1,2023,Residenti,CONTESTUALE,2290,72116,74406
-1,2023,Residenti,Cittadinanza,137,2525,2662
+1,2023,AIRE,Stato famiglia AIRE,21,331,352
+1,2023,AIRE,Stato famiglia con rapporti parentela,0,2,2
+1,2023,AIRE,Stato famiglia e stato civile,0,3,3
+1,2023,AIRE,matrimonio,13,181,194
+1,2023,AIRE,nascita,25,446,471
+1,2023,AIRE,unione civile ,0,2,2
+1,2023,Residenti,CONTESTUALE,2291,76025,78316
+1,2023,Residenti,Cittadinanza,137,2667,2804
 1,2023,Residenti,Contratto Convivenza,0,22,22
-1,2023,Residenti,Esistenza in vita,104,2473,2577
-1,2023,Residenti,Residenza,2468,75128,77596
+1,2023,Residenti,Esistenza in vita,104,2586,2690
+1,2023,Residenti,Residenza,2468,79103,81571
 1,2023,Residenti,Residenza AIRE,0,9,9
-1,2023,Residenti,Residenza in convivenza,4,100,104
-1,2023,Residenti,Stato Libero,213,6240,6453
-1,2023,Residenti,Stato civile,441,14286,14727
-1,2023,Residenti,Stato famiglia,3223,96291,99514
+1,2023,Residenti,Residenza in convivenza,4,105,109
+1,2023,Residenti,Stato Libero,213,6523,6736
+1,2023,Residenti,Stato civile,441,14986,15427
+1,2023,Residenti,Stato famiglia,3223,101051,104274
 1,2023,Residenti,Stato famiglia AIRE,0,1,1
-1,2023,Residenti,Stato famiglia con rapporti parentela,463,15338,15801
-1,2023,Residenti,Stato famiglia e stato civile,454,12330,12784
-1,2023,Residenti,matrimonio,408,14000,14408
-1,2023,Residenti,nascita,715,17642,18357
+1,2023,Residenti,Stato famiglia con rapporti parentela,463,16036,16499
+1,2023,Residenti,Stato famiglia e stato civile,454,12962,13416
+1,2023,Residenti,matrimonio,408,14832,15240
+1,2023,Residenti,nascita,715,18571,19286
 1,2023,Residenti,storico Cittadinanza,0,1,1
 1,2023,Residenti,unione civile ,2,65,67
