@@ -336,7 +336,7 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 10,2022,AIRE,Residenza,14,26,40
 10,2022,AIRE,Residenza AIRE,331,354,685
 10,2022,AIRE,Stato Libero,4,2,6
-10,2022,AIRE,Stato civile,8,3,11
+10,2022,AIRE,Stato civile,9,3,12
 10,2022,AIRE,Stato famiglia,4,7,11
 10,2022,AIRE,Stato famiglia AIRE,191,196,387
 10,2022,AIRE,Stato famiglia con rapporti parentela,7,5,12
@@ -353,7 +353,7 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 10,2022,Residenti,Residenza AIRE,10,9,19
 10,2022,Residenti,Residenza in convivenza,50,50,100
 10,2022,Residenti,Stato Libero,5074,4547,9621
-10,2022,Residenti,Stato civile,9047,9890,18937
+10,2022,Residenti,Stato civile,9046,9890,18936
 10,2022,Residenti,Stato famiglia,35742,50390,86132
 10,2022,Residenti,Stato famiglia AIRE,4,2,6
 10,2022,Residenti,Stato famiglia con rapporti parentela,6601,8434,15035
@@ -394,7 +394,7 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 11,2022,Residenti,nascita,10375,11906,22281
 11,2022,Residenti,storico Cittadinanza,0,1,1
 11,2022,Residenti,unione civile ,62,37,99
-12,2022,AIRE,CONTESTUALE,415,297,712
+12,2022,AIRE,CONTESTUALE,416,297,713
 12,2022,AIRE,Cittadinanza,166,58,224
 12,2022,AIRE,Esistenza in vita,1,0,1
 12,2022,AIRE,Residenza,15,9,24
@@ -405,10 +405,10 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 12,2022,AIRE,Stato famiglia AIRE,240,181,421
 12,2022,AIRE,Stato famiglia con rapporti parentela,3,1,4
 12,2022,AIRE,Stato famiglia e stato civile,2,1,3
-12,2022,AIRE,matrimonio,106,107,213
-12,2022,AIRE,nascita,312,233,545
+12,2022,AIRE,matrimonio,107,107,214
+12,2022,AIRE,nascita,313,233,546
 12,2022,AIRE,unione civile ,1,0,1
-12,2022,Residenti,CONTESTUALE,34630,34592,69222
+12,2022,Residenti,CONTESTUALE,34629,34592,69221
 12,2022,Residenti,Cittadinanza,2677,1382,4059
 12,2022,Residenti,Contratto Convivenza,18,9,27
 12,2022,Residenti,Esistenza in vita,1954,1535,3489
@@ -421,8 +421,8 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 12,2022,Residenti,Stato famiglia AIRE,0,1,1
 12,2022,Residenti,Stato famiglia con rapporti parentela,6626,6766,13392
 12,2022,Residenti,Stato famiglia e stato civile,5826,5355,11181
-12,2022,Residenti,matrimonio,7296,8391,15687
-12,2022,Residenti,nascita,9748,9089,18837
+12,2022,Residenti,matrimonio,7295,8391,15686
+12,2022,Residenti,nascita,9747,9089,18836
 12,2022,Residenti,storico Cittadinanza,0,1,1
 12,2022,Residenti,storico Residenza,0,1,1
 12,2022,Residenti,unione civile ,41,35,76
