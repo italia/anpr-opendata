@@ -337,7 +337,7 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 10,2022,AIRE,Residenza AIRE,331,354,685
 10,2022,AIRE,Stato Libero,4,2,6
 10,2022,AIRE,Stato civile,9,3,12
-10,2022,AIRE,Stato famiglia,4,7,11
+10,2022,AIRE,Stato famiglia,5,7,12
 10,2022,AIRE,Stato famiglia AIRE,191,196,387
 10,2022,AIRE,Stato famiglia con rapporti parentela,7,5,12
 10,2022,AIRE,Stato famiglia e stato civile,5,1,6
@@ -354,7 +354,7 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 10,2022,Residenti,Residenza in convivenza,50,50,100
 10,2022,Residenti,Stato Libero,5074,4547,9621
 10,2022,Residenti,Stato civile,9046,9890,18936
-10,2022,Residenti,Stato famiglia,35742,50390,86132
+10,2022,Residenti,Stato famiglia,35741,50390,86131
 10,2022,Residenti,Stato famiglia AIRE,4,2,6
 10,2022,Residenti,Stato famiglia con rapporti parentela,6601,8434,15035
 10,2022,Residenti,Stato famiglia e stato civile,6132,7371,13503
