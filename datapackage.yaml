@@ -571,6 +571,10 @@ resources:
           type: string
           constraints:
             required: true
+        - name: CODISTAT
+          type: integer
+          constraints:
+            required: true
         - name: COMUNE
           type: string
           constraints:
