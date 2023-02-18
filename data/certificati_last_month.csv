@@ -1,28 +1,28 @@
 MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
-2,2023,AIRE,CONTESTUALE,0,410,410
-2,2023,AIRE,Cittadinanza,0,118,118
-2,2023,AIRE,Residenza,0,5,5
-2,2023,AIRE,Residenza AIRE,0,425,425
+2,2023,AIRE,CONTESTUALE,0,437,437
+2,2023,AIRE,Cittadinanza,0,128,128
+2,2023,AIRE,Residenza,0,6,6
+2,2023,AIRE,Residenza AIRE,0,462,462
 2,2023,AIRE,Stato civile,0,1,1
 2,2023,AIRE,Stato famiglia,0,1,1
-2,2023,AIRE,Stato famiglia AIRE,0,242,242
+2,2023,AIRE,Stato famiglia AIRE,0,253,253
 2,2023,AIRE,Stato famiglia con rapporti parentela,0,1,1
-2,2023,AIRE,matrimonio,0,132,132
-2,2023,AIRE,nascita,0,320,320
+2,2023,AIRE,matrimonio,0,146,146
+2,2023,AIRE,nascita,0,339,339
 2,2023,AIRE,unione civile ,0,4,4
-2,2023,Residenti,CONTESTUALE,0,50387,50387
-2,2023,Residenti,Cittadinanza,0,1818,1818
+2,2023,Residenti,CONTESTUALE,0,53643,53643
+2,2023,Residenti,Cittadinanza,0,1919,1919
 2,2023,Residenti,Contratto Convivenza,0,9,9
-2,2023,Residenti,Esistenza in vita,0,1415,1415
-2,2023,Residenti,Residenza,0,51183,51183
+2,2023,Residenti,Esistenza in vita,0,1497,1497
+2,2023,Residenti,Residenza,0,54397,54397
 2,2023,Residenti,Residenza AIRE,0,8,8
-2,2023,Residenti,Residenza in convivenza,0,58,58
-2,2023,Residenti,Stato Libero,0,4934,4934
-2,2023,Residenti,Stato civile,0,10505,10505
-2,2023,Residenti,Stato famiglia,0,52245,52245
-2,2023,Residenti,Stato famiglia con rapporti parentela,0,8598,8598
-2,2023,Residenti,Stato famiglia e stato civile,0,7691,7691
-2,2023,Residenti,matrimonio,0,10588,10588
-2,2023,Residenti,nascita,0,11552,11552
+2,2023,Residenti,Residenza in convivenza,0,61,61
+2,2023,Residenti,Stato Libero,0,5232,5232
+2,2023,Residenti,Stato civile,0,11110,11110
+2,2023,Residenti,Stato famiglia,0,55437,55437
+2,2023,Residenti,Stato famiglia con rapporti parentela,0,9157,9157
+2,2023,Residenti,Stato famiglia e stato civile,0,8178,8178
+2,2023,Residenti,matrimonio,0,11283,11283
+2,2023,Residenti,nascita,0,12238,12238
 2,2023,Residenti,storico Residenza,0,1,1
-2,2023,Residenti,unione civile ,0,48,48
+2,2023,Residenti,unione civile ,0,49,49
