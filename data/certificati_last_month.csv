@@ -1,29 +1,32 @@
 MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
-2,2023,AIRE,CONTESTUALE,0,576,576
-2,2023,AIRE,Cittadinanza,0,146,146
-2,2023,AIRE,Residenza,0,8,8
-2,2023,AIRE,Residenza AIRE,0,613,613
-2,2023,AIRE,Stato civile,0,3,3
-2,2023,AIRE,Stato famiglia,0,2,2
-2,2023,AIRE,Stato famiglia AIRE,0,323,323
-2,2023,AIRE,Stato famiglia con rapporti parentela,0,1,1
-2,2023,AIRE,matrimonio,0,178,178
-2,2023,AIRE,nascita,0,446,446
-2,2023,AIRE,unione civile ,0,4,4
-2,2023,Residenti,CONTESTUALE,0,71660,71660
-2,2023,Residenti,Cittadinanza,0,2503,2503
-2,2023,Residenti,Contratto Convivenza,0,15,15
-2,2023,Residenti,Esistenza in vita,0,1931,1931
-2,2023,Residenti,Residenza,0,73033,73033
+2,2023,AIRE,CONTESTUALE,0,619,619
+2,2023,AIRE,Cittadinanza,0,156,156
+2,2023,AIRE,Esistenza in vita,0,1,1
+2,2023,AIRE,Residenza,0,11,11
+2,2023,AIRE,Residenza AIRE,0,641,641
+2,2023,AIRE,Stato Libero,0,1,1
+2,2023,AIRE,Stato civile,0,5,5
+2,2023,AIRE,Stato famiglia,0,4,4
+2,2023,AIRE,Stato famiglia AIRE,0,344,344
+2,2023,AIRE,Stato famiglia con rapporti parentela,0,2,2
+2,2023,AIRE,Stato famiglia e stato civile,0,1,1
+2,2023,AIRE,matrimonio,0,186,186
+2,2023,AIRE,nascita,0,465,465
+2,2023,AIRE,unione civile ,0,5,5
+2,2023,Residenti,CONTESTUALE,0,74931,74931
+2,2023,Residenti,Cittadinanza,0,2616,2616
+2,2023,Residenti,Contratto Convivenza,0,16,16
+2,2023,Residenti,Esistenza in vita,0,2003,2003
+2,2023,Residenti,Residenza,0,76297,76297
 2,2023,Residenti,Residenza AIRE,0,11,11
-2,2023,Residenti,Residenza in convivenza,0,95,95
-2,2023,Residenti,Stato Libero,0,6993,6993
-2,2023,Residenti,Stato civile,0,14862,14862
-2,2023,Residenti,Stato famiglia,0,73944,73944
+2,2023,Residenti,Residenza in convivenza,0,97,97
+2,2023,Residenti,Stato Libero,0,7287,7287
+2,2023,Residenti,Stato civile,0,15545,15545
+2,2023,Residenti,Stato famiglia,0,77257,77257
 2,2023,Residenti,Stato famiglia AIRE,0,4,4
-2,2023,Residenti,Stato famiglia con rapporti parentela,0,12280,12280
-2,2023,Residenti,Stato famiglia e stato civile,0,10920,10920
-2,2023,Residenti,matrimonio,0,15152,15152
-2,2023,Residenti,nascita,0,16471,16471
+2,2023,Residenti,Stato famiglia con rapporti parentela,0,12788,12788
+2,2023,Residenti,Stato famiglia e stato civile,0,11392,11392
+2,2023,Residenti,matrimonio,0,15824,15824
+2,2023,Residenti,nascita,0,17190,17190
 2,2023,Residenti,storico Residenza,0,1,1
-2,2023,Residenti,unione civile ,0,60,60
+2,2023,Residenti,unione civile ,0,61,61
