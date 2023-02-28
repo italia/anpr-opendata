@@ -289,12 +289,12 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 8,2022,Residenti,Contratto Convivenza,13,11,24
 8,2022,Residenti,Esistenza in vita,798,962,1760
 8,2022,Residenti,Iscrizione nelle Liste Elettorali,0,1,1
-8,2022,Residenti,Residenza,27559,33851,61410
+8,2022,Residenti,Residenza,27559,33853,61412
 8,2022,Residenti,Residenza AIRE,2,4,6
 8,2022,Residenti,Residenza in convivenza,25,40,65
 8,2022,Residenti,Stato Libero,2324,1880,4204
 8,2022,Residenti,Stato civile,4633,5113,9746
-8,2022,Residenti,Stato famiglia,21718,29586,51304
+8,2022,Residenti,Stato famiglia,21718,29588,51306
 8,2022,Residenti,Stato famiglia AIRE,2,1,3
 8,2022,Residenti,Stato famiglia con rapporti parentela,4244,5397,9641
 8,2022,Residenti,Stato famiglia e stato civile,3425,4089,7514
@@ -361,7 +361,7 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 10,2022,Residenti,matrimonio,9490,11652,21142
 10,2022,Residenti,nascita,10289,12900,23189
 10,2022,Residenti,unione civile ,54,48,102
-11,2022,AIRE,CONTESTUALE,371,324,695
+11,2022,AIRE,CONTESTUALE,371,325,696
 11,2022,AIRE,Cittadinanza,144,66,210
 11,2022,AIRE,Esistenza in vita,2,1,3
 11,2022,AIRE,Residenza,6,8,14
@@ -375,7 +375,7 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 11,2022,AIRE,matrimonio,115,121,236
 11,2022,AIRE,nascita,341,261,602
 11,2022,AIRE,unione civile ,0,1,1
-11,2022,Residenti,CONTESTUALE,40143,50145,90288
+11,2022,Residenti,CONTESTUALE,40143,50144,90287
 11,2022,Residenti,Cittadinanza,2257,1691,3948
 11,2022,Residenti,Contratto Convivenza,17,8,25
 11,2022,Residenti,Esistenza in vita,1409,1598,3007
@@ -395,7 +395,7 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 11,2022,Residenti,storico Cittadinanza,0,1,1
 11,2022,Residenti,unione civile ,62,37,99
 12,2022,AIRE,CONTESTUALE,422,301,723
-12,2022,AIRE,Cittadinanza,167,58,225
+12,2022,AIRE,Cittadinanza,167,59,226
 12,2022,AIRE,Esistenza in vita,1,1,2
 12,2022,AIRE,Residenza,17,11,28
 12,2022,AIRE,Residenza AIRE,417,343,760
@@ -405,11 +405,11 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 12,2022,AIRE,Stato famiglia AIRE,240,181,421
 12,2022,AIRE,Stato famiglia con rapporti parentela,4,1,5
 12,2022,AIRE,Stato famiglia e stato civile,2,1,3
-12,2022,AIRE,matrimonio,107,107,214
-12,2022,AIRE,nascita,314,234,548
+12,2022,AIRE,matrimonio,107,108,215
+12,2022,AIRE,nascita,314,235,549
 12,2022,AIRE,unione civile ,1,0,1
 12,2022,Residenti,CONTESTUALE,34623,34584,69207
-12,2022,Residenti,Cittadinanza,2676,1382,4058
+12,2022,Residenti,Cittadinanza,2676,1381,4057
 12,2022,Residenti,Contratto Convivenza,18,9,27
 12,2022,Residenti,Esistenza in vita,1954,1534,3488
 12,2022,Residenti,Residenza,35081,40024,75105
@@ -421,39 +421,39 @@ MESE,ANNO,TIPO SOGGETTO,TIPOLOGIA CERTIFICATO,BOLLO,IN CARTA LIBERA,TOTALE
 12,2022,Residenti,Stato famiglia AIRE,0,1,1
 12,2022,Residenti,Stato famiglia con rapporti parentela,6625,6766,13391
 12,2022,Residenti,Stato famiglia e stato civile,5826,5355,11181
-12,2022,Residenti,matrimonio,7295,8391,15686
-12,2022,Residenti,nascita,9746,9088,18834
+12,2022,Residenti,matrimonio,7295,8390,15685
+12,2022,Residenti,nascita,9746,9087,18833
 12,2022,Residenti,storico Cittadinanza,0,1,1
 12,2022,Residenti,storico Residenza,0,1,1
 12,2022,Residenti,unione civile ,41,35,76
 1,2023,AIRE,CONTESTUALE,37,803,840
-1,2023,AIRE,Cittadinanza,12,182,194
-1,2023,AIRE,Esistenza in vita,0,1,1
-1,2023,AIRE,Residenza,1,32,33
+1,2023,AIRE,Cittadinanza,12,183,195
+1,2023,AIRE,Esistenza in vita,0,2,2
+1,2023,AIRE,Residenza,1,34,35
 1,2023,AIRE,Residenza AIRE,33,827,860
 1,2023,AIRE,Stato Libero,0,7,7
-1,2023,AIRE,Stato civile,0,8,8
-1,2023,AIRE,Stato famiglia,0,8,8
+1,2023,AIRE,Stato civile,0,9,9
+1,2023,AIRE,Stato famiglia,0,11,11
 1,2023,AIRE,Stato famiglia AIRE,21,400,421
-1,2023,AIRE,Stato famiglia con rapporti parentela,0,3,3
-1,2023,AIRE,Stato famiglia e stato civile,0,4,4
-1,2023,AIRE,matrimonio,13,208,221
-1,2023,AIRE,nascita,26,534,560
+1,2023,AIRE,Stato famiglia con rapporti parentela,0,4,4
+1,2023,AIRE,Stato famiglia e stato civile,0,5,5
+1,2023,AIRE,matrimonio,13,210,223
+1,2023,AIRE,nascita,26,536,562
 1,2023,AIRE,unione civile ,0,2,2
 1,2023,Residenti,CONTESTUALE,2290,90020,92310
-1,2023,Residenti,Cittadinanza,137,3173,3310
+1,2023,Residenti,Cittadinanza,137,3172,3309
 1,2023,Residenti,Contratto Convivenza,0,26,26
-1,2023,Residenti,Esistenza in vita,104,2998,3102
-1,2023,Residenti,Residenza,2468,93734,96202
+1,2023,Residenti,Esistenza in vita,104,2997,3101
+1,2023,Residenti,Residenza,2468,93732,96200
 1,2023,Residenti,Residenza AIRE,0,21,21
 1,2023,Residenti,Residenza in convivenza,4,116,120
 1,2023,Residenti,Stato Libero,213,7720,7933
-1,2023,Residenti,Stato civile,441,17620,18061
-1,2023,Residenti,Stato famiglia,3223,117323,120546
+1,2023,Residenti,Stato civile,441,17619,18060
+1,2023,Residenti,Stato famiglia,3223,117320,120543
 1,2023,Residenti,Stato famiglia AIRE,0,2,2
-1,2023,Residenti,Stato famiglia con rapporti parentela,463,18698,19161
-1,2023,Residenti,Stato famiglia e stato civile,454,15305,15759
-1,2023,Residenti,matrimonio,408,17711,18119
-1,2023,Residenti,nascita,714,22019,22733
+1,2023,Residenti,Stato famiglia con rapporti parentela,463,18697,19160
+1,2023,Residenti,Stato famiglia e stato civile,454,15304,15758
+1,2023,Residenti,matrimonio,408,17709,18117
+1,2023,Residenti,nascita,714,22017,22731
 1,2023,Residenti,storico Cittadinanza,0,1,1
 1,2023,Residenti,unione civile ,2,76,78
