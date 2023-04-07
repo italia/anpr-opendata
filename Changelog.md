@@ -21,6 +21,14 @@ Il file di Changelog raccoglie tutte le modifiche ai file pubblicati.
 	* Eliminazione report attivita_export con rispettivo md (formato csv e json)
 	* Eliminazione report attivita_last_month con rispettivo md (formato csv e json)
 
+- *08/04/2023*
+ 	* Aggiunta del campo "DATA ELABORAZIONE" nel file attività_residenti_export (in entrambi i formati csv e json)
+	* Aggiunta del campo "DATA ELABORAZIONE" nel file attività_AIRE_export (in entrambi i formati csv e json)
+	* Eliminazione report attività_residenti_last_month con rispettivo md (formato csv e json)
+	* Eliminazione report attivita_AIRE_last_month con rispettivo md (formato csv e json)
+
+
+
 
 
 
