@@ -8,7 +8,7 @@
 **Reference file:** attivita_AIRE_export.csv<br>
 
 | Nome campo                  | Descrizione                       | Formato                       | Esempio             |
-|-----------------------------|-----------------------------------|-------------------------------|---------------------|2
+|-----------------------------|-----------------------------------|-------------------------------|---------------------|
 | **DATA ELABORAZIONE**       | Data di elaborazione              | GG-MM-AAAA                    | 12-10-2022          |
 | **STATO_ESTERO**      | stato estero di residenza dai quali vengono fruiti i servizi |   stringa | Spagna  |
 | **CODICE_ISO**      | codice iso dello stato estero di residenza dai quali vengono fruiti i servizi |   stringa | SPA  |
