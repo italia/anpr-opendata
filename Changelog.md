@@ -4,7 +4,7 @@ Il file di Changelog raccoglie tutte le modifiche ai file pubblicati.
 
 ## Roadmap
 ### 2023
-- Sostituzione dei file attivita_export e attivita_last_month con: attività_residenti_last_month, attività_residenti_export, attività_AIRE_last_month, attività_AIRE_export. La modifica comporta la separazione del dettaglio sul tipo soggetto (residenti e AIRE); i report dedicati ai residenti comprenderanno un'ulteriore aggregagazione per comune e provincia.  
+- Sostituzione dei file attivita_export e attivita_last_month con: attività_residenti_last_month, attività_residenti_export, attività_AIRE_last_month, attività_AIRE_export. La modifica comporta la separazione del dettaglio sul tipo soggetto (residenti e AIRE); i report dedicati ai residenti comprenderanno un'ulteriore aggregazione per comune e provincia.  
 
 ## Aggiornamenti 
 - *01/03/2023*
