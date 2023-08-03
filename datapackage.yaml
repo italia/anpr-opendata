@@ -5,13 +5,15 @@ licenses:
     title: "CC0-1.0"
     path: https://creativecommons.org/publicdomain/zero/1.0/
 resources:
-  - encoding: utf-8
-    format: csv
-    hashing: md5
-    name: accessi_export
+  - name: accessi_export
     title: Trend giornaliero della tipologia di accesso al portale
     path: data/accessi_export.csv
-    profile: tabular-data-resource
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    hashing: md5
     schema:
       fields:
         - name: DATA ELABORAZIONE
@@ -27,7 +29,7 @@ resources:
             required: true
             minimum: 0
         - name: CNS
-          title: Numero totale di accessi tramite cns (Carta Nazionale dei Servizi ). CNS è un documento personale che contiene informazioni di natura fiscale e sanitaria
+          title: Numero totale di accessi tramite CNS (Carta Nazionale dei Servizi ). CNS è un documento personale che contiene informazioni di natura fiscale e sanitaria
           type: integer
           constraints:
             required: true
@@ -41,13 +43,15 @@ resources:
       primaryKey:
         - DATA ELABORAZIONE
     scheme: file
-  - encoding: utf-8
-    format: csv
-    hashing: md5
-    name: accessi_famiglie_export
+  - name: accessi_famiglie_export
     title: Trend giornaliero degli accessi al portale da parte delle famiglie
     path: data/accessi_famiglie_export.csv
-    profile: tabular-data-resource
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    hashing: md5
     schema:
       fields:
         - name: DATA ELABORAZIONE
@@ -73,84 +77,40 @@ resources:
       primaryKey:
         - DATA ELABORAZIONE
     scheme: file
-  - encoding: utf-8
+  - name: attivita_aire_export
+    title: Distribuzione dell'utilizzo dei servizi relativa ai soli soggetti AIRE
+    path: data/attivita_aire_export.csv
+    type: table
+    scheme: file
     format: csv
+    mediatype: text/csv
+    encoding: utf-8
     hashing: md5
-    name: attivita_export
-    title: Trend mensile della distribuzione dell'utilizzo dei servizi
-    path: data/attivita_export.csv
-    profile: tabular-data-resource
     schema:
       fields:
-        - name: MESE
-          title: Mese di riferimento nel calendario
-          type: integer
-          constraints:
-            required: true
-            minimum: 1
-            maximum: 12
-        - name: ANNO
-          title: Anno di riferimento nel calendario
-          type: integer
-          constraints:
-            required: true
-            minimum: 2021
-        - name: REGIONE
-          title: Regione di residenza dai quali vengono fruiti i servizi
-          type: string
-          constraints:
-            required: true
-        - name: COD ISTAT REGIONE
-          title: Codice ISTAT della regione di residenza dai quali vengono fruiti i servizi
-          type: string
-          constraints:
-            required: true
-            enum:
-              - "01"
-              - "02"
-              - "03"
-              - "04"
-              - "05"
-              - "06"
-              - "07"
-              - "08"
-              - "09"
-              - "10"
-              - "11"
-              - "12"
-              - "13"
-              - "14"
-              - "15"
-              - "16"
-              - "17"
-              - "18"
-              - "19"
-              - "20"
-              - "21"
-        - name: STATO ESTERO
+        - name: DATA ELABORAZIONE
+          title: Data di elaborazione
+          type: date
+          format: "%d-%m-%Y"
+        - name: STATO_ESTERO
           title: Stato estero di residenza dai quali vengono fruiti i servizi
           type: string
-        - name: CODICE ISO STATO
+          constraints:
+            required: true
+        - name: CODICE_ISO
           title: Codice ISO dello stato estero di residenza dai quali vengono fruiti i servizi
           type: string
           constraints:
             minLength: 3
             maxLength: 3
-        - name: TIPO SOGGETTO
-          type: string
-          title: Tipologia della scheda del cittadino (Residente o AIRE)
-          constraints:
             required: true
-            enum:
-              - Residenti
-              - AIRE
         - name: RETTIFICHE
-          title: Numero di richieste di rettifica nel periodo di riferimento.Il servizio è finalizzato a richiedere la rettifica di uno o più dati registrati nella tua scheda anagrafica in caso di semplice errore di digitazione o di errata trascrizione
+          title: Numero di richieste di rettifica nel periodo di riferimento. Il servizio è finalizzato a richiedere la rettifica di uno o più dati registrati nella tua scheda anagrafica in caso di semplice errore di digitazione o di errata trascrizione
           type: integer
           constraints:
             required: true
             minimum: 0
-        - name: CAMBI DI RESIDENZA
+        - name: CAMBI_RESIDENZA
           title: Numero di dichiarazioni di cambi di residenza nel periodo di riferimento. Il servizio è disponibile soltanto per effettuare cambi di residenza tra comuni diversi, cambi di residenza all’interno dello stesso comune, rimpatri in Italia di cittadini AIRE.
           type: integer
           constraints:
@@ -181,40 +141,31 @@ resources:
             required: true
             minimum: 0
       primaryKey:
-        - MESE
-        - ANNO
-        - COD ISTAT REGIONE
-        - CODICE ISO STATO
-        - TIPO SOGGETTO
+        - DATA ELABORAZIONE
+        - STATO_ESTERO
+        - CODICE_ISO
     scheme: file
-  - encoding: utf-8
+  - name: attivita_residenti_export
+    title: Distribuzione dell'utilizzo dei servizi relativa ai soli soggetti residenti in Italia
+    path: data/attivita_residenti_export.csv
+    type: table
+    scheme: file
     format: csv
+    mediatype: text/csv
+    encoding: utf-8
     hashing: md5
-    name: attivita_last_month
-    title: Trend del mese corrente della distribuzione dell'utilizzo dei servizi
-    path: data/attivita_last_month.csv
-    profile: tabular-data-resource
     schema:
       fields:
-        - name: MESE
-          title: Mese corrente nel calendario non completo
-          type: integer
-          constraints:
-            required: true
-            minimum: 1
-            maximum: 12
-        - name: ANNO
-          title: Anno corrente nel calendario
-          type: integer
-          constraints:
-            required: true
-            minimum: 2021
+        - name: DATA ELABORAZIONE
+          title: Data di elaborazione
+          type: date
+          format: "%d-%m-%Y"
         - name: REGIONE
           title: Regione di residenza dai quali vengono fruiti i servizi
           type: string
           constraints:
             required: true
-        - name: COD ISTAT REGIONE
+        - name: COD_ISTAT_REGIONE
           title: Codice ISTAT della regione di residenza dai quali vengono fruiti i servizi
           type: string
           constraints:
@@ -241,30 +192,28 @@ resources:
               - "19"
               - "20"
               - "21"
-        - name: STATO ESTERO
-          title: Stato estero di residenza dai quali vengono fruiti i servizi
-          type: string
-        - name: CODICE ISO STATO
-          title: Codice ISO dello stato estero di residenza dai quali vengono fruiti i servizi
-          type: string
-          constraints:
-            minLength: 3
-            maxLength: 3
-        - name: TIPO SOGGETTO
-          title: Tipologia della scheda del cittadino (Residente o AIRE)
+        - name: PROVINCIA
+          title: Provincia di residenza dalla quale vengono fruiti i servizi
           type: string
           constraints:
             required: true
-            enum:
-              - Residenti
-              - AIRE
+        - name: COMUNE
+          title: Regione di residenza dai quali vengono fruiti i servizi
+          type: string
+          constraints:
+            required: true
+        - name: COD_ISTAT_COMUNE
+          title: Codice ISTAT del comune di residenza dai quali vengono fruiti i servizi
+          type: string
+          constraints:
+            required: true
         - name: RETTIFICHE
           title: Numero di richieste di rettifiche nel periodo di riferimento. Il servizio è finalizzato a richiedere la rettifica di uno o più dati registrati nella tua scheda anagrafica in caso di semplice errore di digitazione o di errata trascrizione
           type: integer
           constraints:
             required: true
             minimum: 0
-        - name: CAMBI DI RESIDENZA
+        - name: CAMBI_RESIDENZA
           title: Numero di dichiarazioni di cambi di residenza nel periodo di riferimento. Il servizio è disponibile soltanto per effettuare cambi di residenza tra comuni diversi, cambi di residenza all’interno dello stesso comune, rimpatri in Italia di cittadini AIRE.
           type: integer
           constraints:
@@ -295,19 +244,21 @@ resources:
             required: true
             minimum: 0
       primaryKey:
-        - MESE
-        - ANNO
-        - COD ISTAT REGIONE
-        - CODICE ISO STATO
-        - TIPO SOGGETTO
+        - DATA ELABORAZIONE
+        - REGIONE
+        - COD_ISTAT_REGIONE
+        - COMUNE
+        - COD_ISTAT_COMUNE
     scheme: file
-  - encoding: utf-8
-    format: csv
-    hashing: md5
-    name: cambi_residenza
+  - name: cambi_residenza
     title: Trend mensile delle dichiarazioni dei cambi di residenza effettuate sia da Portale ANPR sia da Comune
     path: data/cambi_residenza.csv
-    profile: tabular-data-resource
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    hashing: md5
     schema:
       fields:
         - name: MESE
@@ -398,13 +349,115 @@ resources:
         - PARTENZA
         - ARRIVO
     scheme: file
-  - encoding: utf-8
+  - name: cambi_residenza_per_stato_lavorazione
+    title: Trend mensile di cambi di residenza effettuati da portale ANPR per stato di lavorazione della pratica
+    path: data/cambi_residenza_per_stato_lavorazione.csv
+    type: table
+    scheme: file
     format: csv
-    hashing: md5
-    name: certificati_export
+    mediatype: text/csv
+    encoding: utf-8
+    schema:
+      fields:
+        - name: MESE
+          title: Mese di riferimento nel calendario
+          type: integer
+          constraints:
+            required: true
+            minimum: 1
+            maximum: 12
+        - name: ANNO
+          title: Anno di riferimento nel calendario
+          type: integer
+          constraints:
+            required: true
+            minimum: 2009
+        - name: TIPO SOGGETTO
+          title: Tipologia della scheda del cittadino (Residente o AIRE)
+          type: string
+          constraints:
+            required: true
+            enum:
+              - Residenti
+              - AIRE
+        - name: STATO DI LAVORAZIONE
+          type: string
+          constraints:
+            required: true
+            enum:
+              - ACCOLTA
+              - ANNULLATA
+              - IN LAVORAZIONE
+              - IRRICEVIBILE
+        - name: TOTALE
+          type: integer
+          constraints:
+            required: true
+            minimum: 0          
+      primaryKey:
+        - MESE
+        - ANNO
+        - TIPO SOGGETTO
+        - STATO DI LAVORAZIONE
+  - name: cambi_residenza_per_stato_lavorazione_last_month
+    title: Trend del mese corrente di cambi di residenza effettuati da portale ANPR per stato di lavorazione della pratica
+    path: data/cambi_residenza_per_stato_lavorazione_last_month.csv
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema:
+      fields:
+        - name: MESE
+          title: Mese di riferimento nel calendario
+          type: integer
+          constraints:
+            required: true
+            minimum: 1
+            maximum: 12
+        - name: ANNO
+          title: Anno di riferimento nel calendario
+          type: integer
+          constraints:
+            required: true
+            minimum: 2009
+        - name: TIPO SOGGETTO
+          title: Tipologia della scheda del cittadino (Residente o AIRE)
+          type: string
+          constraints:
+            required: true
+            enum:
+              - Residenti
+              - AIRE
+        - name: STATO DI LAVORAZIONE
+          type: string
+          constraints:
+            required: true
+            enum:
+              - ACCOLTA
+              - ANNULLATA
+              - IN LAVORAZIONE
+              - IRRICEVIBILE
+        - name: TOTALE
+          type: integer
+          constraints:
+            required: true
+            minimum: 0          
+      primaryKey:
+        - MESE
+        - ANNO
+        - TIPO SOGGETTO
+        - STATO DI LAVORAZIONE
+  - name: certificati_export
     title: Trend mensile dei certificati richiesti
     path: data/certificati_export.csv
-    profile: tabular-data-resource
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    hashing: md5
     schema:
       fields:
         - name: MESE
@@ -438,12 +491,12 @@ resources:
           constraints:
             required: true
             minimum: 0
-        - name: IN CARTA LIBERA
+        - name: ESENTI DA BOLLO
           title: Numero di certificati emessi in carta libera nel periodo di riferimento
           type: integer
           constraints:
             required: true
-            minimum: 0
+            minimum: 0      
         - name: TOTALE
           title: Numero totale di certificati emessi nel periodo di riferimento
           type: integer
@@ -456,13 +509,15 @@ resources:
         - TIPO SOGGETTO
         - TIPOLOGIA CERTIFICATO
     scheme: file
-  - encoding: utf-8
-    format: csv
-    hashing: md5
-    name: certificati_last_month
+  - name: certificati_last_month
     title: Trend del mese corrente dei certificati richiesti
     path: data/certificati_last_month.csv
-    profile: tabular-data-resource
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    hashing: md5
     schema:
       fields:
         - name: MESE
@@ -497,7 +552,7 @@ resources:
           constraints:
             required: true
             minimum: 0
-        - name: IN CARTA LIBERA
+        - name: ESENTI DA BOLLO
           title: Numero di certificati emessi in carta libera nel periodo di riferimento
           type: integer
           constraints:
@@ -515,6 +570,88 @@ resources:
         - TIPO SOGGETTO
         - TIPOLOGIA CERTIFICATO
     scheme: file
+  - name: dichiarazioni_cambi_residenza
+    title: Trend mensile delle dichiarazioni di cambi di residenza effettuati da portale ANPR
+    path: data/dichiarazioni_cambi_residenza.csv
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema:
+      fields:
+        - name: MESE
+          title: Mese corrente nel calendario non completo
+          type: integer
+          constraints:
+            required: true
+            minimum: 1
+            maximum: 12
+        - name: ANNO
+          title: Anno corrente nel calendario
+          type: integer
+          constraints:
+            required: true
+            minimum: 2009
+        - name: TIPO SOGGETTO
+          title: Tipologia della scheda del cittadino (Residente o AIRE)
+          type: string
+          constraints:
+            required: true
+            enum:
+              - Residenti
+              - AIRE
+        - name: TOTALE
+          title: Numero totale di certificati emessi nel periodo di riferimento
+          type: integer
+          constraints:
+            required: true
+            minimum: 0
+      primaryKey:
+        - MESE
+        - ANNO
+        - TIPO SOGGETTO
+  - name: dichiarazioni_cambi_residenza_last_month
+    title: Trend del mese corrente delle dichiarazioni di cambi di residenza effettuati da portale ANPR
+    path: data/dichiarazioni_cambi_residenza_last_month.csv
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema:
+      fields:
+        - name: MESE
+          title: Mese corrente nel calendario non completo
+          type: integer
+          constraints:
+            required: true
+            minimum: 1
+            maximum: 12
+        - name: ANNO
+          title: Anno corrente nel calendario
+          type: integer
+          constraints:
+            required: true
+            minimum: 2009
+        - name: TIPO SOGGETTO
+          title: Tipologia della scheda del cittadino (Residente o AIRE)
+          type: string
+          constraints:
+            required: true
+            enum:
+              - Residenti
+              - AIRE
+        - name: TOTALE
+          title: Numero totale di certificati emessi nel periodo di riferimento
+          type: integer
+          constraints:
+            required: true
+            minimum: 0
+      primaryKey:
+        - MESE
+        - ANNO
+        - TIPO SOGGETTO        
   - encoding: utf-8
     format: csv
     hashing: md5
