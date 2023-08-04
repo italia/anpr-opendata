@@ -652,13 +652,14 @@ resources:
         - MESE
         - ANNO
         - TIPO SOGGETTO        
-  - encoding: utf-8
-    format: csv
-    hashing: md5
-    name: popolazione_export
+  - name: popolazione_export
     title: Trend giornaliero della popolazione in ANPR
     path: data/popolazione_export.csv
-    profile: tabular-data-resource
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8    
     schema:
       fields:
         - name: DATA ELABORAZIONE
@@ -685,13 +686,14 @@ resources:
       primaryKey:
         - DATA ELABORAZIONE
     scheme: file
-  - encoding: utf-8
-    format: csv
-    hashing: md5
-    name: popolazione_residente_export
+  - name: popolazione_residente_export
     title: Trend giornaliero della popolazione residente per comune in ANPR
     path: data/popolazione_residente_export.csv
-    profile: tabular-data-resource
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8     
     schema:
       fields:
         - name: DATA ELABORAZIONE
@@ -708,7 +710,7 @@ resources:
           type: string
           constraints:
             required: true
-        - name: CODISTAT
+        - name: COD_ISTAT_COMUNE
           type: integer
           constraints:
             required: true
@@ -725,15 +727,17 @@ resources:
         - DATA ELABORAZIONE
         - REGIONE
         - PROVINCIA
+        - COD_ISTAT_COMUNE
         - COMUNE
     scheme: file
-  - encoding: utf-8
-    format: csv
-    hashing: md5
-    name: rettifiche_export
+  - name: rettifiche_export
     title: Trend mensile delle rettifiche richieste
     path: data/rettifiche_export.csv
-    profile: tabular-data-resource
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8     
     schema:
       fields:
         - name: MESE
@@ -780,12 +784,14 @@ resources:
         - TIPOLOGIA DI RETTIFICA
         - STATO DI LAVORAZIONE
     scheme: file
-  - encoding: utf-8
-    format: csv
-    hashing: md5
-    name: rettifiche_last_month
+  - name: rettifiche_last_month
+    title: Trend del mese corrente delle rettifiche richieste
     path: data/rettifiche_last_month.csv
-    profile: tabular-data-resource
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8     
     schema:
       fields:
         - name: MESE
@@ -832,13 +838,14 @@ resources:
         - TIPOLOGIA DI RETTIFICA
         - STATO DI LAVORAZIONE
     scheme: file
-  - encoding: utf-8
-    format: csv
-    hashing: md5
-    name: tipologia_cambi_residenza_export
+  - name: tipologia_cambi_residenza_export
     title: Trend mensile delle tipologie di cambi di residenza
     path: data/tipologia_cambi_residenza_export.csv
-    profile: tabular-data-resource
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8   
     schema:
       fields:
         - name: ANNO
@@ -878,13 +885,14 @@ resources:
         - TIPO SOGGETTO
         - TIPOLOGIA
     scheme: file
-  - encoding: utf-8
-    format: csv
-    hashing: md5
-    name: visure_autocertificazioni_export
+  - name: visure_autocertificazioni_export
     title: Trend mensile delle visure e delle autocertificazioni richieste
     path: data/visure_autocertificazioni_export.csv
-    profile: tabular-data-resource
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8       
     schema:
       fields:
         - name: MESE
@@ -927,13 +935,14 @@ resources:
             required: true
             minimum: 0
     scheme: file
-  - encoding: utf-8
-    format: csv
-    hashing: md5
-    name: visure_autocertificazioni_last_month
+  - name: visure_autocertificazioni_last_month
     title: Trend del mese corrente delle visure e delle autocertificazioni richieste
     path: data/visure_autocertificazioni_last_month.csv
-    profile: tabular-data-resource
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8          
     schema:
       fields:
         - name: MESE
