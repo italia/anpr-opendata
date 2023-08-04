@@ -475,7 +475,7 @@ resources:
         - REGIONE
         - COD_ISTAT_REGIONE
         - COMUNE
-        - COD_ISTAT_COMUNE      
+        - COD_ISTAT_COMUNE
   - name: attivita_residenti_2023_export
     title: Distribuzione dell'utilizzo dei servizi relativa ai soli soggetti residenti in Italia in riferimento all'anno 2023
     path: data/stats/attivita_residenti_2023_export.csv
@@ -590,7 +590,7 @@ resources:
         - REGIONE
         - COD_ISTAT_REGIONE
         - COMUNE
-        - COD_ISTAT_COMUNE              
+        - COD_ISTAT_COMUNE
   - name: cambi_residenza
     title: Trend mensile delle dichiarazioni dei cambi di residenza effettuate sia da Portale ANPR sia da Comune
     path: data/cambi_residenza.csv
@@ -734,7 +734,7 @@ resources:
           type: integer
           constraints:
             required: true
-            minimum: 0          
+            minimum: 0
       primaryKey:
         - MESE
         - ANNO
@@ -784,7 +784,7 @@ resources:
           type: integer
           constraints:
             required: true
-            minimum: 0          
+            minimum: 0
       primaryKey:
         - MESE
         - ANNO
@@ -837,7 +837,7 @@ resources:
           type: integer
           constraints:
             required: true
-            minimum: 0      
+            minimum: 0
         - name: TOTALE
           title: Numero totale di certificati emessi nel periodo di riferimento
           type: integer
@@ -992,7 +992,7 @@ resources:
       primaryKey:
         - MESE
         - ANNO
-        - TIPO SOGGETTO        
+        - TIPO SOGGETTO
   - name: popolazione_export
     title: Trend giornaliero della popolazione in ANPR
     path: data/popolazione_export.csv
@@ -1000,7 +1000,7 @@ resources:
     scheme: file
     format: csv
     mediatype: text/csv
-    encoding: utf-8    
+    encoding: utf-8
     schema:
       fields:
         - name: DATA ELABORAZIONE
@@ -1034,7 +1034,7 @@ resources:
     scheme: file
     format: csv
     mediatype: text/csv
-    encoding: utf-8     
+    encoding: utf-8
     schema:
       fields:
         - name: DATA ELABORAZIONE
@@ -1078,7 +1078,7 @@ resources:
     scheme: file
     format: csv
     mediatype: text/csv
-    encoding: utf-8     
+    encoding: utf-8
     schema:
       fields:
         - name: MESE
@@ -1132,7 +1132,7 @@ resources:
     scheme: file
     format: csv
     mediatype: text/csv
-    encoding: utf-8     
+    encoding: utf-8
     schema:
       fields:
         - name: MESE
@@ -1186,7 +1186,7 @@ resources:
     scheme: file
     format: csv
     mediatype: text/csv
-    encoding: utf-8   
+    encoding: utf-8
     schema:
       fields:
         - name: ANNO
@@ -1233,7 +1233,7 @@ resources:
     scheme: file
     format: csv
     mediatype: text/csv
-    encoding: utf-8       
+    encoding: utf-8
     schema:
       fields:
         - name: MESE
@@ -1283,7 +1283,7 @@ resources:
     scheme: file
     format: csv
     mediatype: text/csv
-    encoding: utf-8          
+    encoding: utf-8
     schema:
       fields:
         - name: MESE
