@@ -34,18 +34,24 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── accessi_export.json
 │   ├── accessi_famiglie_export.csv
 │   ├── accessi_famiglie_export.json
-│   ├── attivita_export.csv
-│   ├── attivita_export.json
-│   ├── attivita_last_month.csv
-│   ├── attivita_last_month.json
-│   ├── cambi_residenza_canale_export.csv
-│   ├── cambi_residenza_canale_export.json
+│   ├── attivita_aire_export.csv
+│   ├── attivita_aire_export.json
+│   ├── attivita_residenti_export.csv
+│   ├── attivita_residenti_export.json
 │   ├── cambi_residenza.csv
 │   ├── cambi_residenza.json
+│   ├── cambi_residenza_per_stato_lavorazione.csv
+│   ├── cambi_residenza_per_stato_lavorazione.json
+│   ├── cambi_residenza_per_stato_lavorazione_last_month.csv
+│   ├── cambi_residenza_per_stato_lavorazione_last_month.json
 │   ├── certificati_export.csv
 │   ├── certificati_export.json
 │   ├── certificati_last_month.csv
 │   ├── certificati_last_month.json
+│   ├── dichiarazioni_cambi_residenza.csv
+│   ├── dichiarazioni_cambi_residenza.json
+│   ├── dichiarazioni_cambi_residenza_last_month.csv
+│   ├── dichiarazioni_cambi_residenza_last_month.json
 │   ├── popolazione_export.csv
 │   ├── popolazione_export.json
 │   ├── popolazione_residente_export.csv
@@ -55,6 +61,13 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── rettifiche_export.json
 │   ├── rettifiche_last_month.csv
 │   ├── rettifiche_last_month.json
+│   ├── stats
+│   │   ├── attivita_residenti_2021_export.csv
+│   │   ├── attivita_residenti_2021_export.json
+│   │   ├── attivita_residenti_2022_export.csv
+│   │   ├── attivita_residenti_2022_export.json
+│   │   ├── attivita_residenti_2023_export.csv
+│   │   └── attivita_residenti_2023_export.json
 │   ├── tipologia_cambi_residenza_export.csv
 │   ├── tipologia_cambi_residenza_export.json
 │   ├── visure_autocertificazioni_export.csv
@@ -65,12 +78,18 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 ├── format
 │   ├── accessi_export.md
 │   ├── accessi_famiglie_export.md
-│   ├── attivita_export.md
-│   ├── attivita_last_month.md
-│   ├── cambi_residenza_canale_export.md
+│   ├── attivita_AIRE_export.md
+│   ├── attivita_residenti_2021_export.md
+│   ├── attivita_residenti_2022_export.md
+│   ├── attivita_residenti_2023_export.md
+│   ├── attivita_residenti_export.md
 │   ├── cambi_residenza.md
+│   ├── cambi_residenza_stato_lavorazione_last_month.md
+│   ├── cambi_residenza_stato_lavorazione.md
 │   ├── certificati_export.md
 │   ├── certificati_last_month.md
+│   ├── dichiarazioni_cambi_residenza_last_month.md
+│   ├── dichiarazioni_cambi_residenza.md
 │   ├── popolazione_export.md
 │   ├── popolazione_residente_export.md
 │   ├── rettifiche_export.md
