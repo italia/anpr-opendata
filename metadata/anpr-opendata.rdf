@@ -25,29 +25,29 @@
   <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
   <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:issued>
   <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/accessi"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/accessi-famiglie"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/attività-aire"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione-(mese-in-corso)"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/certificati"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/certificati-(mese-in-corso)"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza-(mese-in-corso)"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/popolazione"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/popolazione-residente"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche-(mese-in-corso)"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/tipologia-cambi-di-residenza"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni-(mese-in-corso)"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2021"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2022"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2023"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/accessi_export.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/accessi_famiglie_export.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_AIRE_export.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_export.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_stato_lavorazione.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_stato_lavorazione_last_month.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/certificati_export.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/certificati_last_month.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/dichiarazioni_cambi_residenza.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/dichiarazioni_cambi_residenza_last_month.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_export.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_residente_export.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_export.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_last_month.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_export.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_export.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_last_month.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2021_export.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2022_export.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2023_export.md"/>
   </dcatapit:Catalog>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/accessi">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/accessi_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -84,7 +84,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/accessi/csv2"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/accessi/json3"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/accessi-famiglie">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/accessi_famiglie_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -121,7 +121,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/accessi-famiglie/csv4"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/accessi-famiglie/json5"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-aire">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_AIRE_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -158,7 +158,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/attività-aire/csv6"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/attività-aire/json7"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -195,7 +195,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti/csv8"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti/json9"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -232,7 +232,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza/csv10"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza/json11"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_stato_lavorazione.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -269,7 +269,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione/csv12"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione/json13"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione-(mese-in-corso)">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_stato_lavorazione_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -306,7 +306,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione-(mese-in-corso)/csv14"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione-(mese-in-corso)/json15"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/certificati">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/certificati_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -343,7 +343,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/certificati/csv16"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/certificati/json17"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/certificati-(mese-in-corso)">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/certificati_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -380,7 +380,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/certificati-(mese-in-corso)/csv18"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/certificati-(mese-in-corso)/json19"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/dichiarazioni_cambi_residenza.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -417,7 +417,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza/csv20"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza/json21"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza-(mese-in-corso)">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/dichiarazioni_cambi_residenza_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -454,7 +454,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza-(mese-in-corso)/csv22"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza-(mese-in-corso)/json23"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/popolazione">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -491,7 +491,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/popolazione/csv24"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/popolazione/json25"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/popolazione-residente">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_residente_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -528,7 +528,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/popolazione-residente/csv26"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/popolazione-residente/json27"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -565,7 +565,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche/csv28"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche/json29"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche-(mese-in-corso)">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -602,7 +602,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche-(mese-in-corso)/csv30"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche-(mese-in-corso)/json31"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/tipologia-cambi-di-residenza">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -639,7 +639,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/tipologia-cambi-di-residenza/csv32"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/tipologia-cambi-di-residenza/json33"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -676,7 +676,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni/csv34"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni/json35"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni-(mese-in-corso)">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -713,7 +713,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni-(mese-in-corso)/csv36"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni-(mese-in-corso)/json37"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2021">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2021_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -750,7 +750,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2021/csv38"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2021/json39"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2022">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2022_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
@@ -787,7 +787,7 @@
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2022/csv40"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2022/json41"/>
   </dcatapit:Dataset>
-  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2023">
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2023_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
     <dct:license/>
