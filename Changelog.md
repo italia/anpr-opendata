@@ -36,6 +36,9 @@ Il file di Changelog raccoglie tutte le modifiche ai file pubblicati.
 
 - *21/07/2023*
  	* Reintroduzione del report attività_residenti_export (in entrambi i formati csv e json)
+    
+- *05/03/2024*
+  	* Aggiunta report subentro_liste_elettorali_export con rispettivo md (formato csv e json)
 
 	
 	
