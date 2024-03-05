@@ -40,6 +40,7 @@
   <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_residente_export.md"/>
   <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_export.md"/>
   <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_last_month.md"/>
+  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/subentro_liste_elettorali_export.md"/>
   <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_export.md"/>
   <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_export.md"/>
   <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_last_month.md"/>
@@ -601,6 +602,43 @@
     <dcat:keyword>anagrafe</dcat:keyword>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche-(mese-in-corso)/csv30"/>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche-(mese-in-corso)/json31"/>
+  </dcatapit:Dataset>
+  <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/subentro_liste_elettorali_export.md">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dct:license/>
+    <dct:title>Subentro liste elettorali</dct:title>
+    <dct:landingpage>https://github.com/italia/anpr-opendata/blob/main/format/subentro_liste_elettorali_export.md</dct:landingpage>
+    <dct:description>Stato di integrazione dei dati elettorali nell'ANPR per comune</dct:description>
+    <dct:identifier>mint:subentro-liste-elettorali</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="mint">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>mint</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>mint</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-05</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-05</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
+    <dcat:keyword>ANPR</dcat:keyword>
+    <dcat:keyword>popolazione</dcat:keyword>
+    <dcat:keyword>anagrafe</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/subentro-liste-elettorali/csv"/>
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/subentro-list-elettorali/json"/>
   </dcatapit:Dataset>
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
@@ -1242,6 +1280,34 @@
     <dct:format rdf:resource="JSON"/>
     <dct:description>File in formato JSON per l'interoperabilità</dct:description>
     <dct:title>Rettifiche (mese in corso) JSON</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/subentro-liste-elettorali/csv">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/subentro%5Fliste%5Felettorali%5Fexport.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Subentro liste elettorali CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/subentro-liste-elettorali/json">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/subentro%5Fliste%5Felettorali%5Fexport.json"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="JSON"/>
+    <dct:description>File in formato JSON per l'interoperabilità</dct:description>
+    <dct:title>Subentro liste elettorali JSON</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/tipologia-cambi-di-residenza/csv32">
