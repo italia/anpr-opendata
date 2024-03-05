@@ -68,6 +68,8 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   │   ├── attivita_residenti_2022_export.json
 │   │   ├── attivita_residenti_2023_export.csv
 │   │   └── attivita_residenti_2023_export.json
+│   ├── subentro_liste_elettorali_export.csv
+│   ├── subentro_liste_elettorali_export.json
 │   ├── tipologia_cambi_residenza_export.csv
 │   ├── tipologia_cambi_residenza_export.json
 │   ├── visure_autocertificazioni_export.csv
@@ -95,6 +97,7 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── rettifiche_export.md
 │   ├── rettifiche_last_month.md
 │   ├── tipologia_cambi_residenza_export.md
+│   ├── subentro_liste_elettorali_export.md
 │   ├── visure_autocertificazioni_export.md
 │   └── visure_autocertificazioni_last_month.md
 ├── img
