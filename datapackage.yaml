@@ -1125,6 +1125,45 @@ resources:
         - TIPOLOGIA DI RETTIFICA
         - STATO DI LAVORAZIONE
     scheme: file
+  - name: subentro_liste_elettorali_export
+    title: Stato di integrazione dei dati elettorali nell'ANPR per comune
+    path: data/subentro_liste_elettorali_export.csv
+    type: table
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema:
+      fields:
+        - name: COMUNE
+          type: string
+          constraints:
+            required: true
+        - name: COD_ISTAT_COMUNE
+          type: integer
+          constraints:
+            required: true
+        - name: PROVINCIA
+          type: string
+          constraints:
+            required: true
+        - name: DATA_SUBENTRO
+          title: Data di elaborazione
+          type: date
+          format: "%d-%m-%Y"
+          constraints:
+            required: false
+        - name: NUMERO ELETTORI
+          title: Numero di elettori comunicati dal comune
+          type: integer
+          constraints:
+            required: true
+            minimum: 0
+      primaryKey:
+        - COMUNE
+        - COD_ISTAT_COMUNE
+        - PROVINCIA
+      scheme: file
   - name: rettifiche_last_month
     title: Trend del mese corrente delle rettifiche richieste
     path: data/rettifiche_last_month.csv
