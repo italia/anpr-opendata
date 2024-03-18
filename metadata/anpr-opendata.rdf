@@ -638,7 +638,7 @@
     <dcat:keyword>popolazione</dcat:keyword>
     <dcat:keyword>anagrafe</dcat:keyword>
     <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/subentro-liste-elettorali/csv"/>
-    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/subentro-list-elettorali/json"/>
+    <dcat:distribution rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data#/subentro-liste-elettorali/json"/>
   </dcatapit:Dataset>
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
