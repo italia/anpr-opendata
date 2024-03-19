@@ -7,11 +7,11 @@
   <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
   <dct:title>ANPR - Open Data</dct:title>
   <dct:publisher>
-    <dcatapit:Agent rdf:about="mint">
+    <dcatapit:Agent rdf:about="m_it">
       <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
       <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-      <dct:identifier>mint</dct:identifier>
-      <foaf:name>ANPR - Open Data</foaf:name>
+      <dct:identifier>m_it</dct:identifier>
+      <foaf:name>Ministero dell'Interno</foaf:name>
     </dcatapit:Agent>
   </dct:publisher>
   <dct:description>uesta repository contiene i dati pubblici estratti dalla pagina Numeri del portale ANPR.</dct:description>
@@ -24,7 +24,7 @@
   </dcat:themeTaxonomy>
   <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
   <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:issued>
-  <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
   <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/accessi_export.md"/>
   <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/accessi_famiglie_export.md"/>
   <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_AIRE_export.md"/>
@@ -51,7 +51,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/accessi_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Accessi</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/accessi</dct:landingpage>
     <dct:description>Trend giornaliero della tipologia di accesso al portale ANPR</dct:description>
@@ -59,23 +59,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -88,7 +88,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/accessi_famiglie_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Accessi famiglie</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/accessi-famiglie</dct:landingpage>
     <dct:description>Trend giornaliero degli accessi al portale ANPR da parte delle famiglie</dct:description>
@@ -96,23 +96,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -125,7 +125,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_AIRE_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Attività AIRE</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/attività-aire</dct:landingpage>
     <dct:description>Distribuzione dell'utilizzo dei servizi ANPR relativa ai soli soggetti AIRE</dct:description>
@@ -133,23 +133,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -162,7 +162,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Attività residenti</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti</dct:landingpage>
     <dct:description>Distribuzione dell'utilizzo dei servizi ANPR relativa ai soli soggetti residenti in Italia</dct:description>
@@ -170,23 +170,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -199,7 +199,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Cambi residenza</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza</dct:landingpage>
     <dct:description>Trend mensile delle dichiarazioni dei cambi di residenza effettuate sia da Portale ANPR sia da Comune</dct:description>
@@ -207,23 +207,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -236,7 +236,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_stato_lavorazione.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Cambi residenza per stato lavorazione</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione</dct:landingpage>
     <dct:description>Trend mensile di cambi di residenza effettuati da portale ANPR per stato di lavorazione della pratica</dct:description>
@@ -244,23 +244,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -273,7 +273,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_stato_lavorazione_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Cambi residenza per stato lavorazione (mese in corso)</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione-(mese-in-corso)</dct:landingpage>
     <dct:description>Trend del mese corrente di cambi di residenza effettuati da portale ANPR per stato di lavorazione della pratica</dct:description>
@@ -281,23 +281,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -310,7 +310,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/certificati_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Certificati</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/certificati</dct:landingpage>
     <dct:description>Trend mensile dei certificati richiesti</dct:description>
@@ -318,23 +318,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -347,7 +347,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/certificati_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Certificati (mese in corso)</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/certificati-(mese-in-corso)</dct:landingpage>
     <dct:description>Trend del mese corrente dei certificati richiesti</dct:description>
@@ -355,23 +355,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -384,7 +384,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/dichiarazioni_cambi_residenza.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Dichiarazioni cambi di residenza</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza</dct:landingpage>
     <dct:description>Trend mensile delle dichiarazioni di cambi di residenza effettuati da portale ANPR</dct:description>
@@ -392,23 +392,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -421,7 +421,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/dichiarazioni_cambi_residenza_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Dichiarazioni cambi di residenza (mese in corso)</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza-(mese-in-corso)</dct:landingpage>
     <dct:description>Trend del mese corrente delle dichiarazioni di cambi di residenza effettuati da portale ANPR</dct:description>
@@ -429,23 +429,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -458,7 +458,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Popolazione</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/popolazione</dct:landingpage>
     <dct:description>Trend giornaliero della popolazione in ANPR</dct:description>
@@ -466,23 +466,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -495,7 +495,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_residente_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Popolazione residente</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/popolazione-residente</dct:landingpage>
     <dct:description>Trend giornaliero della popolazione residente per comune in ANPR</dct:description>
@@ -503,23 +503,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -532,7 +532,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Rettifiche</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche</dct:landingpage>
     <dct:description>Trend mensile delle rettifiche richieste</dct:description>
@@ -540,23 +540,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -569,7 +569,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Rettifiche (mese in corso)</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche-(mese-in-corso)</dct:landingpage>
     <dct:description>Trend del mese corrente delle rettifiche richieste</dct:description>
@@ -577,23 +577,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -606,7 +606,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/subentro_liste_elettorali_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Subentro liste elettorali</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/blob/main/format/subentro_liste_elettorali_export.md</dct:landingpage>
     <dct:description>Stato di integrazione dei dati elettorali nell'ANPR per comune</dct:description>
@@ -614,23 +614,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-05</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-05</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -643,7 +643,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Tipologia cambi di residenza</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/tipologia-cambi-di-residenza</dct:landingpage>
     <dct:description>Trend mensile delle tipologie di cambi di residenza</dct:description>
@@ -651,23 +651,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -680,7 +680,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Visure e autocertificazioni</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni</dct:landingpage>
     <dct:description>Trend mensile delle visure e delle autocertificazioni richieste</dct:description>
@@ -688,23 +688,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -717,7 +717,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Visure e autocertificazioni (mese in corso)</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni-(mese-in-corso)</dct:landingpage>
     <dct:description>Trend del mese corrente delle visure e delle autocertificazioni richieste</dct:description>
@@ -725,23 +725,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -754,7 +754,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2021_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Attività residenti 2021</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2021</dct:landingpage>
     <dct:description>Distribuzione dell'utilizzo dei servizi relativa ai soli soggetti residenti in Italia in riferimento all'anno 2021</dct:description>
@@ -762,23 +762,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -791,7 +791,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2022_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Attività residenti 2022</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2022</dct:landingpage>
     <dct:description>Distribuzione dell'utilizzo dei servizi relativa ai soli soggetti residenti in Italia in riferimento all'anno 2022</dct:description>
@@ -799,23 +799,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -828,7 +828,7 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2023_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:license/>
+
     <dct:title>Attività residenti 2023</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2023</dct:landingpage>
     <dct:description>Distribuzione dell'utilizzo dei servizi relativa ai soli soggetti residenti in Italia in riferimento all'anno 2023</dct:description>
@@ -836,23 +836,23 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="mint">
+      <dcatapit:Agent rdf:about="m_it">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>ANPR - Open Data</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>mint</dct:identifier>
-        <foaf:name>Ministero dell'Interno</foaf:name>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>ANPR - Open Data</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -865,7 +865,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/accessi/csv2">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/accessi%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -879,7 +879,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/accessi/json3">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/accessi%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -893,7 +893,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/accessi-famiglie/csv4">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/accessi%5Ffamiglie%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -907,7 +907,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/accessi-famiglie/json5">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/accessi%5Ffamiglie%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -921,7 +921,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-aire/csv6">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/attivita%5Faire%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -935,7 +935,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-aire/json7">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/attivita%5Faire%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -949,7 +949,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti/csv8">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/attivita%5Fresidenti%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -963,7 +963,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti/json9">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/attivita%5Fresidenti%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -977,7 +977,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza/csv10">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi%5Fresidenza.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -991,7 +991,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza/json11">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi%5Fresidenza.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1005,7 +1005,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione/csv12">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi%5Fresidenza%5Fper%5Fstato%5Flavorazione.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1019,7 +1019,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione/json13">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi%5Fresidenza%5Fper%5Fstato%5Flavorazione.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1033,7 +1033,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione-(mese-in-corso)/csv14">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi%5Fresidenza%5Fper%5Fstato%5Flavorazione%5Flast%5Fmonth.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1047,7 +1047,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione-(mese-in-corso)/json15">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/cambi%5Fresidenza%5Fper%5Fstato%5Flavorazione%5Flast%5Fmonth.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1061,7 +1061,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/certificati/csv16">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/certificati%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1075,7 +1075,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/certificati/json17">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/certificati%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1089,7 +1089,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/certificati-(mese-in-corso)/csv18">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/certificati%5Flast%5Fmonth.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1103,7 +1103,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/certificati-(mese-in-corso)/json19">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/certificati%5Flast%5Fmonth.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1117,7 +1117,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza/csv20">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/dichiarazioni%5Fcambi%5Fresidenza.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1131,7 +1131,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza/json21">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/dichiarazioni%5Fcambi%5Fresidenza.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1145,7 +1145,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza-(mese-in-corso)/csv22">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/dichiarazioni%5Fcambi%5Fresidenza%5Flast%5Fmonth.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1159,7 +1159,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza-(mese-in-corso)/json23">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/dichiarazioni%5Fcambi%5Fresidenza%5Flast%5Fmonth.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1173,7 +1173,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/popolazione/csv24">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/popolazione%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1187,7 +1187,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/popolazione/json25">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/popolazione%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1201,7 +1201,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/popolazione-residente/csv26">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/popolazione%5Fresidente%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1215,7 +1215,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/popolazione-residente/json27">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/popolazione%5Fresidente%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1229,7 +1229,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche/csv28">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/rettifiche%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1243,7 +1243,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche/json29">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/rettifiche%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1257,7 +1257,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche-(mese-in-corso)/csv30">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/rettifiche%5Flast%5Fmonth.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1271,7 +1271,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche-(mese-in-corso)/json31">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/rettifiche%5Flast%5Fmonth.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11:CCO10">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1285,7 +1285,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/subentro-liste-elettorali/csv">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/subentro%5Fliste%5Felettorali%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1299,7 +1299,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/subentro-liste-elettorali/json">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/subentro%5Fliste%5Felettorali%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1313,7 +1313,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/tipologia-cambi-di-residenza/csv32">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/tipologia%5Fcambi%5Fresidenza%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1327,7 +1327,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/tipologia-cambi-di-residenza/json33">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/tipologia%5Fcambi%5Fresidenza%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1341,7 +1341,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni/csv34">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/visure%5Fautocertificazioni%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1355,7 +1355,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni/json35">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/visure%5Fautocertificazioni%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1369,7 +1369,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni-(mese-in-corso)/csv36">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/visure%5Fautocertificazioni%5Flast%5Fmonth.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1383,7 +1383,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni-(mese-in-corso)/json37">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/anpr-opendata/main/data/visure%5Fautocertificazioni%5Flast%5Fmonth.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1397,7 +1397,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2021/csv38">
     <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/stats/attivita%5Fresidenti%5F2021%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1411,7 +1411,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2021/json39">
     <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/stats/attivita%5Fresidenti%5F2021%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1425,7 +1425,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2022/csv40">
     <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/stats/attivita%5Fresidenti%5F2022%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1439,7 +1439,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2022/json41">
     <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/stats/attivita%5Fresidenti%5F2022%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1453,7 +1453,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2023/csv42">
     <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/stats/attivita%5Fresidenti%5F2023%5Fexport.csv"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
@@ -1467,7 +1467,7 @@
   <dcatapit:Distribution rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2023/json43">
     <dcat:accessURL rdf:resource="https://github.com/italia/anpr-opendata/blob/main/data/stats/attivita%5Fresidenti%5F2023%5Fexport.json"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
