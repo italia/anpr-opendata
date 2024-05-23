@@ -1,7 +1,7 @@
 # Formato dati del trend mensile delle dichirazioni di cambi di residenza effettuati da portale ANPR
 
 ## Data aggiornamento
-- Ogni giorno alle 2 (UTC). 
+- Ogni giorno alle 7:15 (ora locale). 
 
 ## Formato dati
 
