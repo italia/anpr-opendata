@@ -1,7 +1,7 @@
 # Formato dati della distribuzione dell'utilizzo dei servizi relativa ai soli soggetti residenti in Italia in riferimento all'anno 2022
 
 ## Data aggiornamento
-- Ogni giorno alle 2 (UTC). 
+- Ogni giorno alle 7:15 (ora locale). 
 
 ## Formato dati
 
