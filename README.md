@@ -13,7 +13,7 @@ Questa repository contiene i dati pubblici estratti dalla pagina [Numeri](https:
 I dati dei servizi anagrafici al cittadino sono rappresentati con cadenza mensile, da quando il servizio anagrafico è reso disponibile al cittadino sul portale ANPR.
 Il dato popolazione e il dato di accesso al portale sono rappresentati giornalmente.
 
-Tutti i dati contenuti nel repository sono aggiornati ogni giorno alle 6:00 (UTC).
+Tutti i dati contenuti nel repository sono aggiornati ogni giorno alle 7:15 (ora locale).
 
 # Contenuto
 
