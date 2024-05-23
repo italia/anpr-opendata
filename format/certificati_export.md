@@ -20,4 +20,4 @@
 Questi dati sono disponibili anche in formato json.
 
 ### Note
-No
+Sono inclusi anche i certificati emessi dal servizio per gli avvocati.
