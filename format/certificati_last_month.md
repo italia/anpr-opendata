@@ -1,8 +1,8 @@
 # Formato dati del trend del mese corrente dei certificati richiesti
 
 ## Data aggiornamento
-- Ogni giorno alle 2 (UTC). 
-
+- Ogni giorno alle 7:15 (ora locale).
+  
 ## Formato dati
 
 **Reference file:** certificati_last_month.csv<br>
