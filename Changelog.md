@@ -42,7 +42,11 @@ Il file di Changelog raccoglie tutte le modifiche ai file pubblicati.
     
 - *05/03/2024*
   	* Aggiunta report subentro_liste_elettorali_export con rispettivo md (formato csv e json)
-
+  	  
+- *28/05/2024*
+  	* Aggiunta report recapiti_export con rispettivo md (formato csv e json)
+  	* Aggiunta report percentuale_tipologie_recapiti_export con rispettivo md (formato csv e json)
+  	* Inclusione dei trasferimenti in Italia dei cittadini UE nei report relativi al cambio residenza.
 	
 	
 
