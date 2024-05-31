@@ -29,7 +29,7 @@ Il file di Changelog raccoglie tutte le modifiche ai file pubblicati.
 
 	
 - *12/07/2023*
- 	* Aggiunta della cartella "stats" contenente 3 nuovi file (in entrambi i formati csv e json): attivita_residenti_2021_export,attivita_residenti_2022_export, attivita_residenti_2023_export
+ 	* Aggiunta della cartella "stats" contenente 3 nuovi file (in entrambi i formati csv e json): attivita_residenti_2021_export, attivita_residenti_2022_export, attivita_residenti_2023_export
 	* Aggiunta dei file md per i file sopracitati
 	* Modifica del file accessi_famiglie_export con l'aggiunta dei dati storici (in entrambi i formati csv e json)
 	* Eliminazione del report attività_residenti_export (in entrambi i formati csv e json)
@@ -47,6 +47,9 @@ Il file di Changelog raccoglie tutte le modifiche ai file pubblicati.
   	* Aggiunta report recapiti_export con rispettivo md (formato csv e json)
   	* Aggiunta report percentuale_tipologie_recapiti_export con rispettivo md (formato csv e json)
   	* Inclusione dei trasferimenti in Italia dei cittadini UE nei report relativi al cambio residenza.
+
+- *31/05/2024*
+  	* Inclusione degli accessi eIDAS nel report accessi_export.
 	
 	
 
