@@ -34,6 +34,8 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── accessi_export.json
 │   ├── accessi_famiglie_export.csv
 │   ├── accessi_famiglie_export.json
+│   ├── adesioni_ansc_export.csv
+│   ├── adesioni_ansc_export.json
 │   ├── attivita_aire_export.csv
 │   ├── attivita_aire_export.json
 │   ├── attivita_residenti_export.csv
@@ -80,6 +82,7 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 ├── format
 │   ├── accessi_export.md
 │   ├── accessi_famiglie_export.md
+│   ├── adesioni_ansc_export.md
 │   ├── attivita_AIRE_export.md
 │   ├── attivita_residenti_2021_export.md
 │   ├── attivita_residenti_2022_export.md
