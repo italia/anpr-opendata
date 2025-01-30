@@ -52,7 +52,11 @@ Il file di Changelog raccoglie tutte le modifiche ai file pubblicati.
   	* Inclusione degli accessi eIDAS nel report accessi_export.
 	
 - *17/12/2024*
-  	* Aggiunta report adesioni_ansc_export con rispettivo md (formato csv e json)	
+  	* Aggiunta report adesioni_ansc_export con rispettivo md (formato csv e json)
+
+- *29/01/2025*
+  	* Aggiunta del campo "DATA_ADESIONE_PREVISTA" nel file adesione_ansc_export (in entrambi i formati csv e json)
+
 
 
 
