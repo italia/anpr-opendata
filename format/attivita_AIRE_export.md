@@ -9,7 +9,7 @@
 
 | Nome campo                  | Descrizione                       | Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
-| **DATA ELABORAZIONE**       | Data di elaborazione              | GG-MM-AAAA                    | 12-10-2022          |
+| **DATA_ELABORAZIONE**       | Data di elaborazione              | GG-MM-AAAA                    | 12-10-2022          |
 | **STATO_ESTERO**      | stato estero di residenza dai quali vengono fruiti i servizi |   stringa | Spagna  |
 | **CODICE_ISO**      | codice iso dello stato estero di residenza dai quali vengono fruiti i servizi |   stringa | SPA  |
 | **RETTIFICHE**      | numero di richieste di rettifiche da inizio servizio.Il servizio è finalizzato a richiedere la rettifica di uno o più dati registrati nella tua scheda anagrafica in caso di semplice errore di digitazione o di errata trascrizione| numero             | 1000   |

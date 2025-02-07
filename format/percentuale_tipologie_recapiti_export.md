@@ -9,10 +9,10 @@
 
 | Nome campo                  | Descrizione                       | Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
-| **DATA ELABORAZIONE**       | data di elaborazione             | GG-MM-AAAA                   | 12-10-2022       |
+| **DATA_ELABORAZIONE**       | data di elaborazione             | GG-MM-AAAA                   | 12-10-2022       |
 | **EMAIL**        | percentuale di e-mail inserite nell’area autenticata rispetto al totale dei recapiti. | numero           | 500       |
 | **TELEFONO**        | percentuale di cellulari e telefoni fissi inseriti nell’area autenticata rispetto al totale dei recapiti.  | numero       | 200       |
-| **DOMICILIO DIGITALE**       | percentuale di domicili digitali comunicati da INAD rispetto al totale dei recapiti.  | numero       | 100       |
+| **DOMICILIO_DIGITALE**       | percentuale di domicili digitali comunicati da INAD rispetto al totale dei recapiti.  | numero       | 100       |
 
 				   
 

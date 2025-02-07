@@ -13,7 +13,7 @@
 | **COD_ISTAT_COMUNE**  | codice istat del comune di residenza| stringa             | 015010             |
 | **PROVINCIA**      | provincia di residenza|   stringa | Roma               |
 | **DATA_SUBENTRO**      | data del subentro del comune con le liste elettorali nell'ANPR| GG-MM-AAAA             | 27-10-2023             |
-| **NUMERO ELETTORI**      | numero di elettori comunicati dal comune| numero             | 3000             |
+| **NUMERO_ELETTORI**      | numero di elettori comunicati dal comune| numero             | 3000             |
 
 Questi dati sono disponibili anche in formato json.
 

@@ -9,9 +9,9 @@
 
 | Nome campo                  | Descrizione                       | Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
-| **DATA ELABORAZIONE**       | data di elaborazione             | GG-MM-AAAA                   | 12-10-2022       |
-| **ACCESSI FAMIGLIA**       | numero di famiglie distinte che hanno acceduto al portale            |numero                 | 100      |
-| **FAMIGLIE IN ANPR**        | numero totale di famiglie presenti in ANPR | numero           | 500       |
+| **DATA_ELABORAZIONE**       | data di elaborazione             | GG-MM-AAAA                   | 12-10-2022       |
+| **ACCESSI_FAMIGLIA**       | numero di famiglie distinte che hanno acceduto al portale            |numero                 | 100      |
+| **FAMIGLIE_IN_ANPR**        | numero totale di famiglie presenti in ANPR | numero           | 500       |
 | **PERCENTUALE**        | percentuale di famiglie distinte che hanno effettuato l'accesso al portale rispetto al numero totale di famiglie in ANPR  | numero       | 20       |
 
 				   

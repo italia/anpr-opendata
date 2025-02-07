@@ -56,6 +56,35 @@ Il file di Changelog raccoglie tutte le modifiche ai file pubblicati.
 
 - *29/01/2025*
   	* Aggiunta del campo "DATA_ADESIONE_PREVISTA" nel file adesione_ansc_export (in entrambi i formati csv e json)
+  	
+- *07/02/2025*
+  	* Aggiunta report accessi_avvocati_export con rispettivo md (formato csv e json)
+	* Aggiunta report accessi_iscrizioni_liste_elettorali_export con rispettivo md (formato csv e json)
+	* Aggiunta report accessi_persone_export con rispettivo md (formato csv e json)
+	* Aggiunta report accessi_servizi_eidas_export con rispettivo md (formato csv e json)
+	* Aggiunta report accessi_servizi_eidas_per_servizio_export con rispettivo md (formato csv e json)
+	* Aggiunta report certificati_avvocati_export con rispettivo md (formato csv e json)
+	* Aggiunta report certificati_avvocati_media_export con rispettivo md (formato csv e json)
+	* Aggiunta report certificati_avvocati_top_export con rispettivo md (formato csv e json)
+	* Aggiunta report certificati_cittadini_ue_export con rispettivo md (formato csv e json)
+	* Aggiunta report certificati_eidas_export con rispettivo md (formato csv e json)
+	* Aggiunta report certificati_poste_export con rispettivo md (formato csv e json)
+	* Aggiunta report certificati_poste_per_canale_export con rispettivo md (formato csv e json)
+	* Aggiunta report certificati_poste_rank_per_canale_export con rispettivo md (formato csv e json)
+	* Aggiunta report dichiarazioni_di_trasferimento_in_Italia_distribuzione_geografica_export con rispettivo md (formato csv e json)
+	* Aggiunta report dichiarazioni_di_trasferimento_in_Italia_export con rispettivo md (formato csv e json)
+	* Aggiunta report dichiarazioni_di_trasferimento_in_Italia_per_stato_export con rispettivo md (formato csv e json)
+	* Aggiunta report dichiarazioni_di_trasferimento_in_Italia_storico_distribuzione_geografica_export con rispettivo md (formato csv e json)
+	* Aggiunta report feedback_export con rispettivo md (formato csv e json)
+	* Aggiunta report feedback_negativi_export con rispettivo md (formato csv e json)
+	* Aggiunta report iscrizioni_liste_elettorali_distribuzione_geografica_export con rispettivo md (formato csv e json)
+	* Aggiunta report iscrizioni_liste_elettorali_export con rispettivo md (formato csv e json)
+	* Aggiunta report iscrizioni_liste_elettorali_per_stato_export con rispettivo md (formato csv e json)
+	* Aggiunta report notifiche_app_io_in_errore_export con rispettivo md (formato csv e json)
+	* Aggiunta report notifiche_app_io_inviate_export con rispettivo md (formato csv e json)
+	* Aggiunta report notifiche_app_io_processate_export con rispettivo md (formato csv e json)
+	* Aggiunta report popolazione_residente_aaaa_export con rispettivo md (formato csv e json)
+	* Adeguamento di vari report (utilizzo degli underscore nelle colonne)
 
 
 

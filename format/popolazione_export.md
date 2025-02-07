@@ -9,8 +9,8 @@
 
 | Nome campo                  | Descrizione                       | Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
-| **DATA ELABORAZIONE**       | Data di elaborazione              | GG-MM-AAAA                    | 12-10-2022          |
-| **POPOLAZIONE TOTALE**  | popolazione totale giornaliera in ANPR |   numero     |         3000000         |
+| **DATA_ELABORAZIONE**       | Data di elaborazione              | GG-MM-AAAA                    | 12-10-2022          |
+| **POPOLAZIONE_TOTALE**  | popolazione totale giornaliera in ANPR |   numero     |         3000000         |
 | **RESIDENTI**      | popolazione residente in Italia giornaliera in ANPR |   numero | 30000              |
 | **AIRE**      | popolazione AIRE (Italiani Residenti all'Estero) giornaliera in ANPR| numero             | 3             |
 

@@ -11,7 +11,7 @@
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
 | **MESE**       | mese di riferimento nel calendario              | numero                   | 10       |
 | **ANNO**  | anno di riferimento nel calendario  |   numero     |        2021         |
-| **TIPO SOGGETTO**      | tipologia della scheda del cittadino. I valori che assume possono essere Residente (residenti in Italia iscritte in ANPR)o AIRE(Italiani Residenti all'Estero)| stringa             | Residente   | 
+| **TIPO_SOGGETTO**      | tipologia della scheda del cittadino. I valori che assume possono essere Residente (residenti in Italia iscritte in ANPR)o AIRE(Italiani Residenti all'Estero)| stringa             | Residente   | 
 | **AUTOCERTIFICAZIONI**      | numero di autocertificazioni richieste nel periodo di riferimento| numero    | 2000   |
 | **VISURE**      | numero di fruitori del servizio di visura nel periodo di riferimento| numero    | 2000   |
 | **TOTALE**      | numero totale di visure e delle autocertificazioni richieste nel periodo di riferimento| numero             | 5000   |

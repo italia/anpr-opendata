@@ -9,7 +9,7 @@
 
 | Nome campo                  | Descrizione                       | Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
-| **DATA ELABORAZIONE**       | Data di elaborazione              | GG-MM-AAAA                    | 12-10-2022          |
+| **DATA_ELABORAZIONE**       | Data di elaborazione              | GG-MM-AAAA                    | 12-10-2022          |
 | **REGIONE**      | regione di residenza dai quali vengono fruiti i servizi |   stringa | Lazio  |
 | **COD_ISTAT_REGIONE**      | codice istat della regione di residenza dai quali vengono fruiti i servizi |   stringa | 01  |
 | **PROVINCIA**      | provincia di residenza dai quali vengono fruiti i servizi |   stringa | Latina  |

@@ -9,7 +9,7 @@
 
 | Nome campo                  | Descrizione                       | Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|-------------------------------|---------------------|
-| **DATA ELABORAZIONE**       | data di elaborazione             | GG-MM-AAAA                   | 12-10-2022       |
+| **DATA_ELABORAZIONE**       | data di elaborazione             | GG-MM-AAAA                   | 12-10-2022       |
 | **REGIONE**  | regione di residenza |   stringa     |         Lazio        |
 | **PROVINCIA**      | provincia di residenza|   stringa | Roma               |
 | **COD_ISTAT_COMUNE**      | codice istat del comune di residenza| stringa             | 015010             |
