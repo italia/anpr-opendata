@@ -1,57 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-  <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-
-
-<dcatapit:Catalog rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#">
-  <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
-  <dct:title>ANPR Open Data</dct:title>
-  <dct:publisher>
-    <dcatapit:Agent rdf:about="m_it">
-      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-      <dct:identifier>m_it</dct:identifier>
-      <foaf:name>Ministero dell'Interno</foaf:name>
-    </dcatapit:Agent>
-  </dct:publisher>
-  <dct:description>Questa repository contiene i dati pubblici estratti dalla pagina Numeri del portale ANPR.</dct:description>
-  <dct:language>it</dct:language>
-  <foaf:homepage rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data##"/>
-  <dcat:themeTaxonomy>
-    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
-      <dct:title>Data Theme Vocabulary</dct:title>
-    </skos:ConceptScheme>
-  </dcat:themeTaxonomy>
-  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
-  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:issued>
-
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/accessi_export.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/accessi_famiglie_export.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_AIRE_export.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_export.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_stato_lavorazione.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_stato_lavorazione_last_month.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/certificati_export.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/certificati_last_month.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/dichiarazioni_cambi_residenza.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/dichiarazioni_cambi_residenza_last_month.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_export.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_residente_export.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_export.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_last_month.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/subentro_liste_elettorali_export.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_export.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_export.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_last_month.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2021_export.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2022_export.md"/>
-  <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2023_export.md"/>
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <dcatapit:Catalog rdf:about="https://github.com/italia/anpr-opendata/tree/main/data#">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <dct:title>ANPR Open Data</dct:title>
+    <dct:publisher>
+      <dcatapit:Agent rdf:about="m_it">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name>Ministero dell'Interno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:description>Questa repository contiene i dati pubblici estratti dalla pagina Numeri del portale ANPR.</dct:description>
+    <dct:language>it</dct:language>
+    <foaf:homepage rdf:resource="https://github.com/italia/anpr-opendata/tree/main/data##"/>
+    <dcat:themeTaxonomy>
+      <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+        <dct:title>Data Theme Vocabulary</dct:title>
+      </skos:ConceptScheme>
+    </dcat:themeTaxonomy>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:issued>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/accessi_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/accessi_famiglie_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_AIRE_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_stato_lavorazione.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_stato_lavorazione_last_month.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/certificati_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/certificati_last_month.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/dichiarazioni_cambi_residenza.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/dichiarazioni_cambi_residenza_last_month.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_residente_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_last_month.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/subentro_liste_elettorali_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_last_month.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2021_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2022_export.md"/>
+    <dcat:dataset rdf:resource="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2023_export.md"/>
   </dcatapit:Catalog>
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/accessi_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Accessi</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/accessi</dct:landingpage>
     <dct:description>Trend giornaliero della tipologia di accesso al portale ANPR</dct:description>
@@ -75,7 +70,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -88,7 +82,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/accessi_famiglie_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Accessi famiglie</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/accessi-famiglie</dct:landingpage>
     <dct:description>Trend giornaliero degli accessi al portale ANPR da parte delle famiglie</dct:description>
@@ -112,7 +105,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -125,7 +117,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_AIRE_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Attività AIRE</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/attività-aire</dct:landingpage>
     <dct:description>Distribuzione dell'utilizzo dei servizi ANPR relativa ai soli soggetti AIRE</dct:description>
@@ -149,7 +140,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -162,7 +152,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Attività residenti</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti</dct:landingpage>
     <dct:description>Distribuzione dell'utilizzo dei servizi ANPR relativa ai soli soggetti residenti in Italia</dct:description>
@@ -186,7 +175,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -199,7 +187,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Cambi residenza</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza</dct:landingpage>
     <dct:description>Trend mensile delle dichiarazioni dei cambi di residenza effettuate sia da Portale ANPR sia da Comune</dct:description>
@@ -223,7 +210,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -236,7 +222,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_stato_lavorazione.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Cambi residenza per stato lavorazione</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione</dct:landingpage>
     <dct:description>Trend mensile di cambi di residenza effettuati da portale ANPR per stato di lavorazione della pratica</dct:description>
@@ -260,7 +245,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -273,7 +257,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/cambi_residenza_stato_lavorazione_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Cambi residenza per stato lavorazione (mese in corso)</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/cambi-residenza-per-stato-lavorazione-%28mese-in-corso%29</dct:landingpage>
     <dct:description>Trend del mese corrente di cambi di residenza effettuati da portale ANPR per stato di lavorazione della pratica</dct:description>
@@ -297,7 +280,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -310,7 +292,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/certificati_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Certificati</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/certificati</dct:landingpage>
     <dct:description>Trend mensile dei certificati richiesti</dct:description>
@@ -334,7 +315,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -347,7 +327,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/certificati_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Certificati (mese in corso)</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/certificati-%28mese-in-corso%29</dct:landingpage>
     <dct:description>Trend del mese corrente dei certificati richiesti</dct:description>
@@ -371,7 +350,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -384,7 +362,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/dichiarazioni_cambi_residenza.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Dichiarazioni cambi di residenza</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza</dct:landingpage>
     <dct:description>Trend mensile delle dichiarazioni di cambi di residenza effettuati da portale ANPR</dct:description>
@@ -408,7 +385,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -421,7 +397,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/dichiarazioni_cambi_residenza_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Dichiarazioni cambi di residenza (mese in corso)</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/dichiarazioni-cambi-di-residenza-%28mese-in-corso%29</dct:landingpage>
     <dct:description>Trend del mese corrente delle dichiarazioni di cambi di residenza effettuati da portale ANPR</dct:description>
@@ -445,7 +420,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -458,7 +432,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Popolazione</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/popolazione</dct:landingpage>
     <dct:description>Trend giornaliero della popolazione in ANPR</dct:description>
@@ -482,7 +455,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -495,7 +467,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/popolazione_residente_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Popolazione residente</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/popolazione-residente</dct:landingpage>
     <dct:description>Trend giornaliero della popolazione residente per comune in ANPR</dct:description>
@@ -519,7 +490,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -532,7 +502,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Rettifiche</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche</dct:landingpage>
     <dct:description>Trend mensile delle rettifiche richieste</dct:description>
@@ -556,7 +525,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -569,7 +537,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/rettifiche_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Rettifiche (mese in corso)</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/rettifiche-%28mese-in-corso%29</dct:landingpage>
     <dct:description>Trend del mese corrente delle rettifiche richieste</dct:description>
@@ -593,7 +560,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -606,7 +572,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/subentro_liste_elettorali_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Subentro liste elettorali</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/blob/main/format/subentro_liste_elettorali_export.md</dct:landingpage>
     <dct:description>Stato di integrazione dei dati elettorali nell'ANPR per comune</dct:description>
@@ -630,7 +595,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-05</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-05</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -643,7 +607,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/tipologia_cambi_residenza_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Tipologia cambi di residenza</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/tipologia-cambi-di-residenza</dct:landingpage>
     <dct:description>Trend mensile delle tipologie di cambi di residenza</dct:description>
@@ -667,7 +630,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -680,7 +642,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Visure e autocertificazioni</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni</dct:landingpage>
     <dct:description>Trend mensile delle visure e delle autocertificazioni richieste</dct:description>
@@ -704,7 +665,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -717,7 +677,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/visure_autocertificazioni_last_month.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Visure e autocertificazioni (mese in corso)</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/visure-e-autocertificazioni-%28mese-in-corso%29</dct:landingpage>
     <dct:description>Trend del mese corrente delle visure e delle autocertificazioni richieste</dct:description>
@@ -741,7 +700,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -754,7 +712,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2021_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Attività residenti 2021</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2021</dct:landingpage>
     <dct:description>Distribuzione dell'utilizzo dei servizi relativa ai soli soggetti residenti in Italia in riferimento all'anno 2021</dct:description>
@@ -778,7 +735,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -791,7 +747,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2022_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Attività residenti 2022</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2022</dct:landingpage>
     <dct:description>Distribuzione dell'utilizzo dei servizi relativa ai soli soggetti residenti in Italia in riferimento all'anno 2022</dct:description>
@@ -815,7 +770,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -828,7 +782,6 @@
   <dcatapit:Dataset rdf:about="https://github.com/italia/anpr-opendata/blob/main/format/attivita_residenti_2023_export.md">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-
     <dct:title>Attività residenti 2023</dct:title>
     <dct:landingpage>https://github.com/italia/anpr-opendata/tree/main/data#/attività-residenti-2023</dct:landingpage>
     <dct:description>Distribuzione dell'utilizzo dei servizi relativa ai soli soggetti residenti in Italia in riferimento all'anno 2023</dct:description>
@@ -852,7 +805,6 @@
     </dct:publisher>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-06</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-15</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
@@ -1604,15 +1556,15 @@
   <skos:Concept rdf:about="http://eurovoc.europa.eu/">
     <skos:prefLabel xml:lang="it"/>
   </skos:Concept>
-<dcatapit:Organization rdf:about="https://www.anagrafenazionale.interno.it/anpr/numeri/">
-  <rdf:type rdf:resource="vcard:Organization"/>
-  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-  <rdf:type rdf:resource="vcard:Kind"/>
-  <vcard:fn>Ministero dell'Interno</vcard:fn>
-  <vcard:hasEmail rdf:resource="info@anagrafenazionale.interno.it"/>
-  <vcard:hasTelephone/>
-  <vcard:hasURL rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
-</dcatapit:Organization>
+  <dcatapit:Organization rdf:about="https://www.anagrafenazionale.interno.it/anpr/numeri/">
+    <rdf:type rdf:resource="vcard:Organization"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+    <rdf:type rdf:resource="vcard:Kind"/>
+    <vcard:fn>Ministero dell'Interno</vcard:fn>
+    <vcard:hasEmail rdf:resource="info@anagrafenazionale.interno.it"/>
+    <vcard:hasTelephone/>
+    <vcard:hasURL rdf:resource="https://www.anagrafenazionale.interno.it/anpr/numeri/"/>
+  </dcatapit:Organization>
 </rdf:RDF>
