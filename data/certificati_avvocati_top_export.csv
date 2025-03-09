@@ -1,15 +1,15 @@
 MESE,ANNO,TIPOLOGIA,TOTALE
-3,2025,di Residenza,56073
-3,2025,CONTESTUALE,17539
-3,2025,di Stato di famiglia,5666
-3,2025,Anagrafico di matrimonio,1311
-3,2025,Anagrafico di nascita,1096
-3,2025,di Stato civile,1094
-3,2025,di Residenza AIRE,1016
-3,2025,di Esistenza in vita,415
-3,2025,di Stato Libero,173
-3,2025,di Cittadinanza,118
-3,2025,di Stato di famiglia AIRE,85
+3,2025,di Residenza,57339
+3,2025,CONTESTUALE,18117
+3,2025,di Stato di famiglia,5816
+3,2025,Anagrafico di matrimonio,1341
+3,2025,Anagrafico di nascita,1127
+3,2025,di Stato civile,1109
+3,2025,di Residenza AIRE,1031
+3,2025,di Esistenza in vita,421
+3,2025,di Stato Libero,178
+3,2025,di Cittadinanza,120
+3,2025,di Stato di famiglia AIRE,87
 3,2025,di Residenza in convivenza,34
 3,2025,Anagrafico di unione civile ,8
 3,2025,di Contratto di Convivenza,2
@@ -185,8 +185,8 @@ MESE,ANNO,TIPOLOGIA,TOTALE
 2,2024,CONTESTUALE,45323
 2,2024,di Stato di famiglia,19923
 2,2024,Anagrafico di matrimonio,5552
-2,2024,Anagrafico di nascita,4304
 2,2024,di Stato civile,4304
+2,2024,Anagrafico di nascita,4304
 2,2024,di Residenza AIRE,3642
 2,2024,di Esistenza in vita,2068
 2,2024,di Stato Libero,640
