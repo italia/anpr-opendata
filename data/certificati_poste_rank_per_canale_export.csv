@@ -1,10 +1,10 @@
 CANALE,TIPOLOGIA,TOTALE,TREND_MENSILE
 TOTEM POSTE,Anagrafico di nascita,1124,-31
-TOTEM POSTE,di Stato di famiglia,895,-23
+TOTEM POSTE,di Stato di famiglia,896,-22
 TOTEM POSTE,di Residenza,781,-17
-TOTEM POSTE,CONTESTUALE,628,-18
-TOTEM POSTE,di Stato di famiglia con rapporti di parentela,444,-9
-TOTEM POSTE,di Stato di famiglia e di stato civile,412,-3
+TOTEM POSTE,CONTESTUALE,630,-16
+TOTEM POSTE,di Stato di famiglia con rapporti di parentela,446,-7
+TOTEM POSTE,di Stato di famiglia e di stato civile,415,0
 TOTEM POSTE,Anagrafico di matrimonio,238,-8
 TOTEM POSTE,di Esistenza in vita,189,-5
 TOTEM POSTE,di Stato civile,181,-1
@@ -12,23 +12,23 @@ TOTEM POSTE,di Cittadinanza,129,0
 TOTEM POSTE,di Stato Libero,79,0
 TOTEM POSTE,di Residenza AIRE,2,0
 TOTEM POSTE,di Stato di famiglia AIRE,1,0
-TOTALI,Anagrafico di nascita,1359,-57
-TOTALI,di Stato di famiglia,1136,-61
-TOTALI,di Residenza,1115,-63
-TOTALI,CONTESTUALE,747,-23
-TOTALI,di Stato di famiglia con rapporti di parentela,513,-15
-TOTALI,di Stato di famiglia e di stato civile,437,-4
-TOTALI,di Esistenza in vita,319,-14
+TOTALI,Anagrafico di nascita,1365,-51
+TOTALI,di Stato di famiglia,1138,-59
+TOTALI,di Residenza,1116,-62
+TOTALI,CONTESTUALE,749,-21
+TOTALI,di Stato di famiglia con rapporti di parentela,515,-13
+TOTALI,di Stato di famiglia e di stato civile,440,-1
+TOTALI,di Esistenza in vita,320,-13
 TOTALI,Anagrafico di matrimonio,282,-10
 TOTALI,di Stato civile,209,-4
 TOTALI,di Cittadinanza,136,2
 TOTALI,di Stato Libero,87,0
 TOTALI,di Residenza AIRE,2,0
 TOTALI,di Stato di famiglia AIRE,1,0
-SPORTELLO POSTE,di Residenza,334,-46
-SPORTELLO POSTE,di Stato di famiglia,241,-38
-SPORTELLO POSTE,Anagrafico di nascita,235,-26
-SPORTELLO POSTE,di Esistenza in vita,130,-9
+SPORTELLO POSTE,di Residenza,335,-45
+SPORTELLO POSTE,di Stato di famiglia,242,-37
+SPORTELLO POSTE,Anagrafico di nascita,241,-20
+SPORTELLO POSTE,di Esistenza in vita,131,-8
 SPORTELLO POSTE,CONTESTUALE,119,-5
 SPORTELLO POSTE,di Stato di famiglia con rapporti di parentela,69,-6
 SPORTELLO POSTE,Anagrafico di matrimonio,44,-2
