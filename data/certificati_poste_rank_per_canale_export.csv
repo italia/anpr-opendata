@@ -1,10 +1,10 @@
 CANALE,TIPOLOGIA,TOTALE,TREND_MENSILE
-TOTEM POSTE,Anagrafico di nascita,1164,-39
-TOTEM POSTE,di Stato di famiglia,937,-36
-TOTEM POSTE,di Residenza,811,-19
-TOTEM POSTE,CONTESTUALE,654,-15
+TOTEM POSTE,Anagrafico di nascita,1168,-35
+TOTEM POSTE,di Stato di famiglia,941,-32
+TOTEM POSTE,di Residenza,814,-16
+TOTEM POSTE,CONTESTUALE,658,-11
 TOTEM POSTE,di Stato di famiglia con rapporti di parentela,470,-19
-TOTEM POSTE,di Stato di famiglia e di stato civile,430,-16
+TOTEM POSTE,di Stato di famiglia e di stato civile,431,-15
 TOTEM POSTE,Anagrafico di matrimonio,248,0
 TOTEM POSTE,di Esistenza in vita,193,-2
 TOTEM POSTE,di Stato civile,183,-4
@@ -12,24 +12,24 @@ TOTEM POSTE,di Cittadinanza,132,0
 TOTEM POSTE,di Stato Libero,83,-2
 TOTEM POSTE,di Stato di famiglia AIRE,2,0
 TOTEM POSTE,di Residenza AIRE,2,0
-TOTALI,Anagrafico di nascita,1415,-60
-TOTALI,di Stato di famiglia,1195,-55
-TOTALI,di Residenza,1186,-33
-TOTALI,CONTESTUALE,779,-26
+TOTALI,Anagrafico di nascita,1420,-55
+TOTALI,di Stato di famiglia,1199,-51
+TOTALI,di Residenza,1191,-28
+TOTALI,CONTESTUALE,786,-19
 TOTALI,di Stato di famiglia con rapporti di parentela,546,-27
-TOTALI,di Stato di famiglia e di stato civile,455,-16
-TOTALI,di Esistenza in vita,336,-15
+TOTALI,di Stato di famiglia e di stato civile,456,-15
+TOTALI,di Esistenza in vita,337,-14
 TOTALI,Anagrafico di matrimonio,295,0
 TOTALI,di Stato civile,215,-9
 TOTALI,di Cittadinanza,139,0
 TOTALI,di Stato Libero,93,-2
 TOTALI,di Residenza AIRE,7,-3
 TOTALI,di Stato di famiglia AIRE,2,0
-SPORTELLO POSTE,di Residenza,375,-14
+SPORTELLO POSTE,di Residenza,377,-12
 SPORTELLO POSTE,di Stato di famiglia,258,-19
-SPORTELLO POSTE,Anagrafico di nascita,251,0
-SPORTELLO POSTE,di Esistenza in vita,143,-13
-SPORTELLO POSTE,CONTESTUALE,125,-11
+SPORTELLO POSTE,Anagrafico di nascita,252,-20
+SPORTELLO POSTE,di Esistenza in vita,144,-12
+SPORTELLO POSTE,CONTESTUALE,128,-8
 SPORTELLO POSTE,di Stato di famiglia con rapporti di parentela,76,-8
 SPORTELLO POSTE,Anagrafico di matrimonio,47,0
 SPORTELLO POSTE,di Stato civile,32,0
