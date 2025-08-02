@@ -1,8 +1,8 @@
 CANALE,TIPOLOGIA,TOTALE,TREND_MENSILE
-TOTEM POSTE,Anagrafico di nascita,1200,0
+TOTEM POSTE,Anagrafico di nascita,1202,-41
 TOTEM POSTE,di Stato di famiglia,976,0
 TOTEM POSTE,di Residenza,836,0
-TOTEM POSTE,CONTESTUALE,683,0
+TOTEM POSTE,CONTESTUALE,686,-36
 TOTEM POSTE,di Stato di famiglia con rapporti di parentela,485,0
 TOTEM POSTE,di Stato di famiglia e di stato civile,448,0
 TOTEM POSTE,Anagrafico di matrimonio,261,0
@@ -10,30 +10,30 @@ TOTEM POSTE,di Esistenza in vita,200,0
 TOTEM POSTE,di Stato civile,190,0
 TOTEM POSTE,di Cittadinanza,132,0
 TOTEM POSTE,di Stato Libero,86,0
-TOTEM POSTE,di Stato di famiglia AIRE,2,0
 TOTEM POSTE,di Residenza AIRE,2,0
-TOTALI,Anagrafico di nascita,1459,0
-TOTALI,di Stato di famiglia,1259,0
-TOTALI,di Residenza,1239,0
-TOTALI,CONTESTUALE,819,0
+TOTEM POSTE,di Stato di famiglia AIRE,2,0
+TOTALI,Anagrafico di nascita,1461,-49
+TOTALI,di Stato di famiglia,1260,-77
+TOTALI,di Residenza,1240,-88
+TOTALI,CONTESTUALE,822,-48
 TOTALI,di Stato di famiglia con rapporti di parentela,563,0
 TOTALI,di Stato di famiglia e di stato civile,475,0
-TOTALI,di Esistenza in vita,352,0
-TOTALI,Anagrafico di matrimonio,312,0
+TOTALI,di Esistenza in vita,356,-18
+TOTALI,Anagrafico di matrimonio,313,-16
 TOTALI,di Stato civile,226,0
 TOTALI,di Cittadinanza,139,0
 TOTALI,di Stato Libero,99,0
 TOTALI,di Residenza AIRE,9,0
 TOTALI,di Stato di famiglia AIRE,2,0
-SPORTELLO POSTE,di Residenza,403,0
-SPORTELLO POSTE,di Stato di famiglia,283,0
+SPORTELLO POSTE,di Residenza,404,-49
+SPORTELLO POSTE,di Stato di famiglia,284,-26
 SPORTELLO POSTE,Anagrafico di nascita,259,0
-SPORTELLO POSTE,di Esistenza in vita,152,0
+SPORTELLO POSTE,di Esistenza in vita,156,-9
 SPORTELLO POSTE,CONTESTUALE,136,0
 SPORTELLO POSTE,di Stato di famiglia con rapporti di parentela,78,0
-SPORTELLO POSTE,Anagrafico di matrimonio,51,0
+SPORTELLO POSTE,Anagrafico di matrimonio,52,-3
 SPORTELLO POSTE,di Stato civile,36,0
 SPORTELLO POSTE,di Stato di famiglia e di stato civile,27,0
 SPORTELLO POSTE,di Stato Libero,13,0
-SPORTELLO POSTE,di Cittadinanza,7,0
 SPORTELLO POSTE,di Residenza AIRE,7,0
+SPORTELLO POSTE,di Cittadinanza,7,0
