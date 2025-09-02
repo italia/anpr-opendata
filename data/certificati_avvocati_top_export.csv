@@ -1,6 +1,17 @@
 MESE,ANNO,TIPOLOGIA,TOTALE
-9,2025,di Residenza,5
-9,2025,CONTESTUALE,3
+9,2025,di Residenza,10482
+9,2025,CONTESTUALE,2894
+9,2025,di Stato di famiglia,956
+9,2025,Anagrafico di matrimonio,228
+9,2025,di Residenza AIRE,168
+9,2025,di Stato civile,164
+9,2025,Anagrafico di nascita,141
+9,2025,di Esistenza in vita,83
+9,2025,di Stato Libero,37
+9,2025,di Cittadinanza,22
+9,2025,di Stato di famiglia AIRE,18
+9,2025,di Residenza in convivenza,8
+9,2025,Anagrafico di unione civile ,2
 8,2025,di Residenza,92394
 8,2025,CONTESTUALE,30099
 8,2025,di Stato di famiglia,10161
