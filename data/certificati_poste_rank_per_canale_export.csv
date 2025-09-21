@@ -1,37 +1,37 @@
 CANALE,TIPOLOGIA,TOTALE,TREND_MENSILE
-TOTEM POSTE,Anagrafico di nascita,1298,-10
-TOTEM POSTE,di Stato di famiglia,1045,-11
-TOTEM POSTE,di Residenza,911,-15
-TOTEM POSTE,CONTESTUALE,749,-8
+TOTEM POSTE,Anagrafico di nascita,1301,-7
+TOTEM POSTE,di Stato di famiglia,1048,-8
+TOTEM POSTE,di Residenza,913,-13
+TOTEM POSTE,CONTESTUALE,751,-6
 TOTEM POSTE,di Stato di famiglia con rapporti di parentela,521,-10
 TOTEM POSTE,di Stato di famiglia e di stato civile,468,-6
-TOTEM POSTE,Anagrafico di matrimonio,279,-12
-TOTEM POSTE,di Esistenza in vita,223,-9
+TOTEM POSTE,Anagrafico di matrimonio,280,-11
+TOTEM POSTE,di Esistenza in vita,224,-8
 TOTEM POSTE,di Stato civile,203,1
 TOTEM POSTE,di Cittadinanza,136,-2
 TOTEM POSTE,di Stato Libero,89,1
 TOTEM POSTE,di Stato di famiglia AIRE,2,0
 TOTEM POSTE,di Residenza AIRE,2,0
-TOTALI,Anagrafico di nascita,1582,-15
-TOTALI,di Residenza,1378,-17
-TOTALI,di Stato di famiglia,1349,-12
-TOTALI,CONTESTUALE,901,-2
+TOTALI,Anagrafico di nascita,1587,-10
+TOTALI,di Residenza,1380,-15
+TOTALI,di Stato di famiglia,1355,-6
+TOTALI,CONTESTUALE,903,0
 TOTALI,di Stato di famiglia con rapporti di parentela,609,-10
 TOTALI,di Stato di famiglia e di stato civile,499,-8
-TOTALI,di Esistenza in vita,399,-11
-TOTALI,Anagrafico di matrimonio,334,-12
+TOTALI,di Esistenza in vita,400,-10
+TOTALI,Anagrafico di matrimonio,336,-10
 TOTALI,di Stato civile,243,3
 TOTALI,di Cittadinanza,143,-2
 TOTALI,di Stato Libero,102,1
 TOTALI,di Residenza AIRE,10,0
 TOTALI,di Stato di famiglia AIRE,2,0
 SPORTELLO POSTE,di Residenza,467,-2
-SPORTELLO POSTE,di Stato di famiglia,304,-1
-SPORTELLO POSTE,Anagrafico di nascita,284,-5
+SPORTELLO POSTE,di Stato di famiglia,307,2
+SPORTELLO POSTE,Anagrafico di nascita,286,-3
 SPORTELLO POSTE,di Esistenza in vita,176,-2
 SPORTELLO POSTE,CONTESTUALE,152,6
 SPORTELLO POSTE,di Stato di famiglia con rapporti di parentela,88,0
-SPORTELLO POSTE,Anagrafico di matrimonio,55,0
+SPORTELLO POSTE,Anagrafico di matrimonio,56,1
 SPORTELLO POSTE,di Stato civile,40,2
 SPORTELLO POSTE,di Stato di famiglia e di stato civile,31,-2
 SPORTELLO POSTE,di Stato Libero,13,0
