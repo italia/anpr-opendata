@@ -1,8 +1,17 @@
 MESE,ANNO,TIPOLOGIA,TOTALE
-10,2025,di Residenza,14
-10,2025,CONTESTUALE,13
-10,2025,di Stato di famiglia,3
-10,2025,di Stato Libero,1
+10,2025,di Residenza,11373
+10,2025,CONTESTUALE,3859
+10,2025,di Stato di famiglia,1187
+10,2025,Anagrafico di matrimonio,272
+10,2025,di Residenza AIRE,269
+10,2025,Anagrafico di nascita,224
+10,2025,di Stato civile,223
+10,2025,di Esistenza in vita,79
+10,2025,di Stato Libero,38
+10,2025,di Stato di famiglia AIRE,29
+10,2025,di Cittadinanza,25
+10,2025,di Residenza in convivenza,5
+10,2025,Anagrafico di unione civile ,1
 9,2025,di Residenza,247115
 9,2025,CONTESTUALE,80601
 9,2025,di Stato di famiglia,25449
@@ -31,7 +40,7 @@ MESE,ANNO,TIPOLOGIA,TOTALE
 8,2025,di Residenza in convivenza,61
 8,2025,Anagrafico di unione civile ,7
 8,2025,di Contratto di Convivenza,1
-7,2025,di Residenza,254416
+7,2025,di Residenza,254422
 7,2025,CONTESTUALE,81837
 7,2025,di Stato di famiglia,24611
 7,2025,Anagrafico di matrimonio,5894
@@ -59,7 +68,7 @@ MESE,ANNO,TIPOLOGIA,TOTALE
 6,2025,di Residenza in convivenza,116
 6,2025,Anagrafico di unione civile ,18
 6,2025,di Contratto di Convivenza,8
-5,2025,di Residenza,239653
+5,2025,di Residenza,239665
 5,2025,CONTESTUALE,73438
 5,2025,di Stato di famiglia,22430
 5,2025,Anagrafico di matrimonio,5528
@@ -73,7 +82,7 @@ MESE,ANNO,TIPOLOGIA,TOTALE
 5,2025,di Residenza in convivenza,115
 5,2025,Anagrafico di unione civile ,16
 5,2025,di Contratto di Convivenza,11
-4,2025,di Residenza,218413
+4,2025,di Residenza,218421
 4,2025,CONTESTUALE,67533
 4,2025,di Stato di famiglia,21583
 4,2025,Anagrafico di matrimonio,5227
@@ -87,7 +96,7 @@ MESE,ANNO,TIPOLOGIA,TOTALE
 4,2025,di Residenza in convivenza,112
 4,2025,Anagrafico di unione civile ,12
 4,2025,di Contratto di Convivenza,6
-3,2025,di Residenza,248824
+3,2025,di Residenza,248829
 3,2025,CONTESTUALE,76321
 3,2025,di Stato di famiglia,24975
 3,2025,Anagrafico di matrimonio,5954
@@ -101,7 +110,7 @@ MESE,ANNO,TIPOLOGIA,TOTALE
 3,2025,di Residenza in convivenza,137
 3,2025,Anagrafico di unione civile ,25
 3,2025,di Contratto di Convivenza,9
-2,2025,di Residenza,229786
+2,2025,di Residenza,229791
 2,2025,CONTESTUALE,69127
 2,2025,di Stato di famiglia,23192
 2,2025,Anagrafico di matrimonio,5728
@@ -115,13 +124,13 @@ MESE,ANNO,TIPOLOGIA,TOTALE
 2,2025,di Residenza in convivenza,144
 2,2025,Anagrafico di unione civile ,19
 2,2025,di Contratto di Convivenza,5
-1,2025,di Residenza,230104
+1,2025,di Residenza,230120
 1,2025,CONTESTUALE,66919
 1,2025,di Stato di famiglia,24740
 1,2025,Anagrafico di matrimonio,5859
 1,2025,di Stato civile,5435
 1,2025,Anagrafico di nascita,4864
-1,2025,di Residenza AIRE,4004
+1,2025,di Residenza AIRE,4006
 1,2025,di Esistenza in vita,2117
 1,2025,di Stato Libero,848
 1,2025,di Cittadinanza,540
@@ -129,7 +138,7 @@ MESE,ANNO,TIPOLOGIA,TOTALE
 1,2025,di Residenza in convivenza,177
 1,2025,Anagrafico di unione civile ,12
 1,2025,di Contratto di Convivenza,11
-12,2024,di Residenza,175105
+12,2024,di Residenza,175106
 12,2024,CONTESTUALE,50867
 12,2024,di Stato di famiglia,18880
 12,2024,Anagrafico di matrimonio,4683
@@ -143,7 +152,7 @@ MESE,ANNO,TIPOLOGIA,TOTALE
 12,2024,di Residenza in convivenza,79
 12,2024,Anagrafico di unione civile ,14
 12,2024,di Contratto di Convivenza,4
-11,2024,di Residenza,220071
+11,2024,di Residenza,220083
 11,2024,CONTESTUALE,62230
 11,2024,di Stato di famiglia,24931
 11,2024,Anagrafico di matrimonio,5922
@@ -157,11 +166,11 @@ MESE,ANNO,TIPOLOGIA,TOTALE
 11,2024,di Residenza in convivenza,138
 11,2024,Anagrafico di unione civile ,16
 11,2024,di Contratto di Convivenza,3
-10,2024,di Residenza,245710
+10,2024,di Residenza,245716
 10,2024,CONTESTUALE,68317
-10,2024,di Stato di famiglia,27918
+10,2024,di Stato di famiglia,27919
 10,2024,Anagrafico di matrimonio,7097
-10,2024,di Stato civile,5821
+10,2024,di Stato civile,5822
 10,2024,Anagrafico di nascita,5378
 10,2024,di Residenza AIRE,4617
 10,2024,di Esistenza in vita,2274
@@ -171,7 +180,7 @@ MESE,ANNO,TIPOLOGIA,TOTALE
 10,2024,di Residenza in convivenza,125
 10,2024,Anagrafico di unione civile ,25
 10,2024,di Contratto di Convivenza,8
-9,2024,di Residenza,209688
+9,2024,di Residenza,209698
 9,2024,CONTESTUALE,53917
 9,2024,di Stato di famiglia,23541
 9,2024,Anagrafico di matrimonio,5678
@@ -199,7 +208,7 @@ MESE,ANNO,TIPOLOGIA,TOTALE
 8,2024,di Residenza in convivenza,39
 8,2024,Anagrafico di unione civile ,6
 8,2024,di Contratto di Convivenza,3
-7,2024,di Residenza,209763
+7,2024,di Residenza,209770
 7,2024,CONTESTUALE,55297
 7,2024,di Stato di famiglia,22318
 7,2024,Anagrafico di matrimonio,6263
@@ -213,7 +222,7 @@ MESE,ANNO,TIPOLOGIA,TOTALE
 7,2024,di Residenza in convivenza,112
 7,2024,Anagrafico di unione civile ,14
 7,2024,di Contratto di Convivenza,5
-6,2024,di Residenza,189664
+6,2024,di Residenza,189665
 6,2024,CONTESTUALE,48271
 6,2024,di Stato di famiglia,21047
 6,2024,Anagrafico di matrimonio,5452
