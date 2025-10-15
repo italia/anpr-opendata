@@ -1,34 +1,34 @@
 CANALE,TIPOLOGIA,TOTALE,TREND_MENSILE
-TOTEM POSTE,Anagrafico di nascita,1342,-50
-TOTEM POSTE,di Stato di famiglia,1089,-25
-TOTEM POSTE,di Residenza,945,-20
-TOTEM POSTE,CONTESTUALE,803,-11
-TOTEM POSTE,di Stato di famiglia con rapporti di parentela,537,-9
+TOTEM POSTE,Anagrafico di nascita,1344,-48
+TOTEM POSTE,di Stato di famiglia,1090,-24
+TOTEM POSTE,di Residenza,948,-17
+TOTEM POSTE,CONTESTUALE,806,-8
+TOTEM POSTE,di Stato di famiglia con rapporti di parentela,538,-8
 TOTEM POSTE,di Stato di famiglia e di stato civile,481,-2
 TOTEM POSTE,Anagrafico di matrimonio,284,-2
 TOTEM POSTE,di Esistenza in vita,231,-7
 TOTEM POSTE,di Stato civile,213,-3
-TOTEM POSTE,di Cittadinanza,137,0
+TOTEM POSTE,di Cittadinanza,138,1
 TOTEM POSTE,di Stato Libero,94,1
-TOTEM POSTE,di Residenza AIRE,2,0
 TOTEM POSTE,di Stato di famiglia AIRE,2,0
-TOTALI,Anagrafico di nascita,1646,-62
-TOTALI,di Residenza,1464,-61
-TOTALI,di Stato di famiglia,1407,-35
-TOTALI,CONTESTUALE,965,-26
-TOTALI,di Stato di famiglia con rapporti di parentela,627,-14
+TOTEM POSTE,di Residenza AIRE,2,0
+TOTALI,Anagrafico di nascita,1648,-60
+TOTALI,di Residenza,1469,-56
+TOTALI,di Stato di famiglia,1408,-34
+TOTALI,CONTESTUALE,968,-23
+TOTALI,di Stato di famiglia con rapporti di parentela,628,-13
 TOTALI,di Stato di famiglia e di stato civile,513,-2
-TOTALI,di Esistenza in vita,419,-14
+TOTALI,di Esistenza in vita,420,-13
 TOTALI,Anagrafico di matrimonio,350,-13
 TOTALI,di Stato civile,254,-5
-TOTALI,di Cittadinanza,144,0
+TOTALI,di Cittadinanza,145,1
 TOTALI,di Stato Libero,110,4
 TOTALI,di Residenza AIRE,13,0
 TOTALI,di Stato di famiglia AIRE,2,0
-SPORTELLO POSTE,di Residenza,519,-41
+SPORTELLO POSTE,di Residenza,521,-39
 SPORTELLO POSTE,di Stato di famiglia,318,-10
 SPORTELLO POSTE,Anagrafico di nascita,304,-12
-SPORTELLO POSTE,di Esistenza in vita,188,-7
+SPORTELLO POSTE,di Esistenza in vita,189,-6
 SPORTELLO POSTE,CONTESTUALE,162,-15
 SPORTELLO POSTE,di Stato di famiglia con rapporti di parentela,90,-5
 SPORTELLO POSTE,Anagrafico di matrimonio,66,-11
