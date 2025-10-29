@@ -1,34 +1,34 @@
 CANALE,TIPOLOGIA,TOTALE,TREND_MENSILE
-TOTEM POSTE,Anagrafico di nascita,1368,-24
-TOTEM POSTE,di Stato di famiglia,1115,1
+TOTEM POSTE,Anagrafico di nascita,1369,-23
+TOTEM POSTE,di Stato di famiglia,1116,2
 TOTEM POSTE,di Residenza,986,21
-TOTEM POSTE,CONTESTUALE,813,-1
-TOTEM POSTE,di Stato di famiglia con rapporti di parentela,547,1
-TOTEM POSTE,di Stato di famiglia e di stato civile,484,1
+TOTEM POSTE,CONTESTUALE,814,0
+TOTEM POSTE,di Stato di famiglia con rapporti di parentela,548,2
+TOTEM POSTE,di Stato di famiglia e di stato civile,486,3
 TOTEM POSTE,Anagrafico di matrimonio,286,0
-TOTEM POSTE,di Esistenza in vita,235,-3
-TOTEM POSTE,di Stato civile,220,4
+TOTEM POSTE,di Esistenza in vita,236,-2
+TOTEM POSTE,di Stato civile,221,5
 TOTEM POSTE,di Cittadinanza,141,4
 TOTEM POSTE,di Stato Libero,94,1
-TOTEM POSTE,di Stato di famiglia AIRE,2,0
 TOTEM POSTE,di Residenza AIRE,2,0
-TOTALI,Anagrafico di nascita,1676,-32
+TOTEM POSTE,di Stato di famiglia AIRE,2,0
+TOTALI,Anagrafico di nascita,1678,-30
 TOTALI,di Residenza,1522,-3
-TOTALI,di Stato di famiglia,1438,-4
-TOTALI,CONTESTUALE,976,-15
-TOTALI,di Stato di famiglia con rapporti di parentela,638,-3
-TOTALI,di Stato di famiglia e di stato civile,516,1
-TOTALI,di Esistenza in vita,429,-4
+TOTALI,di Stato di famiglia,1440,-2
+TOTALI,CONTESTUALE,977,-14
+TOTALI,di Stato di famiglia con rapporti di parentela,639,-2
+TOTALI,di Stato di famiglia e di stato civile,518,3
+TOTALI,di Esistenza in vita,431,-2
 TOTALI,Anagrafico di matrimonio,355,-8
-TOTALI,di Stato civile,264,5
+TOTALI,di Stato civile,265,6
 TOTALI,di Cittadinanza,148,4
 TOTALI,di Stato Libero,111,5
 TOTALI,di Residenza AIRE,13,0
 TOTALI,di Stato di famiglia AIRE,2,0
 SPORTELLO POSTE,di Residenza,536,-24
-SPORTELLO POSTE,di Stato di famiglia,323,-5
-SPORTELLO POSTE,Anagrafico di nascita,308,-8
-SPORTELLO POSTE,di Esistenza in vita,194,-1
+SPORTELLO POSTE,di Stato di famiglia,324,-4
+SPORTELLO POSTE,Anagrafico di nascita,309,-7
+SPORTELLO POSTE,di Esistenza in vita,195,0
 SPORTELLO POSTE,CONTESTUALE,163,-14
 SPORTELLO POSTE,di Stato di famiglia con rapporti di parentela,91,-4
 SPORTELLO POSTE,Anagrafico di matrimonio,69,-8
