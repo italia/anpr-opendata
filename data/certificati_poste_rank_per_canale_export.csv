@@ -1,37 +1,37 @@
 CANALE,TIPOLOGIA,TOTALE,TREND_MENSILE
-TOTEM POSTE,Anagrafico di nascita,1395,-28
-TOTEM POSTE,di Stato di famiglia,1147,-34
-TOTEM POSTE,di Residenza,1017,-50
+TOTEM POSTE,Anagrafico di nascita,1396,-27
+TOTEM POSTE,di Stato di famiglia,1148,-33
+TOTEM POSTE,di Residenza,1019,-48
 TOTEM POSTE,CONTESTUALE,836,-37
 TOTEM POSTE,di Stato di famiglia con rapporti di parentela,562,-11
 TOTEM POSTE,di Stato di famiglia e di stato civile,497,-11
-TOTEM POSTE,Anagrafico di matrimonio,291,-6
+TOTEM POSTE,Anagrafico di matrimonio,292,-5
 TOTEM POSTE,di Esistenza in vita,243,-6
 TOTEM POSTE,di Stato civile,227,-11
 TOTEM POSTE,di Cittadinanza,144,-2
 TOTEM POSTE,di Stato Libero,94,0
 TOTEM POSTE,di Residenza AIRE,2,0
 TOTEM POSTE,di Stato di famiglia AIRE,2,0
-TOTALI,Anagrafico di nascita,1714,-36
-TOTALI,di Residenza,1583,-72
-TOTALI,di Stato di famiglia,1482,-40
+TOTALI,Anagrafico di nascita,1715,-35
+TOTALI,di Residenza,1588,-67
+TOTALI,di Stato di famiglia,1483,-39
 TOTALI,CONTESTUALE,1001,-43
 TOTALI,di Stato di famiglia con rapporti di parentela,655,-11
 TOTALI,di Stato di famiglia e di stato civile,529,-12
-TOTALI,di Esistenza in vita,448,-11
-TOTALI,Anagrafico di matrimonio,360,-10
+TOTALI,di Esistenza in vita,449,-10
+TOTALI,Anagrafico di matrimonio,362,-8
 TOTALI,di Stato civile,271,-15
 TOTALI,di Cittadinanza,151,-2
 TOTALI,di Stato Libero,111,0
 TOTALI,di Residenza AIRE,13,0
 TOTALI,di Stato di famiglia AIRE,2,0
-SPORTELLO POSTE,di Residenza,566,-22
+SPORTELLO POSTE,di Residenza,569,-19
 SPORTELLO POSTE,di Stato di famiglia,335,-6
 SPORTELLO POSTE,Anagrafico di nascita,319,-8
-SPORTELLO POSTE,di Esistenza in vita,205,-5
+SPORTELLO POSTE,di Esistenza in vita,206,-4
 SPORTELLO POSTE,CONTESTUALE,165,0
 SPORTELLO POSTE,di Stato di famiglia con rapporti di parentela,93,0
-SPORTELLO POSTE,Anagrafico di matrimonio,69,0
+SPORTELLO POSTE,Anagrafico di matrimonio,70,-3
 SPORTELLO POSTE,di Stato civile,44,0
 SPORTELLO POSTE,di Stato di famiglia e di stato civile,32,0
 SPORTELLO POSTE,di Stato Libero,17,0
