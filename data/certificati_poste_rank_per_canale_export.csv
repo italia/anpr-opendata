@@ -1,39 +1,39 @@
 CANALE,TIPOLOGIA,TOTALE,TREND_MENSILE
 TOTEM POSTE,Anagrafico di nascita,1399,-24
-TOTEM POSTE,di Stato di famiglia,1150,-31
-TOTEM POSTE,di Residenza,1021,-46
-TOTEM POSTE,CONTESTUALE,839,-34
-TOTEM POSTE,di Stato di famiglia con rapporti di parentela,563,-10
+TOTEM POSTE,di Stato di famiglia,1152,-29
+TOTEM POSTE,di Residenza,1022,-45
+TOTEM POSTE,CONTESTUALE,840,-33
+TOTEM POSTE,di Stato di famiglia con rapporti di parentela,564,-9
 TOTEM POSTE,di Stato di famiglia e di stato civile,498,-10
 TOTEM POSTE,Anagrafico di matrimonio,292,-5
 TOTEM POSTE,di Esistenza in vita,243,-6
 TOTEM POSTE,di Stato civile,227,-11
-TOTEM POSTE,di Cittadinanza,144,-2
+TOTEM POSTE,di Cittadinanza,145,-1
 TOTEM POSTE,di Stato Libero,94,0
-TOTEM POSTE,di Stato di famiglia AIRE,2,0
+TOTEM POSTE,di Stato di famiglia AIRE,3,0
 TOTEM POSTE,di Residenza AIRE,2,0
-TOTALI,Anagrafico di nascita,1721,-29
-TOTALI,di Residenza,1590,-65
-TOTALI,di Stato di famiglia,1485,-37
-TOTALI,CONTESTUALE,1004,-40
-TOTALI,di Stato di famiglia con rapporti di parentela,657,-9
-TOTALI,di Stato di famiglia e di stato civile,531,-10
+TOTALI,Anagrafico di nascita,1723,-27
+TOTALI,di Residenza,1591,-64
+TOTALI,di Stato di famiglia,1487,-35
+TOTALI,CONTESTUALE,1005,-39
+TOTALI,di Stato di famiglia con rapporti di parentela,659,-7
+TOTALI,di Stato di famiglia e di stato civile,532,-9
 TOTALI,di Esistenza in vita,450,-9
 TOTALI,Anagrafico di matrimonio,362,-8
 TOTALI,di Stato civile,271,-15
-TOTALI,di Cittadinanza,151,-2
+TOTALI,di Cittadinanza,152,-1
 TOTALI,di Stato Libero,111,0
 TOTALI,di Residenza AIRE,13,0
-TOTALI,di Stato di famiglia AIRE,2,0
+TOTALI,di Stato di famiglia AIRE,3,0
 SPORTELLO POSTE,di Residenza,569,-19
 SPORTELLO POSTE,di Stato di famiglia,335,-6
-SPORTELLO POSTE,Anagrafico di nascita,322,-5
+SPORTELLO POSTE,Anagrafico di nascita,324,-3
 SPORTELLO POSTE,di Esistenza in vita,207,-3
 SPORTELLO POSTE,CONTESTUALE,165,0
-SPORTELLO POSTE,di Stato di famiglia con rapporti di parentela,94,1
+SPORTELLO POSTE,di Stato di famiglia con rapporti di parentela,95,2
 SPORTELLO POSTE,Anagrafico di matrimonio,70,-3
 SPORTELLO POSTE,di Stato civile,44,0
-SPORTELLO POSTE,di Stato di famiglia e di stato civile,33,0
+SPORTELLO POSTE,di Stato di famiglia e di stato civile,34,1
 SPORTELLO POSTE,di Stato Libero,17,0
 SPORTELLO POSTE,di Residenza AIRE,11,0
 SPORTELLO POSTE,di Cittadinanza,7,0
