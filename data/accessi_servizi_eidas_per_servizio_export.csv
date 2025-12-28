@@ -1,8 +1,8 @@
 MESE,ANNO,SERVIZIO,NUMERO
-12,2025,pratica in corso,599
-12,2025,iscrizione anagrafica,417
+12,2025,pratica in corso,624
+12,2025,iscrizione anagrafica,431
 12,2025,scrivania,102
-12,2025,certificato di nascita,189
+12,2025,certificato di nascita,190
 11,2025,iscrizione anagrafica,627
 11,2025,pratica in corso,989
 11,2025,scrivania,160
@@ -17,16 +17,16 @@ MESE,ANNO,SERVIZIO,NUMERO
 9,2025,certificato di nascita,288
 8,2025,scrivania,111
 8,2025,pratica in corso,519
-8,2025,iscrizione anagrafica,415
 8,2025,certificato di nascita,198
-7,2025,certificato di nascita,253
+8,2025,iscrizione anagrafica,415
 7,2025,iscrizione anagrafica,342
-7,2025,pratica in corso,424
 7,2025,scrivania,119
-6,2025,scrivania,104
-6,2025,iscrizione anagrafica,404
-6,2025,pratica in corso,503
+7,2025,pratica in corso,424
+7,2025,certificato di nascita,253
 6,2025,certificato di nascita,202
+6,2025,iscrizione anagrafica,404
+6,2025,scrivania,104
+6,2025,pratica in corso,503
 5,2025,iscrizione anagrafica,451
 5,2025,certificato di nascita,294
 5,2025,pratica in corso,699
@@ -48,16 +48,16 @@ MESE,ANNO,SERVIZIO,NUMERO
 1,2025,scrivania,147
 1,2025,pratica in corso,451
 12,2024,scrivania,89
-12,2024,pratica in corso,268
 12,2024,iscrizione anagrafica,329
 12,2024,certificato di nascita,71
-11,2024,certificato di nascita,41
-11,2024,iscrizione anagrafica,194
+12,2024,pratica in corso,268
 11,2024,pratica in corso,200
 11,2024,scrivania,72
+11,2024,iscrizione anagrafica,194
+11,2024,certificato di nascita,41
+10,2024,certificato di nascita,37
 10,2024,pratica in corso,132
 10,2024,scrivania,21
-10,2024,certificato di nascita,37
 10,2024,iscrizione anagrafica,200
 9,2024,iscrizione anagrafica,256
 9,2024,certificato di nascita,51
