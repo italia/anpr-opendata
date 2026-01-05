@@ -4,9 +4,9 @@ TOTEM POSTE,di Stato di famiglia,1202,-33
 TOTEM POSTE,di Residenza,1086,-41
 TOTEM POSTE,CONTESTUALE,902,-45
 TOTEM POSTE,di Stato di famiglia con rapporti di parentela,592,-15
-TOTEM POSTE,di Stato di famiglia e di stato civile,531,0
+TOTEM POSTE,di Stato di famiglia e di stato civile,532,-20
 TOTEM POSTE,Anagrafico di matrimonio,310,0
-TOTEM POSTE,di Esistenza in vita,263,-12
+TOTEM POSTE,di Esistenza in vita,264,-11
 TOTEM POSTE,di Stato civile,237,0
 TOTEM POSTE,di Cittadinanza,150,0
 TOTEM POSTE,di Stato Libero,98,0
@@ -17,8 +17,8 @@ TOTALI,di Residenza,1696,-68
 TOTALI,di Stato di famiglia,1552,-40
 TOTALI,CONTESTUALE,1085,-56
 TOTALI,di Stato di famiglia con rapporti di parentela,693,-17
-TOTALI,di Stato di famiglia e di stato civile,568,0
-TOTALI,di Esistenza in vita,480,-20
+TOTALI,di Stato di famiglia e di stato civile,569,-21
+TOTALI,di Esistenza in vita,481,-19
 TOTALI,Anagrafico di matrimonio,385,-12
 TOTALI,di Stato civile,287,0
 TOTALI,di Cittadinanza,157,0
