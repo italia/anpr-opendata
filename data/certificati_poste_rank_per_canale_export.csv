@@ -1,35 +1,35 @@
 CANALE,TIPOLOGIA,TOTALE,TREND_MENSILE
-TOTEM POSTE,Anagrafico di nascita,1516,-39
-TOTEM POSTE,di Stato di famiglia,1213,-22
-TOTEM POSTE,di Residenza,1091,-36
+TOTEM POSTE,Anagrafico di nascita,1523,-32
+TOTEM POSTE,di Stato di famiglia,1217,-18
+TOTEM POSTE,di Residenza,1095,-32
 TOTEM POSTE,CONTESTUALE,910,-37
 TOTEM POSTE,di Stato di famiglia con rapporti di parentela,593,-14
 TOTEM POSTE,di Stato di famiglia e di stato civile,539,-13
-TOTEM POSTE,Anagrafico di matrimonio,311,-12
-TOTEM POSTE,di Esistenza in vita,267,-8
+TOTEM POSTE,Anagrafico di matrimonio,312,-11
+TOTEM POSTE,di Esistenza in vita,268,-7
 TOTEM POSTE,di Stato civile,240,-5
 TOTEM POSTE,di Cittadinanza,150,0
 TOTEM POSTE,di Stato Libero,99,-3
 TOTEM POSTE,di Stato di famiglia AIRE,3,0
 TOTEM POSTE,di Residenza AIRE,2,0
-TOTALI,Anagrafico di nascita,1882,-52
-TOTALI,di Residenza,1703,-61
-TOTALI,di Stato di famiglia,1570,-22
-TOTALI,CONTESTUALE,1093,-48
+TOTALI,Anagrafico di nascita,1889,-45
+TOTALI,di Residenza,1709,-55
+TOTALI,di Stato di famiglia,1574,-18
+TOTALI,CONTESTUALE,1095,-46
 TOTALI,di Stato di famiglia con rapporti di parentela,697,-13
 TOTALI,di Stato di famiglia e di stato civile,576,-14
-TOTALI,di Esistenza in vita,485,-15
-TOTALI,Anagrafico di matrimonio,387,-10
+TOTALI,di Esistenza in vita,486,-14
+TOTALI,Anagrafico di matrimonio,388,-9
 TOTALI,di Stato civile,292,-9
 TOTALI,di Cittadinanza,157,0
 TOTALI,di Stato Libero,121,-5
 TOTALI,di Residenza AIRE,13,0
 TOTALI,di Stato di famiglia AIRE,3,0
-SPORTELLO POSTE,di Residenza,612,-25
+SPORTELLO POSTE,di Residenza,614,-23
 SPORTELLO POSTE,Anagrafico di nascita,366,-13
 SPORTELLO POSTE,di Stato di famiglia,357,0
 SPORTELLO POSTE,di Esistenza in vita,218,-7
-SPORTELLO POSTE,CONTESTUALE,183,0
+SPORTELLO POSTE,CONTESTUALE,185,-9
 SPORTELLO POSTE,di Stato di famiglia con rapporti di parentela,104,1
 SPORTELLO POSTE,Anagrafico di matrimonio,76,2
 SPORTELLO POSTE,di Stato civile,52,-4
