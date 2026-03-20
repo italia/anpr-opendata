@@ -1,35 +1,35 @@
 CANALE,TIPOLOGIA,TOTALE,TREND_MENSILE
-TOTEM POSTE,Anagrafico di nascita,1639,-9
-TOTEM POSTE,di Stato di famiglia,1315,-6
+TOTEM POSTE,Anagrafico di nascita,1641,-7
+TOTEM POSTE,di Stato di famiglia,1318,-3
 TOTEM POSTE,di Residenza,1197,-15
 TOTEM POSTE,CONTESTUALE,1000,-6
-TOTEM POSTE,di Stato di famiglia con rapporti di parentela,645,-5
+TOTEM POSTE,di Stato di famiglia con rapporti di parentela,646,-4
 TOTEM POSTE,di Stato di famiglia e di stato civile,577,-12
-TOTEM POSTE,Anagrafico di matrimonio,341,-11
+TOTEM POSTE,Anagrafico di matrimonio,342,-10
 TOTEM POSTE,di Esistenza in vita,300,-8
-TOTEM POSTE,di Stato civile,263,1
+TOTEM POSTE,di Stato civile,265,3
 TOTEM POSTE,di Cittadinanza,153,0
 TOTEM POSTE,di Stato Libero,105,1
 TOTEM POSTE,di Stato di famiglia AIRE,3,0
 TOTEM POSTE,di Residenza AIRE,2,0
-TOTALI,Anagrafico di nascita,2066,-30
-TOTALI,di Residenza,1918,-21
-TOTALI,di Stato di famiglia,1732,-22
-TOTALI,CONTESTUALE,1215,-12
-TOTALI,di Stato di famiglia con rapporti di parentela,776,-3
+TOTALI,Anagrafico di nascita,2069,-27
+TOTALI,di Residenza,1920,-19
+TOTALI,di Stato di famiglia,1735,-19
+TOTALI,CONTESTUALE,1218,-9
+TOTALI,di Stato di famiglia con rapporti di parentela,777,-2
 TOTALI,di Stato di famiglia e di stato civile,626,-13
-TOTALI,di Esistenza in vita,553,-20
-TOTALI,Anagrafico di matrimonio,427,-12
-TOTALI,di Stato civile,320,-1
+TOTALI,di Esistenza in vita,558,-15
+TOTALI,Anagrafico di matrimonio,428,-11
+TOTALI,di Stato civile,322,1
 TOTALI,di Cittadinanza,161,1
 TOTALI,di Stato Libero,133,-3
 TOTALI,di Residenza AIRE,13,0
 TOTALI,di Stato di famiglia AIRE,3,0
-SPORTELLO POSTE,di Residenza,721,-6
-SPORTELLO POSTE,Anagrafico di nascita,427,-21
+SPORTELLO POSTE,di Residenza,723,-4
+SPORTELLO POSTE,Anagrafico di nascita,428,-20
 SPORTELLO POSTE,di Stato di famiglia,417,-16
-SPORTELLO POSTE,di Esistenza in vita,253,-12
-SPORTELLO POSTE,CONTESTUALE,215,-6
+SPORTELLO POSTE,di Esistenza in vita,258,-7
+SPORTELLO POSTE,CONTESTUALE,218,-3
 SPORTELLO POSTE,di Stato di famiglia con rapporti di parentela,131,2
 SPORTELLO POSTE,Anagrafico di matrimonio,86,-1
 SPORTELLO POSTE,di Stato civile,57,-2
