@@ -1,35 +1,35 @@
 CANALE,TIPOLOGIA,TOTALE,TREND_MENSILE
-TOTEM POSTE,Anagrafico di nascita,1643,-5
-TOTEM POSTE,di Stato di famiglia,1319,-2
-TOTEM POSTE,di Residenza,1198,-14
-TOTEM POSTE,CONTESTUALE,1002,-4
-TOTEM POSTE,di Stato di famiglia con rapporti di parentela,647,-3
+TOTEM POSTE,Anagrafico di nascita,1647,-1
+TOTEM POSTE,di Stato di famiglia,1320,-1
+TOTEM POSTE,di Residenza,1199,-13
+TOTEM POSTE,CONTESTUALE,1003,-3
+TOTEM POSTE,di Stato di famiglia con rapporti di parentela,649,-1
 TOTEM POSTE,di Stato di famiglia e di stato civile,577,-12
 TOTEM POSTE,Anagrafico di matrimonio,342,-10
 TOTEM POSTE,di Esistenza in vita,301,-7
-TOTEM POSTE,di Stato civile,265,3
-TOTEM POSTE,di Cittadinanza,153,0
+TOTEM POSTE,di Stato civile,266,4
+TOTEM POSTE,di Cittadinanza,154,1
 TOTEM POSTE,di Stato Libero,105,1
 TOTEM POSTE,di Stato di famiglia AIRE,3,0
 TOTEM POSTE,di Residenza AIRE,2,0
-TOTALI,Anagrafico di nascita,2074,-22
-TOTALI,di Residenza,1924,-15
-TOTALI,di Stato di famiglia,1739,-15
-TOTALI,CONTESTUALE,1221,-6
-TOTALI,di Stato di famiglia con rapporti di parentela,779,0
+TOTALI,Anagrafico di nascita,2078,-18
+TOTALI,di Residenza,1925,-14
+TOTALI,di Stato di famiglia,1741,-13
+TOTALI,CONTESTUALE,1224,-3
+TOTALI,di Stato di famiglia con rapporti di parentela,781,2
 TOTALI,di Stato di famiglia e di stato civile,626,-13
 TOTALI,di Esistenza in vita,560,-13
 TOTALI,Anagrafico di matrimonio,428,-11
-TOTALI,di Stato civile,322,1
-TOTALI,di Cittadinanza,161,1
+TOTALI,di Stato civile,323,2
+TOTALI,di Cittadinanza,162,2
 TOTALI,di Stato Libero,133,-3
 TOTALI,di Residenza AIRE,13,0
 TOTALI,di Stato di famiglia AIRE,3,0
 SPORTELLO POSTE,di Residenza,726,-1
 SPORTELLO POSTE,Anagrafico di nascita,431,-17
-SPORTELLO POSTE,di Stato di famiglia,420,-13
+SPORTELLO POSTE,di Stato di famiglia,421,-12
 SPORTELLO POSTE,di Esistenza in vita,259,-6
-SPORTELLO POSTE,CONTESTUALE,219,-2
+SPORTELLO POSTE,CONTESTUALE,221,0
 SPORTELLO POSTE,di Stato di famiglia con rapporti di parentela,132,3
 SPORTELLO POSTE,Anagrafico di matrimonio,86,-1
 SPORTELLO POSTE,di Stato civile,57,-2
