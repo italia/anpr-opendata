@@ -1,6 +1,16 @@
 MESE,ANNO,TIPOLOGIA,TOTALE
-4,2026,di Residenza,23
-4,2026,CONTESTUALE,1
+4,2026,di Residenza,10463
+4,2026,CONTESTUALE,3920
+4,2026,di Stato di famiglia,1718
+4,2026,Anagrafico di matrimonio,244
+4,2026,Anagrafico di nascita,225
+4,2026,di Stato civile,207
+4,2026,di Residenza AIRE,183
+4,2026,di Esistenza in vita,73
+4,2026,di Stato Libero,35
+4,2026,di Stato di famiglia AIRE,26
+4,2026,di Cittadinanza,10
+4,2026,di Residenza in convivenza,7
 3,2026,di Residenza,278640
 3,2026,CONTESTUALE,100849
 3,2026,di Stato di famiglia,40895
