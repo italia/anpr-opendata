@@ -1,18 +1,30 @@
 MESE,ANNO,TIPOLOGIA,TOTALE
-4,2026,di Residenza,239423
-4,2026,CONTESTUALE,86917
-4,2026,di Stato di famiglia,35200
-4,2026,Anagrafico di matrimonio,5359
-4,2026,di Stato civile,4650
-4,2026,Anagrafico di nascita,4533
-4,2026,di Residenza AIRE,4365
-4,2026,di Esistenza in vita,1626
-4,2026,di Stato Libero,832
-4,2026,di Stato di famiglia AIRE,594
-4,2026,di Cittadinanza,513
-4,2026,di Residenza in convivenza,130
+5,2026,di Residenza,2261
+5,2026,CONTESTUALE,1034
+5,2026,di Stato di famiglia,661
+5,2026,di Stato civile,48
+5,2026,Anagrafico di nascita,38
+5,2026,di Residenza AIRE,37
+5,2026,Anagrafico di matrimonio,33
+5,2026,di Esistenza in vita,18
+5,2026,di Stato di famiglia AIRE,17
+5,2026,di Cittadinanza,7
+5,2026,di Stato Libero,5
+5,2026,di Residenza in convivenza,2
+4,2026,di Residenza,249655
+4,2026,CONTESTUALE,90505
+4,2026,di Stato di famiglia,36758
+4,2026,Anagrafico di matrimonio,5587
+4,2026,di Stato civile,4852
+4,2026,Anagrafico di nascita,4721
+4,2026,di Residenza AIRE,4540
+4,2026,di Esistenza in vita,1680
+4,2026,di Stato Libero,865
+4,2026,di Stato di famiglia AIRE,615
+4,2026,di Cittadinanza,531
+4,2026,di Residenza in convivenza,136
 4,2026,di Contratto di Convivenza,17
-4,2026,Anagrafico di unione civile ,12
+4,2026,Anagrafico di unione civile ,14
 3,2026,di Residenza,278640
 3,2026,CONTESTUALE,100849
 3,2026,di Stato di famiglia,40895
