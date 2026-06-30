@@ -1,11 +1,11 @@
 MESE,ANNO,SERVIZIO,NUMERO
-6,2026,pratica in corso,636
-6,2026,certificato di nascita,318
-6,2026,iscrizione anagrafica,435
-6,2026,scrivania,147
+6,2026,pratica in corso,700
+6,2026,iscrizione anagrafica,489
+6,2026,certificato di nascita,350
+6,2026,scrivania,191
 5,2026,pratica in corso,927
-5,2026,iscrizione anagrafica,510
 5,2026,certificato di nascita,234
+5,2026,iscrizione anagrafica,510
 5,2026,scrivania,153
 4,2026,scrivania,138
 4,2026,pratica in corso,816
@@ -75,41 +75,41 @@ MESE,ANNO,SERVIZIO,NUMERO
 12,2024,scrivania,89
 12,2024,certificato di nascita,71
 12,2024,iscrizione anagrafica,329
-11,2024,scrivania,72
 11,2024,pratica in corso,200
+11,2024,scrivania,72
 11,2024,certificato di nascita,41
 11,2024,iscrizione anagrafica,194
-10,2024,iscrizione anagrafica,200
+10,2024,certificato di nascita,37
 10,2024,pratica in corso,132
 10,2024,scrivania,21
-10,2024,certificato di nascita,37
+10,2024,iscrizione anagrafica,200
 9,2024,iscrizione anagrafica,256
-9,2024,pratica in corso,236
-9,2024,scrivania,59
 9,2024,certificato di nascita,51
-8,2024,scrivania,43
-8,2024,pratica in corso,265
+9,2024,scrivania,59
+9,2024,pratica in corso,236
 8,2024,iscrizione anagrafica,242
 8,2024,certificato di nascita,63
+8,2024,pratica in corso,265
+8,2024,scrivania,43
 7,2024,iscrizione anagrafica,237
-7,2024,certificato di nascita,102
 7,2024,scrivania,63
 7,2024,pratica in corso,332
+7,2024,certificato di nascita,102
 6,2024,scrivania,31
-6,2024,pratica in corso,309
 6,2024,certificato di nascita,93
 6,2024,iscrizione anagrafica,259
-5,2024,scrivania,63
+6,2024,pratica in corso,309
 5,2024,certificato di nascita,58
 5,2024,iscrizione anagrafica,209
+5,2024,scrivania,63
 5,2024,pratica in corso,247
 4,2024,scrivania,69
 4,2024,pratica in corso,124
-4,2024,certificato di nascita,53
 4,2024,iscrizione anagrafica,150
+4,2024,certificato di nascita,53
 3,2024,pratica in corso,107
-3,2024,certificato di nascita,76
 3,2024,iscrizione anagrafica,113
+3,2024,certificato di nascita,76
 3,2024,scrivania,34
 2,2024,pratica in corso,131
 2,2024,scrivania,47
