@@ -13,13 +13,13 @@ TOTEM POSTE,di Stato Libero,105,0
 TOTEM POSTE,di Stato di famiglia AIRE,3,0
 TOTEM POSTE,di Residenza AIRE,2,0
 TOTEM POSTE,storico di Residenza,2,0
-TOTALI,di Residenza,2360,-10
+TOTALI,di Residenza,2361,-9
 TOTALI,Anagrafico di nascita,2306,-10
 TOTALI,di Stato di famiglia,1929,6
-TOTALI,CONTESTUALE,1350,-1
+TOTALI,CONTESTUALE,1351,0
 TOTALI,di Stato di famiglia con rapporti di parentela,845,1
-TOTALI,di Esistenza in vita,692,-5
-TOTALI,di Stato di famiglia e di stato civile,657,-4
+TOTALI,di Esistenza in vita,693,-4
+TOTALI,di Stato di famiglia e di stato civile,658,-3
 TOTALI,Anagrafico di matrimonio,471,2
 TOTALI,di Stato civile,357,-2
 TOTALI,di Cittadinanza,169,0
@@ -27,15 +27,15 @@ TOTALI,di Stato Libero,149,-2
 TOTALI,di Residenza AIRE,15,0
 TOTALI,di Stato di famiglia AIRE,3,0
 TOTALI,storico di Residenza,2,0
-SPORTELLO POSTE,di Residenza,1145,-10
+SPORTELLO POSTE,di Residenza,1146,-9
 SPORTELLO POSTE,Anagrafico di nascita,645,-8
 SPORTELLO POSTE,di Stato di famiglia,598,6
-SPORTELLO POSTE,di Esistenza in vita,388,-5
-SPORTELLO POSTE,CONTESTUALE,333,-1
+SPORTELLO POSTE,di Esistenza in vita,389,-4
+SPORTELLO POSTE,CONTESTUALE,334,0
 SPORTELLO POSTE,di Stato di famiglia con rapporti di parentela,190,1
 SPORTELLO POSTE,Anagrafico di matrimonio,128,2
 SPORTELLO POSTE,di Stato civile,87,-2
-SPORTELLO POSTE,di Stato di famiglia e di stato civile,78,-4
+SPORTELLO POSTE,di Stato di famiglia e di stato civile,79,-3
 SPORTELLO POSTE,di Stato Libero,44,-2
 SPORTELLO POSTE,di Residenza AIRE,13,0
 SPORTELLO POSTE,di Cittadinanza,11,0
