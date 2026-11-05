@@ -1,7 +1,7 @@
 # Formato dati degli accessi mensili ai servizi eIDAS
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 

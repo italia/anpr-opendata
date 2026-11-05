@@ -1,7 +1,7 @@
 # Formato dati del trend giornaliero dei recapiti
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 

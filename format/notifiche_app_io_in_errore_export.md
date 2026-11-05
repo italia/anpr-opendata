@@ -1,7 +1,7 @@
 # Formato dati del totale mensile delle notifiche dell'app IO in errore
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 

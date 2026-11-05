@@ -1,7 +1,7 @@
 # Formato dati del numero totale delle pagine con feedback negativo del portale pubblico dell'ANPR per url e tipologia
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 

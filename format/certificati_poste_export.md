@@ -1,7 +1,7 @@
 # Formato dati del totale mensile dei certificati richiesti alle Poste 
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 

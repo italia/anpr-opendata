@@ -1,7 +1,7 @@
 # Formato dati del numero di persone che hanno fatto almeno un accesso nell’area riservata per mese e anno
 
 ## Data aggiornamento
-- Ogni primo del mese alle 7:15 (ora locale). 
+- Ogni primo del mese alle10:15 (ora locale). 
 
 ## Formato dati
 

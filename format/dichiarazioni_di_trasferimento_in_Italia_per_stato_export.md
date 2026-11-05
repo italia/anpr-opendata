@@ -1,7 +1,7 @@
 # Formato dati del totale mensile di dichiarazioni di trasferimento in Italia per stato di elaborazione
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 

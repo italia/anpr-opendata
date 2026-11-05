@@ -85,7 +85,9 @@ Il file di Changelog raccoglie tutte le modifiche ai file pubblicati.
 	* Aggiunta report notifiche_app_io_processate_export con rispettivo md (formato csv e json)
 	* Aggiunta report popolazione_residente_aaaa_export con rispettivo md (formato csv e json)
 	* Adeguamento di vari report (utilizzo degli underscore nelle colonne)
-
+  	
+- *20/10/2026*
+  	* Aggiunta report comuni_non_in_ansc_export con rispettivo md (formato csv e json)
 
 
 

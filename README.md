@@ -13,7 +13,7 @@ Questa repository contiene i dati pubblici estratti dalla pagina [Numeri](https:
 I dati dei servizi anagrafici al cittadino sono rappresentati con cadenza mensile, da quando il servizio anagrafico è reso disponibile al cittadino sul portale ANPR.
 Il dato popolazione e il dato di accesso al portale sono rappresentati giornalmente.
 
-Tutti i dati contenuti nel repository sono aggiornati ogni giorno alle 7:15 (ora locale).
+Tutti i dati contenuti nel repository sono aggiornati ogni giorno alle 10:15 (ora locale).
 
 # Contenuto
 
@@ -50,6 +50,8 @@ La repository è strutturata in principalmente in 4 cartelle, secondo lo schema 
 │   ├── certificati_export.json
 │   ├── certificati_last_month.csv
 │   ├── certificati_last_month.json
+│   ├── comuni_non_in_ansc_export.csv
+│   ├── comuni_non_in_ansc_export.json
 │   ├── dichiarazioni_cambi_residenza.csv
 │   ├── dichiarazioni_cambi_residenza.json
 │   ├── dichiarazioni_cambi_residenza_last_month.csv

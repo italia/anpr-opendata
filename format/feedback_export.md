@@ -1,7 +1,7 @@
 # Formato dati del numero totale delle pagine utili e non utili del portale pubblico dell'ANPR
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 

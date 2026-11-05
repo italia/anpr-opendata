@@ -1,7 +1,7 @@
 # Formato dati del totale mensile di certificati richiesti dai cittadini europei cancellati dall'anagrafe
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 

@@ -1,7 +1,7 @@
 # Formato dati del totale mensili dei certificati rilasciati per canale dalle Poste
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 

@@ -1,7 +1,7 @@
 # Formato dati dello stato di integrazione dei dati elettorali nell'ANPR per comune.
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 

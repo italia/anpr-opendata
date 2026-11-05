@@ -1,7 +1,7 @@
 # Formato dati dello stato di adesione all'ANSC per comune.
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 

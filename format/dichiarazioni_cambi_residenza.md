@@ -1,7 +1,7 @@
 # Formato dati del trend mensile delle dichiarazioni di cambi di residenza effettuati da portale ANPR
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 

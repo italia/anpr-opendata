@@ -1,7 +1,7 @@
 # Formato dati della distribuzione dell'utilizzo dei servizi relativa ai soli soggetti AIRE
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale).  
+- Ogni giorno alle 10:15 (ora locale).  
 
 ## Formato dati
 

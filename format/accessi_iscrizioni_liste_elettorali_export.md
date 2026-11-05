@@ -1,7 +1,7 @@
 # Formato dati degli accessi mensili al servzio di iscrizione nelle liste elettorali dell'area riservata
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 

@@ -1,7 +1,7 @@
 # Formato dati del totale mensile di iscrizioni nelle liste elettorali inviate ai comuni
 
 ## Data aggiornamento
-- Ogni giorno alle 7:15 (ora locale). 
+- Ogni giorno alle 10:15 (ora locale). 
 
 ## Formato dati
 
