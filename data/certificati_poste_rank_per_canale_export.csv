@@ -1,5 +1,5 @@
 CANALE,TIPOLOGIA,TOTALE,TREND_MENSILE
-TOTEM POSTE,Anagrafico di nascita,1665,0
+TOTEM POSTE,Anagrafico di nascita,1666,0
 TOTEM POSTE,di Stato di famiglia,1331,0
 TOTEM POSTE,di Residenza,1215,0
 TOTEM POSTE,CONTESTUALE,1017,0
@@ -14,7 +14,7 @@ TOTEM POSTE,di Stato di famiglia AIRE,3,0
 TOTEM POSTE,di Residenza AIRE,2,0
 TOTEM POSTE,storico di Residenza,2,0
 TOTALI,di Residenza,2384,-31
-TOTALI,Anagrafico di nascita,2322,-16
+TOTALI,Anagrafico di nascita,2324,-14
 TOTALI,di Stato di famiglia,1942,-16
 TOTALI,CONTESTUALE,1362,-5
 TOTALI,di Stato di famiglia con rapporti di parentela,853,-2
@@ -28,7 +28,7 @@ TOTALI,di Residenza AIRE,15,0
 TOTALI,di Stato di famiglia AIRE,3,0
 TOTALI,storico di Residenza,2,0
 SPORTELLO POSTE,di Residenza,1169,-31
-SPORTELLO POSTE,Anagrafico di nascita,657,-20
+SPORTELLO POSTE,Anagrafico di nascita,658,-19
 SPORTELLO POSTE,di Stato di famiglia,611,-16
 SPORTELLO POSTE,di Esistenza in vita,397,-9
 SPORTELLO POSTE,CONTESTUALE,345,-5
